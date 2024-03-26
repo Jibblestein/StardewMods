@@ -1,0 +1,623 @@
+{
+    "Changes": [
+//Add minecarts
+//Bus Stop
+	{
+	"Action": "EditData",
+	"Target": "Data/Minecarts", 
+	"TargetField": [ "Default", "Destinations" ],
+	"Fields": {
+			"Bus": {
+			  "DisplayName": "{{BusStopOrder}} [LocalizedText Strings\\Locations:MineCart_Destination_BusStop]", //Add prefix to change menu order
+			},
+		},
+	},
+
+//Community Center
+	{
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"CommunityCenter": {
+			  "Id": "CommunityCenter",
+			  "TargetLocation": "Town",
+			  "DisplayName": "{{CommunityCenterOrder}} {{i18n: CommunityCenterName}}", //Add prefix to change menu order
+			  "TargetTile": { "X": 45, "Y": 9 },
+			  "LandingPointDirection": "down",
+			},
+		},
+	  "When": {
+		"EnableCommunityCenter": true,
+		   },
+	},
+//East Scarp
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+	"Entries": {	
+		"EastScarpVillage": {
+			"ID": "EastScarp_Village",
+			"TargetLocation": "EastScarp_Village",
+			"DisplayName": "{{EastScarpVillageOrder}} {{i18n: EastScarpVillageName}}", //Add prefix to change menu order
+			"TargetTile": { "X": 67, "Y": 17 },
+			"LandingPointDirection": "down",
+					 },
+				},
+  "When": {"HasMod": "Lemurkat.EastScarpNPCs.CP",
+           "EnableEastScarpVillage": true,
+           },
+},
+//East Scarp - Deep Mountains
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {	
+"EastScarpDeepMount": {
+			"ID": "EastScarp_DeepMountains",
+			"TargetLocation": "EastScarp_DeepMountains",
+	"DisplayName": "{{EastScarpDeepMountOrder}} {{i18n:EastScarpDeepMountName}}", //Add prefix to change menu order
+	"TargetTile": { "X": 55, "Y": 38 },
+	"TargetDirection": "down",
+						   },
+		   },
+  "When": {"HasMod": "Lemurkat.EastScarpNPCs.CP",
+           "EnableEastScarpDeepMount": true,
+           },
+},
+//East Scarp - UnderScarp
+	{
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+	"Entries": {	
+	"EastScarpDeepDark": {
+		"ID": "EastScarp_DeepDark",
+		"TargetLocation": "EastScarp_DeepDark",
+		"DisplayName": "{{EastScarpDeepDarkOrder}} {{i18n:EastScarpDeepDarkName}}", //Add prefix to change menu order
+		"TargetTile": { "X": 4, "Y": 66 },
+		"TargetDirection": "right",
+				},
+			   },
+	  "When": {"HasMod": "Lemurkat.EastScarpNPCs.CP",
+			   "EnableEastScarpDeepDark": true,
+			   },
+	},
+//East Scarp - Scarp Crossing
+	{
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+	"Entries": {	
+	"EastScarpClearingHouse": {
+		"ID": "EastScarp_ClearingHouse",
+		"TargetLocation": "EastScarp_ClearingHouse",
+		"DisplayName": "{{EastScarpClearingHouseOrder}} {{i18n:EastScarpClearingHouseName}}", //Add prefix to change menu order
+		"TargetTile": { "X": 3, "Y": 25 },
+		"TargetDirection": "right",
+				},
+			   },
+	  "When": {"HasMod": "Lemurkat.EastScarpNPCs.CP",
+			   "EnableEastScarpClearingHouse": true,
+			   },
+	},
+//Forest - NW
+   {
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"ForestNW": {
+			  "Id": "ForestNW",
+			  "TargetLocation": "Forest",
+			  "DisplayName": "{{ForestNWOrder}} {{i18n: ForestNWName}}", //Add prefix to change menu order
+			  "TargetTile": { "X": 14, "Y": 40 },
+			  "LandingPointDirection": "down",
+			},
+		},
+
+	  "When": {
+		  "EnableForestNW": true,
+		  "HasMod |contains=DaisyNiko.SVR3":"false"
+	  },
+	},
+//Forest - SE
+   {
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"ForestSE": {
+			  "Id": "ForestSE",
+			  "TargetLocation": "Forest",
+			  "DisplayName": "{{ForestSEOrder}} {{i18n: ForestSEName}}", //Add prefix to change menu order
+			  "TargetTile": { "X": 97, "Y": 72 },
+			  "LandingPointDirection": "down",
+			},
+		},
+	  "When": {
+		  "EnableForestSE": true,
+		  "HasMod |contains=DaisyNiko.SVR3":"false"
+	  },
+	},
+//Forest - NW SVR3
+   {
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"ForestNW": {
+			  "Id": "ForestNW",
+			  "TargetLocation": "Forest",
+			  "DisplayName": "{{ForestNWOrder}} {{i18n: ForestNWName}}", //Add prefix to change menu order
+			  "TargetTile": { "X": 17, "Y": 37 },
+			  "LandingPointDirection": "down",
+			},
+		},
+	  "When": {
+		  "EnableForestNW": true,
+		  "HasMod |contains=DaisyNiko.SVR3":"true"
+	  },
+	},
+//Forest - SE SVR3
+   {
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"ForestSE": {
+			  "Id": "ForestSE",
+			  "TargetLocation": "Forest",
+			  "DisplayName": "{{ForestSEOrder}} {{i18n: ForestSEName}}", //Add prefix to change menu order
+			  "TargetTile": { "X": 102, "Y": 71 },
+			  "LandingPointDirection": "down",
+			},
+		},
+	  "When": {
+		  "EnableForestSE": true,
+		  "HasMod |contains=DaisyNiko.SVR3":"true"
+	  },
+	},
+//Mine
+	{
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Fields": {
+			"Mines": {
+			  "DisplayName": "{{MineOrder}} [LocalizedText Strings\\Locations:MineCart_Destination_Mines]", //Add prefix to change menu order
+			},
+		},
+	},
+//Quarry
+	{
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Fields": {
+			"Quarry": {
+			  "DisplayName": "{{QuarryOrder}} [LocalizedText Strings\\Locations:MineCart_Destination_Quarry]", //Add prefix to change menu order
+			},
+		},
+	},
+//Railroad
+	{
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"Railroad": {
+			  "Id": "Railroad",
+			  "TargetLocation": "Railroad",
+			  "DisplayName": "{{RailroadOrder}} {{i18n: RailroadName}}", //Add prefix to change menu order
+			  "TargetTile": { "X": 37, "Y": 36 },
+			  "LandingPointDirection": "down",
+			},
+		},
+	  "When": {
+			   "Query: {{DaysPlayed}} >= 31": true,
+			   "EnableRailroad": true,
+			   },
+	},
+//RSV Cable Car
+	{
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"RSVCableCar": {
+			  "Id": "RSVCableCar",
+			  "TargetLocation": "Custom_Ridgeside_RSVCableCar",
+			  "DisplayName": "{{RSVCableCarOrder}} {{i18n: RSVCableCarName}}", //Add prefix to change menu order
+			  "TargetTile": { "X": 25, "Y": 18 },
+			  "LandingPointDirection": "down",
+			  "Condition": "PLAYER_HAS_MAIL Host RSV.FixedMinecart Received",
+			},
+		},
+	  "When": {
+			   "HasMod": "Rafseazz.RSVCP",
+			   "EnableRSVCableCar": true,
+			   },
+	},
+//RSV - East
+	{
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"RSVEast": {
+			  "Id": "RSVEast",
+			  "TargetLocation": "Custom_Ridgeside_RidgesideVillage",
+			  "DisplayName": "{{RSVEastOrder}} {{i18n: RSVEastName}}", //Add prefix to change menu order
+			  "TargetTile": { "X": 109, "Y": 85 },
+			  "LandingPointDirection": "down",
+			  "Condition": "PLAYER_HAS_MAIL Host RSV.FixedMinecart Received",
+			},
+			  			
+		},
+	  "When": {
+			   "HasMod": "Rafseazz.RSVCP",
+			   "EnableRSVEast": true,
+			  },
+	},
+//RSV - North
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"RSVNorth": {
+  "Id": "RSVNorth",
+  "TargetLocation": "Custom_Ridgeside_RidgesideVillage",
+  "DisplayName": "{{RSVNorthOrder}} {{i18n: RSVNorthName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 69, "Y": 16 },
+  "LandingPointDirection": "down",
+  "Condition": "PLAYER_HAS_MAIL Host RSV.FixedMinecart Received",
+},
+},
+  "When": {
+		   "HasMod": "Rafseazz.RSVCP",
+		   "EnableRSVNorth": true,
+		   },
+},
+//RSV - South
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"RSVSouth": {
+  "Id": "RSVSouth",
+  "TargetLocation": "Custom_Ridgeside_RidgesideVillage",
+  "DisplayName": "{{RSVSouthOrder}} {{i18n: RSVSouthName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 16, "Y": 82 },
+  "LandingPointDirection": "down",
+  "Condition": "PLAYER_HAS_MAIL Host RSV.FixedMinecart Received",
+},
+},
+  "When": {
+		   "HasMod": "Rafseazz.RSVCP",
+		   "EnableRSVSouth": true,
+		   },
+},
+//RSV Summit Farm East
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"RSVSummitEast": {
+  "Id": "RSVSummitEast",
+  "TargetLocation": "Custom_Ridgeside_SummitFarm",
+  "DisplayName": "{{RSVSummitEastOrder}} {{i18n: RSVSummitEastName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 77, "Y": 48 },
+  "LandingPointDirection": "down",
+  "Condition": "PLAYER_VISITED_LOCATION Any Custom_Ridgeside_SummitFarm",
+},
+},
+  "When": {
+    "HasMod": "Rafseazz.RSVCP",
+	"EnableRSVSummitEast": true,
+     },
+},
+//RSV Summit Farm West
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"RSVSummitWest": {
+  "Id": "RSVSummitWest",
+  "TargetLocation": "Custom_Ridgeside_SummitFarm",
+  "DisplayName": "{{RSVSummitWestOrder}} {{i18n: RSVSummitWestName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 23, "Y": 40 },
+  "LandingPointDirection": "right",
+  "Condition": "PLAYER_VISITED_LOCATION Any Custom_Ridgeside_SummitFarm",
+},
+},
+  "When": {
+    "HasMod": "Rafseazz.RSVCP",
+	"EnableRSVSummitWest": true,
+     },
+},
+//Secret Woods non SVE
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"Woods": {
+  "Id": "Woods",
+  "TargetLocation": "Woods",
+  "DisplayName": "{{SecretWoodsOrder}} {{i18n: SecretWoodsName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 48, "Y": 5 },
+  "LandingPointDirection": "down",
+},
+},
+  "When": {
+	"HasFlag: hostPlayer |contains=beenToWoods":"true",
+	"EnableSecretWoods": true,
+	"HasMod |contains=FlashShifter.StardewValleyExpandedCP":"false"
+  },
+  "Update": "OnLocationChange",
+},
+//Secret Woods SVE
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"Woods": {
+  "Id": "Woods",
+  "TargetLocation": "Woods",
+  "DisplayName": "{{SecretWoodsOrder}} {{i18n: SecretWoodsName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 69, "Y": 23 },
+  "LandingPointDirection": "down",
+					},
+			},
+  "When": {
+	"HasFlag: hostPlayer |contains=beenToWoods":"true",
+	"EnableSecretWoods": true,
+	"HasMod |contains=FlashShifter.StardewValleyExpandedCP":"true"
+  },
+  "Update": "OnLocationChange",
+},
+//Town
+{
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Fields": {
+				"Town": {
+				  "DisplayName": "{{TownOrder}} {{i18n: TownName}}", //Add prefix to change menu order
+						},
+					},
+},
+
+//Desert
+  {
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"Desert": {
+  "Id": "Desert",
+  "TargetLocation": "Desert",
+  "DisplayName": "{{DesertOrder}} {{i18n: DesertName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 35, "Y": 43 },
+  "LandingPointDirection": "down",  
+	},
+			},
+  "When": {
+	"HasFlag: hostPlayer |contains=ccVault":"true",
+	"EnableDesert": true,
+  },
+},
+//Moveable Farm
+	{
+	"Action": "EditData",
+	"Target": "Data/Minecarts",
+	"TargetField": [ "Default", "Destinations" ],
+		"Entries": {
+			"Farm": {
+			  "Id": "Farm",
+			  "TargetLocation": "Farm",
+			  "DisplayName": "{{FarmOrder}} {{i18n: FarmName}}", //Add prefix to change menu order
+			  "TargetTile": { "X": "{{Query: {{FarmX}}}}", "Y": "{{Query: {{FarmY}}+2}}" },
+			  "LandingPointDirection": "down",
+			},
+		},
+	  "When": {
+		"EnableFarm": true,
+	  },
+	},
+//Mountain SVE
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"Mountain": {
+  "Id": "Mountain",
+  "TargetLocation": "Mountain",
+  "DisplayName": "{{MountainOrder}} {{i18n: MountainName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 53, "Y": 7 },
+  "LandingPointDirection": "down",
+					},
+			},
+  "When": {
+	"EnableMountain": true,
+	"HasMod |contains=FlashShifter.StardewValleyExpandedCP":"true",
+	"HasMod |contains=Himetarts.ARV.CP":"false",
+  },
+},
+//Mountain SVE + ARV
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"Mountain": {
+  "Id": "Mountain",
+  "TargetLocation": "Mountain",
+  "DisplayName": "{{MountainOrder}} {{i18n: MountainName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 53, "Y": 6 },
+  "LandingPointDirection": "down",
+					},
+			},
+  "When": {
+	"EnableMountain": true,
+	"HasMod |contains=FlashShifter.StardewValleyExpandedCP":"true",
+	"HasMod |contains=Himetarts.ARV.CP":"true",
+  },
+},
+//Oasis Greenhouse
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"OasisGreenhouse": {
+  "Id": "OasisGreenhouse",
+  "TargetLocation": "Greenhouse",
+  "DisplayName": "{{OasisGreenhouseOrder}} {{i18n: GreenhouseName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 26, "Y": 111 },
+  "LandingPointDirection": "left",
+},
+},
+  "When": {
+	"HasFlag: hostPlayer |contains=ccPantry":"true",
+	"EnableOasisGreenhouse": true,
+	"HasMod |contains=DaisyNiko.OasisGreenhouse":"true"
+  },
+},
+//Lunatyx's Legacy Farm Cave
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Entries": {
+"FarmCave": {
+  "Id": "FarmCave",
+  "TargetLocation": "FarmCave",
+  "DisplayName": "{{FarmCaveOrder}} {{i18n: FarmCaveName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 25, "Y": 7 },
+  "LandingPointDirection": "left",
+},
+},
+  "When": {
+	"EnableFarmCave": true,
+	"HasMod |contains=Lunatyx.LegacyFarmCave":"true",
+	"HasMod |contains=unclearya.farmcaveminecart":"false",
+  },
+},
+//Rename other mod's minecarts.
+//UncleArya's Beach
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Fields": {
+"Beach": {
+  "DisplayName": "{{BeachOrder}} {{i18n: BeachName}}", //Add prefix to change menu order
+	},
+},
+  "When": {
+	"EnableBeach": true,
+	"HasMod |contains=unclearya.beachminecart":"true"
+  },
+},
+//UncleArya's Farm Cave
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations", ],
+"Fields": {
+"FarmCave": {
+  "DisplayName": "{{FarmCaveOrder}} {{i18n: FarmCaveName}}", //Add prefix to change menu order
+					  },
+		  },
+  "When": {
+	"EnableFarmCave": true,
+	"HasMod |contains=unclearya.farmcaveminecart":"true"
+  },
+},
+//DeepWoods
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Fields": {
+"maxvollmer.deepwoodsmod.deepwoods": {
+  "DisplayName": "{{DeepWoodsOrder}} {{i18n: DeepWoodsName}}", //Add prefix to change menu order
+  "TargetTile": { "X": 4, "Y": 6 },
+  "LandingPointDirection": "left",
+					  },
+		  },
+  "When": {
+	"EnableDeepWoods": true,
+	"HasMod |contains=maxvollmer.deepwoodsmod":"true"
+  },
+},
+//zilchaz's Meadows Farm(NW)
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Fields": {
+"Farm_NW": {
+  "DisplayName": "{{Farm_NWOrder}} {{i18n: Farm_NWName}}", //Add prefix to change menu order
+		  },
+		  },
+  "When": {
+	"FarmType": "MeadowLandsFarm",
+	"HasMod |contains=zilch.meadowlands_minecarts":"true",
+  },
+},
+//zilchaz's Meadows Farm(SE)
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Fields": {
+"Farm_SE": {
+  "DisplayName": "{{Farm_SEOrder}} {{i18n: Farm_SEName}}", //Add prefix to change menu order
+					  },
+		  },
+  "When": {
+	"FarmType": "MeadowLandsFarm",
+	"HasMod |contains=zilch.meadowlands_minecarts":"true",
+  },
+},	
+//Cape Stardew Cape Forest
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Fields": {
+"CapeForest": {
+  "DisplayName": "{{CapeForestOrder}} {{i18n: CapeForestName}}", //Add prefix to change menu order
+					  },
+		  },
+  "When": {
+	"HasMod |contains=dreamy.kickitspot":"true",
+  },
+},
+//Cape Stardew Sea Cave Secrets
+{
+"Action": "EditData",
+"Target": "Data/Minecarts",
+"TargetField": [ "Default", "Destinations" ],
+"Fields": {
+"SeaCaveSecrets": {
+  "DisplayName": "{{SeaCaveSecretsOrder}} {{i18n: SeaCaveSecretsName}}", //Add prefix to change menu order
+					  },
+		  },
+  "When": {
+	"HasMod |contains=dreamy.kickitspot":"true",
+  },
+},
+    ]
+}

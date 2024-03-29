@@ -709,25 +709,25 @@
                 "Height": 2
             },
             "ToArea": {
-                "X": "{{Query:{{JibbFarmX}}}}",
-                "Y": "{{Query:{{JibbFarmY}}}}",
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
                 "Width": 1,
                 "Height": 2
             },
             "MapTiles": [{
                     "Position": {
-                        "X": "{{Query:{{JibbFarmX}}}}",
-                        "Y": "{{Query:{{JibbFarmY}}+1}}"
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default JibbFarm",
+                        "Action": "MinecartTransport Default IntegratedFarm",
                     },
                 },
             ],
             "PatchMode": "Overlay",
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "Standard"
             },
         },
@@ -743,25 +743,25 @@
                 "Height": 2
             },
             "ToArea": {
-                "X": "{{Query:{{JibbFarmX}}}}",
-                "Y": "{{Query:{{JibbFarmY}}}}",
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
                 "Width": 1,
                 "Height": 2
             },
             "MapTiles": [{
                     "Position": {
-                        "X": "{{Query:{{JibbFarmX}}}}",
-                        "Y": "{{Query:{{JibbFarmY}}+1}}"
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default JibbFarm",
+                        "Action": "MinecartTransport Default IntegratedFarm",
                     },
                 },
             ],
             "PatchMode": "Overlay",
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "Standard",
                 "HasMod |contains=flashshifter.GrandpasFarm": "false",
             },
@@ -790,13 +790,13 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default JibbFarm",
+                        "Action": "MinecartTransport Default IntegratedFarm",
                     },
                 },
             ],
             "PatchMode": "Overlay",
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "Standard",
                 "HasMod |contains=flashshifter.GrandpasFarm": "true",
             },
@@ -813,25 +813,25 @@
                 "Height": 2
             },
             "ToArea": {
-                "X": "{{Query:{{JibbFarmX}}}}",
-                "Y": "{{Query:{{JibbFarmY}}}}",
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
                 "Width": 1,
                 "Height": 2
             },
             "PatchMode": "Overlay",
             "MapTiles": [{
                     "Position": {
-                        "X": "{{Query:{{JibbFarmX}}}}",
-                        "Y": "{{Query:{{JibbFarmY}}+1}}"
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default JibbFarm",
+                        "Action": "MinecartTransport Default IntegratedFarm",
                     },
                 },
             ],
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "Riverland"
             },
         },
@@ -847,25 +847,25 @@
                 "Height": 2
             },
             "ToArea": {
-                "X": "{{Query:{{JibbFarmX}}}}",
-                "Y": "{{Query:{{JibbFarmY}}}}",
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
                 "Width": 1,
                 "Height": 2
             },
             "PatchMode": "Overlay",
             "MapTiles": [{
                     "Position": {
-                        "X": "{{Query:{{JibbFarmX}}}}",
-                        "Y": "{{Query:{{JibbFarmY}}+1}}"
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default JibbFarm",
+                        "Action": "MinecartTransport Default IntegratedFarm",
                     },
                 },
             ],
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "Forest"
             },
         },
@@ -881,25 +881,25 @@
                 "Height": 2
             },
             "ToArea": {
-                "X": "{{Query:{{JibbFarmX}}}}",
-                "Y": "{{Query:{{JibbFarmY}}}}",
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
                 "Width": 1,
                 "Height": 2
             },
             "PatchMode": "Overlay",
             "MapTiles": [{
                     "Position": {
-                        "X": "{{Query:{{JibbFarmX}}}}",
-                        "Y": "{{Query:{{JibbFarmY}}+1}}"
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default JibbFarm",
+                        "Action": "MinecartTransport Default IntegratedFarm",
                     },
                 },
             ],
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "Hilltop"
             },
         },
@@ -915,25 +915,25 @@
                 "Height": 2
             },
             "ToArea": {
-                "X": "{{Query:{{JibbFarmX}}}}",
-                "Y": "{{Query:{{JibbFarmY}}}}",
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
                 "Width": 1,
                 "Height": 2
             },
             "MapTiles": [{
                     "Position": {
-                        "X": "{{Query:{{JibbFarmX}}}}",
-                        "Y": "{{Query:{{JibbFarmY}}+1}}"
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default JibbFarm",
+                        "Action": "MinecartTransport Default IntegratedFarm",
                     },
                 },
             ],
             "PatchMode": "Overlay",
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "Wilderness"
             },
         },
@@ -949,25 +949,25 @@
                 "Height": 2
             },
             "ToArea": {
-                "X": "{{Query:{{JibbFarmX}}}}",
-                "Y": "{{Query:{{JibbFarmY}}}}",
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
                 "Width": 1,
                 "Height": 2
             },
             "MapTiles": [{
                     "Position": {
-                        "X": "{{Query:{{JibbFarmX}}}}",
-                        "Y": "{{Query:{{JibbFarmY}}+1}}"
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default JibbFarm",
+                        "Action": "MinecartTransport Default IntegratedFarm",
                     },
                 },
             ],
             "PatchMode": "Overlay",
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "FourCorners"
             },
         },
@@ -983,25 +983,25 @@
                 "Height": 2
             },
             "ToArea": {
-                "X": "{{Query:{{JibbFarmX}}}}",
-                "Y": "{{Query:{{JibbFarmY}}}}",
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
                 "Width": 1,
                 "Height": 2
             },
             "PatchMode": "Overlay",
             "MapTiles": [{
                     "Position": {
-                        "X": "{{Query:{{JibbFarmX}}}}",
-                        "Y": "{{Query:{{JibbFarmY}}+1}}"
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default JibbFarm",
+                        "Action": "MinecartTransport Default IntegratedFarm",
                     },
                 },
             ],
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "Beach"
             },
         },
@@ -1030,12 +1030,12 @@
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default JibbFarm",
+                        "Action": "MinecartTransport Default IntegratedFarm",
                     },
                 },
             ],
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "MeadowLandsFarm"
             },
         },
@@ -1051,14 +1051,14 @@
                 "Height": 2
             },
             "ToArea": {
-                "X": "{{Query:{{JibbFarmX}}}}",
-                "Y": "{{Query:{{JibbFarmY}}}}",
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
                 "Width": 1,
                 "Height": 2
             },
             "PatchMode": "Overlay",
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "DaisyNiko.ZenithFarm.CFL/Zenith Farm"
             },
         },
@@ -1086,7 +1086,7 @@
                 "HasMod |contains=Himetarts.ARV.CP": "false",
             },
         },
-        //Mountain Tile Properties
+        //Mountain SVE Tile Properties
         {
             "Action": "EditMap",
             "Target": "Maps/Mountain",
@@ -1131,7 +1131,28 @@
                 "HasMod |contains=Himetarts.ARV.CP": "true",
             },
         },
-        //Lunatyx's Legacy Farm Cave
+        //Mountain SVE + ARV Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "53",
+                        "Y": "5"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Mountain",
+                    },
+                },
+            ],
+            "When": {
+                "EnableMountain": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+                "HasMod |contains=Himetarts.ARV.CP": "true",
+            },
+        },
+        //Lunatyx's Legacy Farm Cave Standard Farm
         {
             "Action": "EditMap",
             "Target": "Maps/FarmCave",
@@ -1152,7 +1173,116 @@
             "When": {
                 "EnableFarmCave": true,
                 "HasMod |contains=Lunatyx.LegacyFarmCave": "true",
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
+                "HasMod |contains=flashshifter.immersivefarm2remastered": "false",
+                "FarmType": "Standard",
+            },
+        },
+        //Lunatyx's Legacy Farm Cave Standard Farm Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/FarmCave",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "25",
+                        "Y": "5"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default FarmCave",
+                    },
+                },
+            ],
+            "When": {
+                "EnableFarmCave": true,
+                "HasMod |contains=Lunatyx.LegacyFarmCave": "true",
+                "HasMod |contains=flashshifter.immersivefarm2remastered": "false",
+                "FarmType": "Standard",
+            },
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/FarmCave",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "25",
+                        "Y": "6"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default FarmCave",
+                    },
+                },
+            ],
+            "When": {
+                "EnableFarmCave": true,
+                "HasMod |contains=Lunatyx.LegacyFarmCave": "true",
+                "HasMod |contains=flashshifter.immersivefarm2remastered": "false",
+                "FarmType": "Standard",
+            },
+        },
+        //Lunatyx's Legacy Farm Cave Other Farms
+        {
+            "Action": "EditMap",
+            "Target": "Maps/FarmCave",
+            "FromFile": "assets/Cart.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 25,
+                "Y": 5,
+                "Width": 1,
+                "Height": 2
+            },
+            "PatchMode": "Overlay",
+            "When": {
+                "EnableFarmCave": true,
+                "HasMod |contains=Lunatyx.LegacyFarmCave": "true",
+                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowLandsFarm": true,
+            },
+        },
+        //Lunatyx's Legacy Farm Cave Other Farms Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/FarmCave",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "25",
+                        "Y": "5"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default FarmCave",
+                    },
+                },
+            ],
+            "When": {
+                "EnableFarmCave": true,
+                "HasMod |contains=Lunatyx.LegacyFarmCave": "true",
+                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowLandsFarm": true,
+            },
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/FarmCave",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "25",
+                        "Y": "6"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default FarmCave",
+                    },
+                },
+            ],
+            "When": {
+                "EnableFarmCave": true,
+                "HasMod |contains=Lunatyx.LegacyFarmCave": "true",
+                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowLandsFarm": true,
             },
         },
         //IF2R Farm West Tile Properties

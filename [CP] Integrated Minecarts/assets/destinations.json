@@ -518,19 +518,19 @@
             "Target": "Data/Minecarts",
             "TargetField": ["Default", "Destinations"],
             "Entries": {
-                "JibbFarm": {
-                    "Id": "JibbFarm",
+                "IntegratedFarm": {
+                    "Id": "IntegratedFarm",
                     "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: JibbFarm}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
                     "TargetTile": {
-                        "X": "{{Query: {{JibbFarmX}}}}",
-                        "Y": "{{Query: {{JibbFarmY}}+2}}"
+                        "X": "{{Query: {{IntegratedFarmX}}}}",
+                        "Y": "{{Query: {{IntegratedFarmY}}+2}}"
                     },
                     "LandingPointDirection": "down",
                 },
             },
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "Standard",
                 "HasMod |contains=flashshifter.GrandpasFarm": "false",
             },
@@ -541,19 +541,19 @@
             "Target": "Data/Minecarts",
             "TargetField": ["Default", "Destinations"],
             "Entries": {
-                "JibbFarm": {
-                    "Id": "JibbFarm",
+                "IntegratedFarm": {
+                    "Id": "IntegratedFarm",
                     "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: JibbFarm}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
                     "TargetTile": {
-                        "X": "{{Query: {{JibbFarmX}}}}",
-                        "Y": "{{Query: {{JibbFarmY}}+2}}"
+                        "X": "{{Query: {{IntegratedFarmX}}}}",
+                        "Y": "{{Query: {{IntegratedFarmY}}+2}}"
                     },
                     "LandingPointDirection": "down",
                 },
             },
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness": true,
             },
         },
@@ -563,10 +563,10 @@
             "Target": "Data/Minecarts",
             "TargetField": ["Default", "Destinations"],
             "Entries": {
-                "JibbFarm": {
-                    "Id": "JibbFarm",
+                "IntegratedFarm": {
+                    "Id": "IntegratedFarm",
                     "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: JibbFarm}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
                     "TargetTile": {
                         "X": "{{Query: {{GrandpaFarmX}}}}",
                         "Y": "{{Query: {{GrandpaFarmY}}+2}}"
@@ -575,7 +575,7 @@
                 },
             },
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "Standard",
                 "HasMod |contains=flashshifter.GrandpasFarm": "true",
             },
@@ -586,10 +586,10 @@
             "Target": "Data/Minecarts",
             "TargetField": ["Default", "Destinations"],
             "Entries": {
-                "JibbFarm": {
-                    "Id": "JibbFarm",
+                "IntegratedFarm": {
+                    "Id": "IntegratedFarm",
                     "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: JibbFarm}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
                     "TargetTile": {
                         "X": "{{Query: {{MeadowlandsFarmX}}}}",
                         "Y": "{{Query: {{MeadowlandsFarmY}}+2}}"
@@ -598,7 +598,7 @@
                 },
             },
             "When": {
-                "EnableJibbFarm": true,
+                "EnableIntegratedFarm": true,
                 "FarmType": "MeadowLandsFarm"
             },
         },

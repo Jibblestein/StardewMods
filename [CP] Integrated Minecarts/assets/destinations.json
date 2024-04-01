@@ -532,7 +532,7 @@
             "When": {
                 "EnableIntegratedFarm": true,
                 "FarmType": "Standard",
-                "HasMod |contains=flashshifter.GrandpasFarm": "false",
+                "HasMod |contains=flashshifter.GrandpasFarm,Lnh.MiNiFarm": "false",
             },
         },
         //Moveable Farm Others
@@ -600,6 +600,29 @@
             "When": {
                 "EnableIntegratedFarm": true,
                 "FarmType": "MeadowLandsFarm"
+            },
+        },
+        //Moveable Farm LNH Mini Farm
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "IntegratedFarm": {
+                    "Id": "IntegratedFarm",
+                    "TargetLocation": "Farm",
+                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
+                    "TargetTile": {
+                        "X": "{{Query: {{LNHMiniFarmX}}}}",
+                        "Y": "{{Query: {{LNHMiniFarmY}}+2}}"
+                    },
+                    "LandingPointDirection": "down",
+                },
+            },
+            "When": {
+                "EnableIntegratedFarm": true,
+                "FarmType": "Standard",
+                "HasMod |contains=Lnh.MiNiFarm": "true",
             },
         },
 
@@ -868,6 +891,21 @@
             "When": {
                 "EnableGreenFarmCave": true,
                 "HasMod |contains=Kana.Grotta": "true",
+            },
+        },
+        //SWEA
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations", ],
+            "Fields": {
+                "Custom_SecretWoodsExtraArea": {
+                    "DisplayName": "{{i18n: Custom_SecretWoodsExtraArea}}", //Add prefix to change menu order
+                },
+            },
+            "When": {
+                "EnableCustom_SecretWoodsExtraArea": true,
+                "HasMod |contains=Tikamin557.CP.SecretWoodsExtraArea": "true",
             },
         },
     ]

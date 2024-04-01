@@ -34,7 +34,7 @@
         "RSVSummitWest": "RSV - Summit Farm West",
 		"Beach": "Beach",
 		"FarmCave": "Farm Cave",
-		
+		"Custom_SecretWoodsExtraArea": "Secret Woods Extra Area",		
 //Config Menu translation
 //Destination order
 		"config.section.DestinationOrder.name": "Destination Order",
@@ -111,6 +111,8 @@
 		"config.EnableBeach.description": "Unclearya's Beach Minecart",
 		"config.EnableFarmCave.name": "FarmCave",
 		"config.EnableFarmCave.description": "Unclearya's Farm Cave Minecart",
+		"config.EnableFarmCave.name": "Custom_SecretWoodsExtraArea",
+		"config.EnableFarmCave.description": "Tikamin557's Secret Woods Extra Area",
 //Farm Location
 		"config.IntegratedFarmX.name": "Farm Minecart X Coordinate",
 		"config.IntegratedFarmX.description": "ONLY USE IF NOT PLAYING ON Grandpa's/Meadowlands Farm. Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",
@@ -126,4 +128,9 @@
 		"config.MeadowlandsFarmX.description": "ONLY USED IF PLAYING ON Meadowlands Farm. Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",
 		"config.MeadowlandsFarmY.name": "Meadowlands Farm Minecart Y Coordinate",
 		"config.MeadowlandsFarmY.description": "ONLY USED IF PLAYING ON Meadowlands Farm. Sets vertical coordinate for IntegratedFarm minecart. 0 being top edge of map.",
+//LNH Mini Farm Location
+		"config.MeadowlandsFarmX.name": "LNH Mini Farm Minecart X Coordinate",
+		"config.MeadowlandsFarmX.description": "ONLY USED IF PLAYING ON LNH Mini Farm. Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",
+		"config.MeadowlandsFarmY.name": "LNH Mini Farm Minecart Y Coordinate",
+		"config.MeadowlandsFarmY.description": "ONLY USED IF PLAYING ON LNH Mini Farm. Sets vertical coordinate for IntegratedFarm minecart. 0 being top edge of map.",
 }

@@ -697,40 +697,7 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
-        //Farm Standard
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Farm",
-            "FromFile": "assets/Cart.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 1,
-                "Height": 2
-            },
-            "ToArea": {
-                "X": "{{Query:{{IntegratedFarmX}}}}",
-                "Y": "{{Query:{{IntegratedFarmY}}}}",
-                "Width": 1,
-                "Height": 2
-            },
-            "MapTiles": [{
-                    "Position": {
-                        "X": "{{Query:{{IntegratedFarmX}}}}",
-                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
-                    },
-                },
-            ],
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "Standard"
-            },
-        },
+
         //Farm Standard Unmodded
         {
             "Action": "EditMap",
@@ -763,7 +730,7 @@
             "When": {
                 "EnableIntegratedFarm": true,
                 "FarmType": "Standard",
-                "HasMod |contains=flashshifter.GrandpasFarm": "false",
+                "HasMod |contains=flashshifter.GrandpasFarm,Lnh.MiNiFarm": "false",
             },
         },
         //Farm Standard Grandpa
@@ -799,6 +766,41 @@
                 "EnableIntegratedFarm": true,
                 "FarmType": "Standard",
                 "HasMod |contains=flashshifter.GrandpasFarm": "true",
+            },
+        },
+        //Farm Standard LNH Mini Farm
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm",
+            "FromFile": "assets/Cart.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": "{{Query:{{LNHMiniFarmX}}}}",
+                "Y": "{{Query:{{LNHMiniFarmY}}}}",
+                "Width": 1,
+                "Height": 2
+            },
+            "MapTiles": [{
+                    "Position": {
+                        "X": "{{Query:{{LNHMiniFarmX}}}}",
+                        "Y": "{{Query:{{LNHMiniFarmY}}+1}}"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default IntegratedFarm",
+                    },
+                },
+            ],
+            "PatchMode": "Overlay",
+            "When": {
+                "EnableIntegratedFarm": true,
+                "FarmType": "Standard",
+                "HasMod |contains=Lnh.MiNiFarm": "true",
             },
         },
         //Farm Riverland
@@ -1387,23 +1389,25 @@
                 "EnableFarmCave": true,
                 "HasMod |contains=Kana.Grotta": "true",
             },
-        }, {
+        }, 
+		//SWEA		
+		{
             "Action": "EditMap",
-            "Target": "Maps/FarmCave",
+            "Target": "Maps/Custom_Ts.SecretWoodsExtraArea",
             "MapTiles": [{
                     "Position": {
-                        "X": "15",
-                        "Y": "4"
+                        "X": "4",
+                        "Y": "23"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default GreenFarmCave",
+                        "Action": "MinecartTransport Default Custom_SecretWoodsExtraArea",
                     },
                 },
             ],
             "When": {
-                "EnableFarmCave": true,
-                "HasMod |contains=Kana.Grotta": "true",
+                "EnableCustom_SecretWoodsExtraArea": true,
+                "HasMod |contains=Tikamin557.CP.SecretWoodsExtraArea": "true",
             },
         },
     ]

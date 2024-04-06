@@ -427,7 +427,10 @@
             ],
             "When": {
                 "EnableRSVCableCar": true,
+                "HasFlag: hostPlayer |contains=RSV.FixedMinecart": "true",
+                "HasFlag": "ccBoilerRoom",
             },
+            "Update": "OnLocationChange",
         },
         //RSVEast Tile Properties
         {
@@ -446,7 +449,10 @@
             ],
             "When": {
                 "EnableRSVEast": true,
+                "HasFlag: hostPlayer |contains=RSV.FixedMinecart": "true",
+                "HasFlag": "ccBoilerRoom",
             },
+            "Update": "OnTimeChange",
         },
         //RSVNorth Tile Properties
         {
@@ -465,7 +471,10 @@
             ],
             "When": {
                 "EnableRSVNorth": true,
+                "HasFlag: hostPlayer |contains=RSV.FixedMinecart": "true",
+                "HasFlag": "ccBoilerRoom",
             },
+            "Update": "OnTimeChange",
         },
         //RSVSouth Tile Properties
         {
@@ -484,7 +493,10 @@
             ],
             "When": {
                 "EnableRSVSouth": true,
+                "HasFlag: hostPlayer |contains=RSV.FixedMinecart": "true",
+                "HasFlag": "ccBoilerRoom",
             },
+            "Update": "OnTimeChange",
         },
         //RSVSummitEast Tile Properties
         {
@@ -503,6 +515,8 @@
             ],
             "When": {
                 "EnableRSVSummitEast": true,
+                "HasFlag: hostPlayer |contains=RSV.FixedMinecart": "true",
+                "HasFlag": "ccBoilerRoom",
             },
         },
         //RSVSummitWest Tile Properties
@@ -522,6 +536,8 @@
             ],
             "When": {
                 "EnableRSVSummitWest": true,
+                "HasFlag: hostPlayer |contains=RSV.FixedMinecart": "true",
+                "HasFlag": "ccBoilerRoom",
             },
         },
 

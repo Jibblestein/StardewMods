@@ -332,6 +332,7 @@
                 "HasMod": "Rafseazz.RSVCP",
                 "EnableRSVCableCar": true,
             },
+            "Update": "OnLocationChange",
         },
         //RSV - East
         {
@@ -356,6 +357,7 @@
                 "HasMod": "Rafseazz.RSVCP",
                 "EnableRSVEast": true,
             },
+            "Update": "OnLocationChange",
         },
         //RSV - North
         {
@@ -379,6 +381,7 @@
                 "HasMod": "Rafseazz.RSVCP",
                 "EnableRSVNorth": true,
             },
+            "Update": "OnLocationChange",
         },
         //RSV - South
         {
@@ -402,6 +405,7 @@
                 "HasMod": "Rafseazz.RSVCP",
                 "EnableRSVSouth": true,
             },
+            "Update": "OnLocationChange",
         },
         //RSV Summit Farm East
         {
@@ -822,14 +826,14 @@
             "Target": "Data/Minecarts",
             "TargetField": ["Default", "Destinations"],
             "Fields": {
-                "Farm_NW": {
-                    "DisplayName": "{{i18n: Farm_NW}}", //Add prefix to change menu order
+                "MeadowlandsMinecartFarm_NW": {
+                    "DisplayName": "{{i18n: MeadowlandsMinecartFarm_NW}}", //Add prefix to change menu order
                 },
             },
             "When": {
                 "FarmType": "MeadowLandsFarm",
                 "HasMod |contains=zilch.meadowlands_minecarts": "true",
-                "EnableFarm_NW": true,
+                "EnableMeadowlandsMinecartFarm_NW": true,
             },
         },
         //zilchaz's Meadowlandss Farm(SE)
@@ -838,14 +842,14 @@
             "Target": "Data/Minecarts",
             "TargetField": ["Default", "Destinations"],
             "Fields": {
-                "Farm_SE": {
-                    "DisplayName": "{{i18n: Farm_SE}}", //Add prefix to change menu order
+                "MeadowlandsMinecartFarm_SE": {
+                    "DisplayName": "{{i18n: MeadowlandsMinecartFarm_SE}}", //Add prefix to change menu order
                 },
             },
             "When": {
                 "FarmType": "MeadowLandsFarm",
                 "HasMod |contains=zilch.meadowlands_minecarts": "true",
-                "EnableFarm_SE": true,
+                "EnableMeadowlandsMinecartFarm_SE": true,
             },
         },
         //Cape Stardew Cape Forest

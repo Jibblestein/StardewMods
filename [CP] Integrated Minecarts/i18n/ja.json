@@ -23,8 +23,8 @@
 		"IF2RFarmEast": "農場 東",
 		"IF2RFarmWest": "農場 西",
 		"maxvollmerDeepWoods": "深い森",
-		"Farm_NW": "農場 - 北西", //Meadowlands Farm Only
-		"Farm_SE": "農場 - 南東", //Meadowlands Farm Only
+		"MeadowlandsMinecartFarm_NW": "農場 - 北西", //Meadowlands Farm Only
+		"MeadowlandsMinecartFarm_SE": "農場 - 南東", //Meadowlands Farm Only
 		"OasisGreenhouse": "農場の温室",
         "RSVCableCar": "RSV - ケーブルカー",
         "RSVEast": "RSV - コミュニティ温室",
@@ -34,7 +34,7 @@
         "RSVSummitWest": "RSV - サミットファーム 西",
 		"Beach": "ビーチ",
 		"FarmCave": "農場の洞窟",
-		
+		"Custom_SecretWoodsExtraArea": "秘密の森 追加エリア",	
 //Config Menu translation
 //Destination order
 		"config.section.DestinationOrder.name": "目的地の並び順",
@@ -89,10 +89,10 @@
 		"config.EnableIF2R.description": "FlashShifter's Immersive Farm 2 Remastered 西と東",
 		"config.EnablemaxvollmerDeepWoods.name": "maxvollmerDeepWoods",
 		"config.EnablemaxvollmerDeepWoods.description": "MaxMakesMods's 深い森",		
-		"config.EnableFarm_NW.name": "Farm_NW",
-		"config.EnableFarm_NW.description": "zilchaz's Meadowlands Minecarts 北 西",
-		"config.EnableFarm_SE.name": "Farm_SE",
-		"config.EnableFarm_SE.description": "zilchaz's Meadowlands Minecarts 南 東",
+		"config.EnableMeadowlandsMinecartFarm_NW.name": "MeadowlandsMinecartFarm_NW",
+		"config.EnableMeadowlandsMinecartFarm_NW.description": "zilchaz's Meadowlands Minecarts 北 西",
+		"config.EnableMeadowlandsMinecartFarm_SE.name": "MeadowlandsMinecartFarm_SE",
+		"config.EnableMeadowlandsMinecartFarm_SE.description": "zilchaz's Meadowlands Minecarts 南 東",
 		"config.EnableOasisGreenhouse.name": "OasisGreenhouse",
 		"config.EnableOasisGreenhouse.description": "DaisyNiko's Oasis Greenhouse",
 		"config.EnableRSVCableCar.name": "RSVCableCar",
@@ -111,7 +111,9 @@
 		"config.EnableBeach.description": "Unclearya's Beach Minecart",
 		"config.EnableFarmCave.name": "FarmCave",
 		"config.EnableFarmCave.description": "Unclearya's Farm Cave Minecart",
-//Farm Location
+		"config.EnableFarmCave.name": "Custom_SecretWoodsExtraArea",
+		"config.EnableFarmCave.description": "Tikamin557's 秘密の森 追加エリア",
+		//Farm Location
 		"config.IntegratedFarmX.name": "Farm Minecart X Coordinate",
 		"config.IntegratedFarmX.description": "おじいちゃんの牧場/メドウランズ牧場でプレイしない場合のみ使用。IntegratedFarmのトロッコの水平座標を設定します。0はマップの左端です。",
 		"config.IntegratedFarmY.name": "Farm Minecart Y Coordinate",
@@ -126,4 +128,9 @@
 		"config.MeadowlandsFarmX.description": "メドウランズ牧場でプレイする場合のみ使用。IntegratedFarmのトロッコの水平座標を設定します。0はマップの左端です。",
 		"config.MeadowlandsFarmY.name": "Meadowlands Farm Minecart Y Coordinate",
 		"config.MeadowlandsFarmY.description": "メドウランズ牧場でプレイする場合のみ使用。IntegratedFarmのトロッコの垂直座標を設定します。0はマップの上端です。",
+//LNH Mini Farm Location
+"config.MeadowlandsFarmX.name": "LNH Mini Farm Minecart X Coordinate",
+"config.MeadowlandsFarmX.description": "LNH Mini Farmでプレイする場合にのみ使用します。IntegratedFarm トロッコの水平座標を設定します。 0 はマップの左端です。",
+"config.MeadowlandsFarmY.name": "LNH Mini Farm Minecart Y Coordinate",
+"config.MeadowlandsFarmY.description": "LNH Mini Farmミニファームでプレイする場合にのみ使用します。IntegratedFarm トロッコの垂直座標を設定します。 0 はマップの上端です。",
 }

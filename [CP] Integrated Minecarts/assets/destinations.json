@@ -542,8 +542,8 @@
                     "TargetLocation": "Farm",
                     "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
                     "TargetTile": {
-                        "X": "{{Query: {{IntegratedFarmX}}}}",
-                        "Y": "{{Query: {{IntegratedFarmY}}+2}}"
+                        "X": "{{Query: {{IntegratedFarmXTilePosition}}}}",
+                        "Y": "{{Query: {{IntegratedFarmYTilePosition}}+1}}"
                     },
                     "LandingPointDirection": "down",
                 },
@@ -554,7 +554,7 @@
                 "HasMod |contains=flashshifter.GrandpasFarm,Lnh.MiNiFarm": "false",
             },
         },
-        //Moveable Farm Others
+        //Farm Other Vanilla Farms
         {
             "Action": "EditData",
             "Target": "Data/Minecarts",
@@ -565,8 +565,8 @@
                     "TargetLocation": "Farm",
                     "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
                     "TargetTile": {
-                        "X": "{{Query: {{IntegratedFarmX}}}}",
-                        "Y": "{{Query: {{IntegratedFarmY}}+2}}"
+                        "X": "{{Query: {{IntegratedFarmXTilePosition}}}}",
+                        "Y": "{{Query: {{IntegratedFarmYTilePosition}}+1}}"
                     },
                     "LandingPointDirection": "down",
                 },
@@ -587,8 +587,8 @@
                     "TargetLocation": "Farm",
                     "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
                     "TargetTile": {
-                        "X": "{{Query: {{IntegratedFarmX}}}}",
-                        "Y": "{{Query: {{IntegratedFarmY}}+2}}"
+                        "X": "{{Query: {{IntegratedFarmXTilePosition}}}}",
+                        "Y": "{{Query: {{IntegratedFarmYTilePosition}}+1}}"
                     },
                     "LandingPointDirection": "down",
                 },
@@ -609,8 +609,8 @@
                     "TargetLocation": "Farm",
                     "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
                     "TargetTile": {
-                        "X": "{{Query: {{GrandpaFarmX}}}}",
-                        "Y": "{{Query: {{GrandpaFarmY}}+2}}"
+                        "X": "{{Query: {{GrandpaFarmXTilePosition}}}}",
+                        "Y": "{{Query: {{GrandpaFarmYTilePosition}}+1}}"
                     },
                     "LandingPointDirection": "down",
                 },
@@ -619,28 +619,6 @@
                 "EnableIntegratedFarm": true,
                 "FarmType": "Standard",
                 "HasMod |contains=flashshifter.GrandpasFarm": "true",
-            },
-        },
-        //Moveable Farm Meadowlands Farm
-        {
-            "Action": "EditData",
-            "Target": "Data/Minecarts",
-            "TargetField": ["Default", "Destinations"],
-            "Entries": {
-                "IntegratedFarm": {
-                    "Id": "IntegratedFarm",
-                    "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
-                    "TargetTile": {
-                        "X": "{{Query: {{MeadowlandsFarmX}}}}",
-                        "Y": "{{Query: {{MeadowlandsFarmY}}+2}}"
-                    },
-                    "LandingPointDirection": "down",
-                },
-            },
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "MeadowLandsFarm"
             },
         },
         //Moveable Farm LNH Mini Farm
@@ -654,8 +632,8 @@
                     "TargetLocation": "Farm",
                     "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
                     "TargetTile": {
-                        "X": "{{Query: {{LNHMiniFarmX}}}}",
-                        "Y": "{{Query: {{LNHMiniFarmY}}+2}}"
+                        "X": "{{Query: {{LNHMiniFarmXTilePosition}}}}",
+                        "Y": "{{Query: {{LNHMiniFarmYTilePosition}}+1}}"
                     },
                     "LandingPointDirection": "down",
                 },
@@ -664,6 +642,50 @@
                 "EnableIntegratedFarm": true,
                 "FarmType": "Standard",
                 "HasMod |contains=Lnh.MiNiFarm": "true",
+            },
+        },
+        //Moveable Farm Meadowlands Farm
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "IntegratedFarm": {
+                    "Id": "IntegratedFarm",
+                    "TargetLocation": "Farm",
+                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
+                    "TargetTile": {
+                        "X": "{{Query: {{MeadowlandsFarmXTilePosition}}}}",
+                        "Y": "{{Query: {{MeadowlandsFarmYTilePosition}}+1}}"
+                    },
+                    "LandingPointDirection": "down",
+                },
+            },
+            "When": {
+                "EnableIntegratedFarm": true,
+                "FarmType": "MeadowLandsFarm"
+            },
+        },
+        //Moveable Farm DaisyNiko's Zenith Farm
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "IntegratedFarm": {
+                    "Id": "IntegratedFarm",
+                    "TargetLocation": "Farm",
+                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
+                    "TargetTile": {
+                        "X": "{{Query: {{DNZenithFarmXTilePosition}}}}",
+                        "Y": "{{Query: {{DNZenithFarmYTilePosition}}+1}}"
+                    },
+                    "LandingPointDirection": "down",
+                },
+            },
+            "When": {
+                "EnableIntegratedFarm": true,
+                "FarmType |contains=DaisyNiko.ZenithFarm.CFL/Zenith Farm,ZenithFarm": "true",
             },
         },
 

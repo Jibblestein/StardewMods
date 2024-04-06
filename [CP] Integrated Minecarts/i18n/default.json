@@ -150,10 +150,10 @@
 		"config.MeadowlandsFarmY.name": "Meadowlands Farm Minecart Y Coordinate",
 		"config.MeadowlandsFarmY.description": "ONLY USED IF PLAYING ON Meadowlands Farm. Sets vertical coordinate for IntegratedFarm minecart. 0 being top edge of map.",
 //LNH Mini Farm Location
-		"config.MeadowlandsFarmX.name": "LNH Mini Farm Minecart X Coordinate",
-		"config.MeadowlandsFarmX.description": "ONLY USED IF PLAYING ON LNH Mini Farm. Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",
-		"config.MeadowlandsFarmY.name": "LNH Mini Farm Minecart Y Coordinate",
-		"config.MeadowlandsFarmY.description": "ONLY USED IF PLAYING ON LNH Mini Farm. Sets vertical coordinate for IntegratedFarm minecart. 0 being top edge of map.",
+		"config.LNHMiniFarmX.name": "LNH Mini Farm Minecart X Coordinate",
+		"config.LNHMiniFarmX.description": "ONLY USED IF PLAYING ON LNH Mini Farm. Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",
+		"config.LNHMiniFarmY.name": "LNH Mini Farm Minecart Y Coordinate",
+		"config.LNHMiniFarmY.description": "ONLY USED IF PLAYING ON LNH Mini Farm. Sets vertical coordinate for IntegratedFarm minecart. 0 being top edge of map.",
 //DaisyNiko's Zenith Farm Location
 		"config.DNZenithFarmX.name": "DaisyNiko's Zenith Farm Minecart X Coordinate",
 		"config.DNZenithFarmX.description": "ONLY USED IF PLAYING ON DaisyNiko's Zenith Farm. Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",

@@ -1,5 +1,5 @@
 {
-    "Format": "2.0.2",
+    "Format": "2.0.4",
 
     "ConfigSchema": {
         //DestinationOrdering
@@ -454,6 +454,12 @@
             "Default": true,
             "Section": "IsEnabled",
         },
+//Farm Minecart
+        "FarmCartStyle": {
+            "AllowValues": "Cart, CartEntrance",
+            "Default": "Cart",
+            "Section": "FarmLocation",
+        },
         //FarmLocation Default
         "IntegratedFarmX": {
             "Default": 69,
@@ -503,6 +509,126 @@
 	
 //Unused for now
 	"DynamicTokens":[
+		{
+			"Name":"CartAssetXModifier",
+			"Value": 0,
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"CartAssetYModifier",
+			"Value": 0,
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"CartAssetXModifier",
+			"Value": 2,
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"CartAssetYModifier",
+			"Value": 1,
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"IntegratedFarmXTilePosition",
+			"Value": "{{Query:{{IntegratedFarmX}}}}",
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"IntegratedFarmYTilePosition",
+			"Value": "{{Query:{{IntegratedFarmY}}+1}}",
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"IntegratedFarmXTilePosition",
+			"Value": "{{Query:{{IntegratedFarmX}}+1}}",
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"IntegratedFarmYTilePosition",
+			"Value": "{{Query:{{IntegratedFarmY}}+2}}",
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"GrandpaFarmXTilePosition",
+			"Value": "{{Query:{{GrandpaFarmX}}}}",
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"GrandpaFarmYTilePosition",
+			"Value": "{{Query:{{GrandpaFarmY}}+1}}",
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"GrandpaFarmXTilePosition",
+			"Value": "{{Query:{{GrandpaFarmX}}+1}}",
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"GrandpaFarmYTilePosition",
+			"Value": "{{Query:{{GrandpaFarmY}}+2}}",
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"LNHMiniFarmXTilePosition",
+			"Value": "{{Query:{{LNHMiniFarmX}}}}",
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"LNHMiniFarmYTilePosition",
+			"Value": "{{Query:{{LNHMiniFarmY}}+1}}",
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"LNHMiniFarmXTilePosition",
+			"Value": "{{Query:{{LNHMiniFarmX}}+1}}",
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"LNHMiniFarmYTilePosition",
+			"Value": "{{Query:{{LNHMiniFarmY}}+2}}",
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"MeadowlandsFarmXTilePosition",
+			"Value": "{{Query:{{MeadowlandsFarmX}}}}",
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"MeadowlandsFarmYTilePosition",
+			"Value": "{{Query:{{MeadowlandsFarmY}}+1}}",
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"MeadowlandsFarmXTilePosition",
+			"Value": "{{Query:{{MeadowlandsFarmX}}+1}}",
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"MeadowlandsFarmYTilePosition",
+			"Value": "{{Query:{{MeadowlandsFarmY}}+2}}",
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"DNZenithFarmXTilePosition",
+			"Value": "{{Query:{{DNZenithFarmX}}}}",
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"DNZenithFarmYTilePosition",
+			"Value": "{{Query:{{DNZenithFarmY}}+1}}",
+			"When":{"FarmCartStyle":"Cart"}
+		},
+		{
+			"Name":"DNZenithFarmXTilePosition",
+			"Value": "{{Query:{{DNZenithFarmX}}+1}}",
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
+		{
+			"Name":"DNZenithFarmYTilePosition",
+			"Value": "{{Query:{{DNZenithFarmY}}+2}}",
+			"When":{"FarmCartStyle":"CartEntrance"}
+		},
 		{
 			"Name":"FarmMap",
 			"Value":"Farm",

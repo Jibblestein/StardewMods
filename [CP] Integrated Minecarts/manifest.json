@@ -79,6 +79,9 @@
         }, {
             "UniqueID": "Tikamin557.dam",
             "IsRequired": false,
+        }, {
+            "UniqueID": "Lumisteria.MtVapius",
+            "IsRequired": false,
         },
     ]
 }

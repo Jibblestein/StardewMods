@@ -176,6 +176,26 @@
                 "EnableEastScarp_ClearingHouse": true,
             },
         },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_ClearingHouse",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "1",
+                        "Y": "26"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default EastScarp_ClearingHouse",
+                    },
+                },
+            ],
+            "When": {
+                "HasMod": "Lemurkat.EastScarpNPCs.CP",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+                "EnableEastScarp_ClearingHouse": true,
+            },
+        },
         //Jessie and Juliet Scarp Crossing Replacement Tile Properties
         {
             "Action": "EditMap",

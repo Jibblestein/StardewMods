@@ -129,17 +129,15 @@
         {
             "Action": "EditData",
             "Target": "Data/Minecarts",
-            "TargetField": ["Default", "Destinations"],
-            "Entries": {
-                "EastScarpClearingHouse": {
-                    "ID": "EastScarp_ClearingHouse",
-                    "TargetLocation": "EastScarp_ClearingHouse",
+            "TargetField": ["Default", "Destinations", ],
+            "Fields": {
+                "EastScarp_ClearingHouse": {
                     "DisplayName": "{{i18n:EastScarp_ClearingHouse}}", //Add prefix to change menu order
                     "TargetTile": {
                         "X": 3,
                         "Y": 25
                     },
-                    "TargetDirection": "right",
+                    "TargetDirection": "right",					
                 },
             },
             "When": {
@@ -171,6 +169,22 @@
                 "EnableEastScarp_ClearingHouse": true,
             },
         },
+        //Jessie and Juliet Disable East Scarp version
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations", ],
+            "Entries": {
+                "Lemurkat_ClearingHouse": null,
+            },
+            "When": {
+                "HasMod": "LemurKat.JulietHouse.NPC",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+                "HasMod": "Lemurkat.EastScarpNPCs.CP",
+                "EnableEastScarp_ClearingHouse": true,
+            },
+        },
+
         //Forest - NW
         {
             "Action": "EditData",

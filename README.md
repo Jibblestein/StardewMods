@@ -1,3 +1,3 @@
-# IntegratedMinecarts
+# Jibb's Mods
 
-This is my mod
+This is where my mods live

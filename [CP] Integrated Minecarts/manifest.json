@@ -1,7 +1,7 @@
 ﻿{
     "Name": "[CP] Integrated Minecarts",
     "Author": "Jibb",
-    "Version": "4.0.4",
+    "Version": "4.0.5",
     "Description": "Content Pack for Content Patcher",
     "UniqueID": "jibb.minecarts",
     "MinimumApiVersion": "3.0.0",
@@ -66,6 +66,18 @@
             "IsRequired": false,
         }, {
             "UniqueID": "Tikamin557.CP.SecretWoodsExtraArea",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "A_TK.FarmProjectForaging",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "A_TK.FarmProjectForaging.LE",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Tikamin557.FloodedCave",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Tikamin557.dam",
             "IsRequired": false,
         },
     ]

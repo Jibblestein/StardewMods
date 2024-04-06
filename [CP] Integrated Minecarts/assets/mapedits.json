@@ -42,7 +42,7 @@
         {
             "Action": "EditMap",
             "Target": "Maps/Town",
-            "FromFile": "assets/CartEntrance.tmx",
+            "FromFile": "assets/CustomCartEntrance.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -369,7 +369,7 @@
                 "HasMod |contains=DaisyNiko.SVR3": "true"
             },
         },
-        //Railroad
+        //Railroad no VMV
         {
             "Action": "EditMap",
             "Target": "Maps/Railroad",
@@ -389,6 +389,7 @@
             "PatchMode": "Overlay",
             "When": {
                 "EnableRailroad": true,
+                "HasMod |contains=Lumisteria.MtVapius": "false"
             },
         },
         //Railroad Tile Properties
@@ -749,6 +750,40 @@
                 "HasMod |contains=flashshifter.GrandpasFarm,Lnh.MiNiFarm": "false",
             },
         },
+        //Custom FarmType that replaces Farm?
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm",
+            "FromFile": "assets/Cart.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
+                "Width": 1,
+                "Height": 2
+            },
+            "MapTiles": [{
+                    "Position": {
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default IntegratedFarm",
+                    },
+                },
+            ],
+            "PatchMode": "Overlay",
+            "When": {
+                "EnableIntegratedFarm": true,
+                "FarmType |contains=Standard, Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowlandsFarm": "false",
+            },
+        },
         //Farm Standard Grandpa
         {
             "Action": "EditMap",
@@ -819,6 +854,7 @@
                 "HasMod |contains=Lnh.MiNiFarm": "true",
             },
         },
+
         //Farm Riverland
         {
             "Action": "EditMap",
@@ -1057,10 +1093,78 @@
                 "FarmType": "MeadowLandsFarm"
             },
         },
-        //Zenith Farm by DaisyNiko
+        //Zenith Farm CFL by DaisyNiko
         {
             "Action": "EditMap",
             "Target": "Maps/CFL_Map/DaisyNiko.ZenithFarm.CFL/Zenith Farm",
+            "FromFile": "assets/Cart.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": "{{Query:{{DNZenithFarmX}}}}",
+                "Y": "{{Query:{{DNZenithFarmY}}}}",
+                "Width": 1,
+                "Height": 2
+            },
+            "PatchMode": "Overlay",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "{{Query:{{DNZenithFarmX}}}}",
+                        "Y": "{{Query:{{DNZenithFarmY}}+1}}"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default IntegratedFarm",
+                    },
+                },
+            ],
+            "When": {
+                "EnableIntegratedFarm": true,
+                "FarmType": "DaisyNiko.ZenithFarm.CFL/Zenith Farm"
+            },
+        },
+        //Zenith Farm CP by DaisyNiko
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm_ZenithFarm",
+            "FromFile": "assets/Cart.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": "{{Query:{{DNZenithFarmX}}}}",
+                "Y": "{{Query:{{DNZenithFarmY}}}}",
+                "Width": 1,
+                "Height": 2
+            },
+            "PatchMode": "Overlay",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "{{Query:{{DNZenithFarmX}}}}",
+                        "Y": "{{Query:{{DNZenithFarmY}}+1}}"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default IntegratedFarm",
+                    },
+                },
+            ],
+            "When": {
+                "EnableIntegratedFarm": true,
+                "FarmType": "ZenithFarm"
+            },
+        },
+        //WAFF Farm
+        {
+            "Action": "EditMap",
+            "Target": "Maps/WaFF_Farm",
             "FromFile": "assets/Cart.tmx",
             "FromArea": {
                 "X": 0,
@@ -1074,17 +1178,97 @@
                 "Width": 1,
                 "Height": 2
             },
+            "MapTiles": [{
+                    "Position": {
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default IntegratedFarm",
+                    },
+                },
+            ],
             "PatchMode": "Overlay",
             "When": {
                 "EnableIntegratedFarm": true,
-                "FarmType": "DaisyNiko.ZenithFarm.CFL/Zenith Farm"
+                "FarmType": "A_TK.FarmProjectForaging/WaFF"
+            },
+        },
+        //WAFFLE Farm
+        {
+            "Action": "EditMap",
+            "Target": "Maps/WaFFLE_Farm",
+            "FromFile": "assets/Cart.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
+                "Width": 1,
+                "Height": 2
+            },
+            "MapTiles": [{
+                    "Position": {
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default IntegratedFarm",
+                    },
+                },
+            ],
+            "PatchMode": "Overlay",
+            "When": {
+                "EnableIntegratedFarm": true,
+                "FarmType": "A_TK.FarmProjectForaging/WaFFLE"
+            },
+        },
+        //Custom Farm that has mapname same as FarmType
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{FarmType}}",
+            "FromFile": "assets/Cart.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": "{{Query:{{IntegratedFarmX}}}}",
+                "Y": "{{Query:{{IntegratedFarmY}}}}",
+                "Width": 1,
+                "Height": 2
+            },
+            "MapTiles": [{
+                    "Position": {
+                        "X": "{{Query:{{IntegratedFarmX}}}}",
+                        "Y": "{{Query:{{IntegratedFarmY}}+1}}"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default IntegratedFarm",
+                    },
+                },
+            ],
+            "PatchMode": "Overlay",
+			"Priority": "Late",
+            "When": {
+                "EnableIntegratedFarm": true,
+                "FarmType |contains=Standard, Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowlandsFarm": "false",
             },
         },
         //Mountain SVE
         {
             "Action": "EditMap",
             "Target": "Maps/Mountain",
-            "FromFile": "assets/CartEntrance.tmx",
+            "FromFile": "assets/CustomCartEntrance.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -1129,7 +1313,7 @@
         {
             "Action": "EditMap",
             "Target": "Maps/Mountain",
-            "FromFile": "assets/CartEntrance.tmx",
+            "FromFile": "assets/CustomCartEntrance.tmx",
             "FromArea": {
                 "X": 0,
                 "Y": 0,
@@ -1259,7 +1443,7 @@
             "When": {
                 "EnableFarmCave": true,
                 "HasMod |contains=Lunatyx.LegacyFarmCave": "true",
-                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowLandsFarm": true,
+                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowLandsFarm": "true",
             },
         },
         //Lunatyx's Legacy Farm Cave Other Farms Tile Properties
@@ -1280,7 +1464,7 @@
             "When": {
                 "EnableFarmCave": true,
                 "HasMod |contains=Lunatyx.LegacyFarmCave": "true",
-                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowLandsFarm": true,
+                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowLandsFarm": "true",
             },
         },
         {
@@ -1300,7 +1484,7 @@
             "When": {
                 "EnableFarmCave": true,
                 "HasMod |contains=Lunatyx.LegacyFarmCave": "true",
-                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowLandsFarm": true,
+                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowLandsFarm": "true",
             },
         },
         //IF2R Farm West Tile Properties
@@ -1406,7 +1590,7 @@
                 "HasMod |contains=Kana.Grotta": "true",
             },
         }, 
-		//SWEA		
+		//SWEA Tile Properties	
 		{
             "Action": "EditMap",
             "Target": "Maps/Custom_Ts.SecretWoodsExtraArea",
@@ -1424,6 +1608,144 @@
             "When": {
                 "EnableCustom_SecretWoodsExtraArea": true,
                 "HasMod |contains=Tikamin557.CP.SecretWoodsExtraArea": "true",
+            },
+        },
+		//Dam Tile Properties
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Dam",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "31",
+                        "Y": "96"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Custom_Dam",
+                    },
+                },
+            ],
+            "When": {
+                "EnableCustom_Dam": true,
+                "HasMod |contains=Tikamin557.Dam": "true",
+            },
+        },
+		//Dam Cliff Tile Properties
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Dam_Cliff",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "11",
+                        "Y": "30"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Custom_Dam_Cliff",
+                    },
+                },
+            ],
+            "When": {
+                "EnableCustom_Dam_Cliff": true,
+                "HasMod |contains=Tikamin557.Dam": "true",
+            },
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Dam_Cliff",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "12",
+                        "Y": "30"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Custom_Dam_Cliff",
+                    },
+                },
+            ],
+            "When": {
+                "EnableCustom_Dam_Cliff": true,
+                "HasMod |contains=Tikamin557.Dam": "true",
+            },
+        },
+		//Dam Dumped Farm Tile Properties
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Dam_PastureArea",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "33",
+                        "Y": "36"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Custom_Dam_PastureArea",
+                    },
+                },
+            ],
+            "When": {
+                "EnableCustom_Dam_PastureArea": true,
+                "HasMod |contains=Tikamin557.Dam": "true",
+            },
+        },
+		//Flooded Cave Minecart Room Tile Properties
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Flooded_Cave_MinecartRoom",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "5",
+                        "Y": "9"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Custom_Flooded_Cave_MinecartRoom",
+                    },
+                },
+            ],
+            "When": {
+                "EnableCustom_Flooded_Cave_MinecartRoom": true,
+                "HasMod |contains=Tikamin557.FloodedCave": "true",
+            },
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Custom_Flooded_Cave_MinecartRoom",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "6",
+                        "Y": "9"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Custom_Flooded_Cave_MinecartRoom",
+                    },
+                },
+            ],
+            "When": {
+                "EnableCustom_Flooded_Cave_MinecartRoom": true,
+                "HasMod |contains=Tikamin557.FloodedCave": "true",
+            },
+        },
+		//Railroad VMV Tile Properties
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Railroad",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "17",
+                        "Y": "37"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Railroad",
+                    },
+                },
+            ],
+            "When": {
+                "EnableRailroad": true,
+                "HasMod |contains=Lumisteria.MtVapius": "true",
             },
         },
     ]

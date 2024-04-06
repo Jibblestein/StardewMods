@@ -288,7 +288,7 @@
                 "EnableQuarry": true,
             },
         },
-        //Railroad
+        //Railroad no VMV
         {
             "Action": "EditData",
             "Target": "Data/Minecarts",
@@ -303,11 +303,12 @@
                         "Y": 36
                     },
                     "LandingPointDirection": "down",
+                    "Condition": "LOCATION_ACCESSIBLE Railroad",
                 },
             },
             "When": {
-                "Query: {{DaysPlayed}} >= 31": true,
                 "EnableRailroad": true,
+                "HasMod |contains=Lumisteria.MtVapius": "false"
             },
         },
         //RSV Cable Car
@@ -558,7 +559,29 @@
             },
             "When": {
                 "EnableIntegratedFarm": true,
-                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness": true,
+                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness": "true",
+            },
+        },
+        //Moveable Farm Custom FarmType
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "IntegratedFarm": {
+                    "Id": "IntegratedFarm",
+                    "TargetLocation": "Farm",
+                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
+                    "TargetTile": {
+                        "X": "{{Query: {{IntegratedFarmX}}}}",
+                        "Y": "{{Query: {{IntegratedFarmY}}+2}}"
+                    },
+                    "LandingPointDirection": "down",
+                },
+            },
+            "When": {
+                "EnableIntegratedFarm": true,
+                "FarmType |contains=Standard, Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowlandsFarm": "false",
             },
         },
         //Moveable Farm Grandpa
@@ -769,6 +792,75 @@
                 "HasMod |contains=unclearya.FarmCaveminecart": "false",
             },
         },
+        //Visit Mount Vapius Default Network
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "Lumisteria.MtVapius_TrainStation": {
+                            "Id": "Lumisteria.MtVapius_TrainStation",
+                            "DisplayName": "{{i18n: Lumisteria.MtVapius_TrainStation}}",
+                            "Condition": "PLAYER_VISITED_LOCATION Any Lumisteria.MtVapius_TrainStation",
+                            "TargetLocation": "Lumisteria.MtVapius_TrainStation",
+                            "TargetTile": {
+                                "X": 4,
+                                "Y": 10
+                            },
+                            "TargetDirection": "down",
+                        },
+			},
+            "When": {
+                "EnableLumisteria.MtVapius_TrainStation": true,
+                "HasMod |contains=Lumisteria.MtVapius": "true",
+            },
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "Lumisteria.MtVapius_Hamlet": {
+                            "Id": "Lumisteria.MtVapius_Hamlet",
+                            "DisplayName": "{{i18n: Lumisteria.MtVapius_Hamlet}}",
+                            "Condition": "PLAYER_HAS_MAIL Any Lumisteria.MtVapius_MineCartRepairedMail Any",
+                            "TargetLocation": "Lumisteria.MtVapius_Hamlet",
+                            "TargetTile": {
+                                "X": 12,
+                                "Y": 62
+                            },
+                            "TargetDirection": "down",
+                        },
+			},
+            "When": {
+                "EnableLumisteria.MtVapius_Hamlet": true,
+                "HasMod |contains=Lumisteria.MtVapius": "true",
+            },
+        },
+
+        //Visit Mount Vapius Lumisteria.MtVapiusNetwork Network
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Lumisteria.MtVapiusNetwork", "Destinations"],
+            "Entries": {
+                "Railroad": {
+                    "Id": "Railroad",
+                            "DisplayName": "{{i18n: Railroad}}",
+                    "Condition": "PLAYER_LOCATION_NAME Current Lumisteria.MtVapius_Hamlet",
+                    "TargetLocation": "Railroad",
+                    "TargetTile": {
+                        "X": 17,
+                        "Y": 38
+                    },
+                    "TargetDirection": "down",
+                },
+			},
+            "When": {
+                "EnableLumisteria.MtVapiusHamletToRailroad": true,
+                "HasMod |contains=Lumisteria.MtVapius": "true",
+            },
+        },
         //Rename other mod's minecarts.
         //UncleArya's Beach
         {
@@ -910,6 +1002,85 @@
             "When": {
                 "EnableCustom_SecretWoodsExtraArea": true,
                 "HasMod |contains=Tikamin557.CP.SecretWoodsExtraArea": "true",
+            },
+        },
+        //Dam
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations", ],
+            "Fields": {
+                "Custom_Dam": {
+                    "DisplayName": "{{i18n: Custom_Dam}}", //Add prefix to change menu order
+                },
+            },
+            "When": {
+                "EnableCustom_Dam": true,
+                "HasMod |contains=Tikamin557.dam": "true",
+            },
+        },
+        //Dam Cliff
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations", ],
+            "Fields": {
+                "Custom_Dam_Cliff": {
+                    "DisplayName": "{{i18n: Custom_Dam_Cliff}}", //Add prefix to change menu order
+                },
+            },
+            "When": {
+                "EnableCustom_Dam_Cliff": true,
+                "HasMod |contains=Tikamin557.dam": "true",
+            },
+        },
+        //Dam Dumped Farm
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations", ],
+            "Fields": {
+                "Custom_Dam_PastureArea": {
+                    "DisplayName": "{{i18n: Custom_Dam_PastureArea}}", //Add prefix to change menu order
+                },
+            },
+            "When": {
+                "EnableCustom_Dam_PastureArea": true,
+                "HasMod |contains=Tikamin557.dam": "true",
+            },
+        },
+        //Flooded Cave
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations", ],
+            "Fields": {
+                "Custom_Flooded_Cave_MinecartRoom": {
+                    "DisplayName": "{{i18n: Custom_Flooded_Cave_MinecartRoom}}", //Add prefix to change menu order
+                },
+            },
+            "When": {
+                "EnableCustom_Flooded_Cave_MinecartRoom": true,
+                "HasMod |contains=Tikamin557.FloodedCave": "true",
+            },
+        },
+        //Railroad VMV
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations", ],
+            "Fields": {
+                "Railroad": {
+                    "DisplayName": "{{i18n: Railroad}}", //Add prefix to change menu order
+                    "TargetTile": {
+                        "X": 17,
+                        "Y": 38
+                    },
+                },
+            },
+            "When": {
+                "EnableRailroad": true,
+                "HasMod |contains=Lumisteria.MtVapius": "true"
             },
         },
     ]

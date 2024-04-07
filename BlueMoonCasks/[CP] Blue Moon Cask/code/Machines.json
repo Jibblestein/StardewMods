@@ -11,7 +11,7 @@
                                     "Trigger": "ItemPlacedInMachine",
                                     "RequiredItemId": "(O)FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine",
                                     "RequiredCount": 1,
-                                    "Condition": "LOCATION_NAME Here Cellar"
+                                    "Condition": "{{CellarOnlyCondition}}"
                                 }
                             ],
                             "OutputItem": [{

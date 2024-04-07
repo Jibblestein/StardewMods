@@ -1,0 +1,19 @@
+{
+    "Changes": [{
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_SendCaskRecipe": {
+                    "Id": "Mail_BlueMoonCaskRecipe",
+                    "Trigger": "DayEnding",
+                    "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sophia 2000, PLAYER_HAS_CRAFTING_RECIPE Current Cask, PLAYER_HAS_SEEN_EVENT Current 8185298, PLAYER_HAS_MAIL Current SophiaThankYouLetter Received",
+                    "HostOnly": false,
+                    "Action": "AddMail Current BlueMoonCaskRecipe",
+                    "Actions": null,
+                    "CustomFields": null,
+                    "MarkActionApplied": true
+                },
+            }
+        }
+    ]
+}

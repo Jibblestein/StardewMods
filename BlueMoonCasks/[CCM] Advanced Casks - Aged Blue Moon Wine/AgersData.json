@@ -1,0 +1,20 @@
+﻿[
+    {
+        "Name": "Hardwood Cask",
+        "EnableAgingAnywhere": false,
+        "EnableMoreThanOneQualityIncrementPerDay": false,
+        "AgingData": {
+            "(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": 1.0,
+        },
+		"MergeIntoMod": [ "Digus.AdvancedCasksForCustomCaskMod" ],
+    },
+    {
+        "Name": "Radioactive Cask",
+        "EnableAgingAnywhere": true,
+        "EnableMoreThanOneQualityIncrementPerDay": false,
+        "AgingData": {
+            "(O)FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine": 2.0,
+        },
+		"MergeIntoMod": [ "Digus.AdvancedCasksForCustomCaskMod" ],
+    }
+]

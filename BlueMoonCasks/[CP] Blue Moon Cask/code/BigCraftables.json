@@ -1,0 +1,24 @@
+{
+    "Changes": [{
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "Jibb.BlueMoonCask_BlueMoonCask": {
+                    "Name": "Blue Moon Cask",
+                    "DisplayName": "{{i18n:jibb.bluemooncask.recipe.name}}",
+                    "Description": "{{i18n:jibb.bluemooncask.recipe.description}}",
+                    "CanBePlacedOutDoors": false,
+                    "CanBePlacedIndoors": true,
+                    "Texture": "Mods\\Jibb.BlueMoonCask\\Blue Moon Cask",
+                    "SpriteIndex": 0,
+                },
+            },
+        },
+        {
+            "Action": "Load",
+            "Target": "Mods/Jibb.BlueMoonCask/Blue Moon Cask",
+            "FromFile": "assets/Blue Moon Cask.png",
+        },
+
+    ]
+}

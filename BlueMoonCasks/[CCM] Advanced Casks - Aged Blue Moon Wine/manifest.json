@@ -1,0 +1,21 @@
+﻿{
+	"Name": "[CCM] Advanced Casks - Aged Blue Moon Wine",
+	"Author": "Jibb",
+	"Version": "2.0.0",
+	"Description": "Adds compatibility with AdvancedCasksMod",
+	"UniqueID": "jibb.advancedagedbluemoonwine",
+	"MinimumApiVersion": "2.11.2",
+	"UpdateKeys": [],
+	"Dependencies": [
+		{
+			"UniqueID": "Digus.AdvancedCasksMod","IsRequired":false
+		},
+			{
+                "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+                "IsRequired": true,
+            },
+	],
+	"ContentPackFor": {
+		"UniqueID": "DIGUS.CustomCaskMod"
+	}
+}

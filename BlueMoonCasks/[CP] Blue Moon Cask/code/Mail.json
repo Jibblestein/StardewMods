@@ -1,0 +1,10 @@
+{
+    "Changes": [{ //ADD MAIL
+            "Action": "EditData",
+            "Target": "Data/Mail",
+            "Entries": {
+                "BlueMoonCaskRecipe": "{{i18n:Mail.BlueMoonCaskRecipe}}",
+            }
+        }
+    ]
+}

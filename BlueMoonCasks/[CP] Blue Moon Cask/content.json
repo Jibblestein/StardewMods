@@ -1,0 +1,31 @@
+{
+    "Format": "2.0.4",
+    "Changes": [
+        //Crafting Recipe
+        {
+            "Action": "Include",
+            "FromFile": "code/CraftingRecipes.json"
+        },
+        //BigCraftables
+        {
+            "Action": "Include",
+            "FromFile": "code/BigCraftables.json"
+        },
+        //Machines
+        {
+            "Action": "Include",
+            "FromFile": "code/Machines.json"
+        },
+        //Mail
+        {
+            "Action": "Include",
+            "FromFile": "code/Mail.json"
+        },
+        //TriggerActions
+        {
+            "Action": "Include",
+            "FromFile": "code/TriggerActions.json"
+        },
+
+    ],
+}

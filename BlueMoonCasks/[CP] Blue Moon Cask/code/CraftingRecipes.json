@@ -1,0 +1,10 @@
+{
+    "Changes": [{
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "Blue Moon Cask": "388 100 709 25 FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine 1 /Home/Jibb.BlueMoonCask_BlueMoonCask/true/none/{{i18n:jibb.bluemooncask.recipe.name}}"
+            }
+        }
+    ]
+}

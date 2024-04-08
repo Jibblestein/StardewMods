@@ -1,7 +1,7 @@
 {
     "Name": "[CP] Blue Moon Cask",
     "Author": "Jibb",
-    "Version": "2.0.0",
+    "Version": "2.0.1",
     "MinimumApiVersion": "2.8",
     "Description": "Adds a cask capable of aging Blue Moon Wine.",
     "UniqueID": "jibb.bluemooncasks",

@@ -89,11 +89,14 @@
                     "ExperienceGainOnHarvest": null,
                     "CustomFields": null
                 },
-                "(BC)163": {
-                    "HasInput": false,
-                    "HasOutput": false,
-                    "InteractMethod": null,
-                    "OutputRules": [{
+			},
+            },
+			{
+            "Action": "EditData",
+            "Target": "Data/Machines",
+            "TargetField": ["(BC)163","OutputRules"],
+            "Entries": {
+                "AgedBlueMoonWine":{
                             "Id": "AgedBlueMoonWine",
                             "Triggers": [{
                                     "Id": "ItemPlacedInMachine",
@@ -142,72 +145,8 @@
                             "DaysUntilReady": -1,
                             "InvalidCountMessage": null,
                             "RecalculateOnCollect": false
-                        },
-                    ],
-                    "AdditionalConsumedItems": null,
-                    "PreventTimePass": null,
-                    "ReadyTimeModifiers": null,
-                    "ReadyTimeModifierMode": "Stack",
-                    "InvalidItemMessage": null,
-                    "InvalidItemMessageCondition": null,
-                    "InvalidCountMessage": null,
-                    "LoadEffects": [{
-                            "Id": "Default",
-                            "Condition": null,
-                            "Sounds": [{
-                                    "Id": "Ship",
-                                    "Delay": 0
-                                }, {
-                                    "Id": "bubbles",
-                                    "Delay": 0
-                                }
-                            ],
-                            "Interval": 100,
-                            "Frames": null,
-                            "ShakeDuration": -1,
-                            "TemporarySprites": [{
-                                    "Id": "Default",
-                                    "Condition": null,
-                                    "Texture": "TileSheets\\animations",
-                                    "SourceRect": {
-                                        "X": 256,
-                                        "Y": 1856,
-                                        "Width": 64,
-                                        "Height": 128
-                                    },
-                                    "Interval": 80.0,
-                                    "Frames": 6,
-                                    "Loops": 999999,
-                                    "PositionOffset": "0, -32",
-                                    "Flicker": false,
-                                    "Flip": false,
-                                    "SortOffset": 0.0,
-                                    "AlphaFade": 0.005,
-                                    "Scale": 0.25,
-                                    "ScaleChange": 0.0,
-                                    "Rotation": 0.0,
-                                    "RotationChange": 0.0,
-                                    "Color": "#bfbf00bf"
-                                }
-                            ]
-                        }
-                    ],
-                    "WorkingEffects": null,
-                    "WorkingEffectChance": 0.33,
-                    "AllowLoadWhenFull": false,
-                    "WobbleWhileWorking": true,
-                    "LightWhileWorking": null,
-                    "ShowNextIndexWhileWorking": false,
-                    "ShowNextIndexWhenReady": false,
-                    "AllowFairyDust": true,
-                    "IsIncubator": false,
-                    "ClearContentsOvernightCondition": null,
-                    "StatsToIncrementWhenLoaded": null,
-                    "StatsToIncrementWhenHarvested": null,
-                    "ExperienceGainOnHarvest": null,
-                    "CustomFields": null
-                },
-            }
+                }
+			}
         }
     ]
 }

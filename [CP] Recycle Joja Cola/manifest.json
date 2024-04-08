@@ -1,11 +1,11 @@
 ﻿{
 	"Name": "[CP] Recycle Joja Cola",
 	"Author": "Jibb",
-	"Version": "2.0.1",
+	"Version": "2.0.2",
 	"Description": "Adds producing rules for my mod.",
 	"UniqueID": "Jibb.RecycleJojaCola",
 	"MinimumApiVersion": "3.0.0",
-	"UpdateKeys": [],
+	"UpdateKeys": ["Nexus:11953"],
 	"Dependencies": [],
 	"ContentPackFor": {
 		"UniqueID": "Pathoschild.ContentPatcher",

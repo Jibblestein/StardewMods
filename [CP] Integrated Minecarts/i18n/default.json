@@ -1,5 +1,6 @@
 {
 //Translated Destination Names
+		"Disabled": "Disabled",
 		"IntegratedFarm": "Farm",
         "Bus": "Bus Stop",
 		"CommunityCenter": "Community Center",
@@ -7,7 +8,8 @@
         "ForestNW": "Forest - NW",
         "ForestSE": "Forest - SE",
         "Mines": "Mines",
-		"Mountain": "Mountain",		
+		"Mountain": "Mountain",
+		"AdventurersGuild": "Adventurer's Guild",		
         "Quarry": "Quarry",		
         "Railroad": "Railroad",		
         "Town": "Town",		
@@ -43,6 +45,14 @@
 		"Lumisteria.MtVapius_Hamlet": "Mount Vapius - Glimsap Hamlet",
 		
 //Config Menu translation
+//General
+		"config.section.General.name": "General",
+		"config.section.FarmLocation.name": "Farm Minecart Settings",
+		"config.PriceToRide.name": "Price to Ride",
+		"config.PriceToRide.description": "This sets the price for riding on the minecarts. Leave blank or set to 0 to disable",
+		"config.Numbering.name": "Enumerated List",
+		"config.Numbering.description": "This enables/disables enumeration of the destinations in the minecart menu e.g. \"1. Farm\" when enabled or \"Farm\" when disabled",
+		"config.1..description": "This and the following options in this section determine the positioning of the destinations in the minecart menu. The selected destination will be moved to the corresponding position in the list. Each minecart should only be selected once, otherwise the highest numbered option will be used. Selections use the MinecartID, see the Minecart Enabled section for a list. Check the tooltips for the source mod and minecart location",
 //Destination order
 		"config.section.DestinationOrder.name": "Destination Order",
 		"config.section.DestinationOrder.description": "The following options in this section determine the positioning of the destinations in the minecart menu. The selected destination will be moved to the corresponding position in the list. Each minecart should only be selected once, otherwise the highest numbered option will be used. Selections use the MinecartID, see the Minecart Enabled section for a list. Check the tooltips for the source mod and minecart location. See ",
@@ -70,6 +80,8 @@
 		"config.EnableMines.description": "Vanilla Mines",
 		"config.EnableMountain.name": "Mountain",
 		"config.EnableMountain.description": "Integrated Minecarts - Mountain for SVE in vanilla Mines location",
+		"config.MoveMountainToAdventurersGuild.name": "Move Mountain to Adventurer's Guild",
+		"config.MoveMountainToAdventurersGuild.description": "For use with SVE's Original Mine Entrance option. Mountain must still be enabled",
 		"config.EnableQuarry.name": "Quarry",
 		"config.EnableQuarry.description": "Vanilla Quarry",
 		"config.EnableRailroad.name": "Railroad",
@@ -118,11 +130,11 @@
 		"config.EnableBeach.description": "Unclearya's Beach Minecart",
 		"config.EnableFarmCave.name": "FarmCave",
 		"config.EnableFarmCave.description": "Unclearya's Farm Cave Minecart",
-		"config.Custom_SecretWoodsExtraArea.name": "Custom_SecretWoodsExtraArea",
-		"config.Custom_SecretWoodsExtraArea.description": "Tikamin557's Secret Woods Extra Area",
+		"config.EnableCustom_SecretWoodsExtraArea.name": "Custom_SecretWoodsExtraArea",
+		"config.EnableCustom_SecretWoodsExtraArea.description": "Tikamin557's Secret Woods Extra Area",
 		"config.EnableCustom_Dam.name": "Custom_Dam",
 		"config.EnableCustom_Dam.description": "Tikamin557's Dam - Dam",
-		"config.EnableCustom_Dam_Cliff.name": "EnableCustom_Dam_Cliff",
+		"config.EnableCustom_Dam_Cliff.name": "Custom_Dam_Cliff",
 		"config.EnableCustom_Dam_Cliff.description": "Tikamin557's Dam - Dam Cliff",
 		"config.EnableCustom_Dam_PastureArea.name": "Custom_Dam_PastureArea",
 		"config.EnableCustom_Dam_PastureArea.description": "Tikamin557's Dam - Dumped Farm",
@@ -135,10 +147,12 @@
 		"config.EnableLumisteria.MtVapiusHamletToRailroad.name": "Hamlet To Railroad",
 		"config.EnableLumisteria.MtVapiusHamletToRailroad.description": "Lumisteria Visit Mount Vapius - Adds Railroad Destination to VMV Minecart Network",
 //Farm Location
+		"config.FarmCartStyle.name": "Farm Minecart Style",
+		"config.FarmCartStyle.description": "Sets the style of the Farm Minecart. Use Cart for open areas. Use CartEntrance if setting into a wall.",
 		"config.IntegratedFarmX.name": "Farm Minecart X Coordinate",
-		"config.IntegratedFarmX.description": "ONLY USE IF NOT PLAYING ON Grandpa's/Meadowlands Farm. Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",
+		"config.IntegratedFarmX.description": "USE THIS if not playing on any of the farms below. Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",
 		"config.IntegratedFarmY.name": "Farm Minecart Y Coordinate",
-		"config.IntegratedFarmY.description": "ONLY USE IF NOT PLAYING ON Grandpa's/Meadowlands Farm. Sets vertical coordinate for IntegratedFarm minecart. 0 being top edge of map.",
+		"config.IntegratedFarmY.description": "USE THIS if not playing on any of the farms below. Sets vertical coordinate for IntegratedFarm minecart. 0 being top edge of map.",
 //Grandpa's Farm Location
 		"config.GrandpaFarmX.name": "Grandpa's Farm Minecart X Coordinate",
 		"config.GrandpaFarmX.description": "ONLY USED IF PLAYING ON Grandpa's Farm. Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",
@@ -159,4 +173,9 @@
 		"config.DNZenithFarmX.description": "ONLY USED IF PLAYING ON DaisyNiko's Zenith Farm. Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",
 		"config.DNZenithFarmY.name": "DaisyNiko's Zenith Farm Minecart Y Coordinate",
 		"config.DNZenithFarmY.description": "ONLY USED IF PLAYING ON DaisyNiko's Zenith Farm. Sets vertical coordinate for IntegratedFarm minecart. 0 being top edge of map.",
+//Kanjinuma's PersonalV3 Farm Location
+		"config.PersonalV3FarmX.name": "Kanjinuma's PersonalV3 Farm Minecart X Coordinate",
+		"config.PersonalV3FarmX.description": "ONLY USED IF PLAYING ON Kanjinuma's PersonalV3 Farm (Use Farm Minecart X for V1/V2). Sets horizontal coordinate for IntegratedFarm minecart. 0 being left edge of map.",
+		"config.PersonalV3FarmY.name": "Kanjinuma's PersonalV3 Farm Minecart Y Coordinate",
+		"config.PersonalV3FarmY.description": "ONLY USED IF PLAYING ON Kanjinuma's PersonalV3 Farm (Use Farm Minecart Y for V1/V2). Sets vertical coordinate for IntegratedFarm minecart. 0 being top edge of map.",
 }

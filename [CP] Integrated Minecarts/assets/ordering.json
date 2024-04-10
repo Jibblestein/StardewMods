@@ -1,6 +1,25 @@
 {
     "Changes": [
-    {
+        //Disabled Destination to Suppress Errors
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "Disabled": {
+                    "Id": "Disabled",
+                    "TargetLocation": "Town",
+                    "DisplayName": "{{i18n: Disabled}}", //Add prefix to change menu order 
+
+                    "TargetTile": {
+                        "X": 1,
+                        "Y": 1
+                    },
+                    "LandingPointDirection": "down",
+                },
+            },
+        },
+	{
 	"Action": "EditData",
 	"Target": "Data/Minecarts",
 	"TargetField": [ "Default", "Destinations" ],
@@ -96,6 +115,15 @@
 	"When": {
 		"Numbering": true,
 		   },
-}
+},
+//Delete Disabled Destination to Suppress Errors
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "Disabled": null,
+            },
+        },
     ]
 }

@@ -8,7 +8,8 @@
             "TargetField": ["Default", "Destinations"],
             "Fields": {
                 "Bus": {
-                    "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_BusStop]", //Add prefix to change menu order
+                    "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_BusStop]", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -25,7 +26,8 @@
                 "CommunityCenter": {
                     "Id": "CommunityCenter",
                     "TargetLocation": "Town",
-                    "DisplayName": "{{i18n: CommunityCenter}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: CommunityCenter}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 45,
                         "Y": 9
@@ -46,16 +48,17 @@
                 "Desert": {
                     "Id": "Desert",
                     "TargetLocation": "Desert",
-                    "DisplayName": "{{i18n: Desert}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Desert}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 35,
                         "Y": 43
                     },
                     "LandingPointDirection": "down",
+					"Condition": "PLAYER_VISITED_LOCATION Any Desert",
                 },
             },
             "When": {
-                "HasFlag: hostPlayer |contains=ccVault": "true",
                 "EnableDesert": true,
             },
         },
@@ -68,7 +71,8 @@
                 "EastScarpVillage": {
                     "ID": "EastScarp_Village",
                     "TargetLocation": "EastScarp_Village",
-                    "DisplayName": "{{i18n: EastScarp_Village}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: EastScarp_Village}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 67,
                         "Y": 17
@@ -90,7 +94,8 @@
                 "EastScarpDeepMount": {
                     "ID": "EastScarp_DeepMountains",
                     "TargetLocation": "EastScarp_DeepMountains",
-                    "DisplayName": "{{i18n:EastScarp_DeepMountains}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n:EastScarp_DeepMountains}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 55,
                         "Y": 38
@@ -112,7 +117,8 @@
                 "EastScarpDeepDark": {
                     "ID": "EastScarp_DeepDark",
                     "TargetLocation": "EastScarp_DeepDark",
-                    "DisplayName": "{{i18n:EastScarp_DeepDark}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n:EastScarp_DeepDark}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 4,
                         "Y": 66
@@ -132,7 +138,8 @@
             "TargetField": ["Default", "Destinations", ],
             "Fields": {
                 "EastScarp_ClearingHouse": {
-                    "DisplayName": "{{i18n:EastScarp_ClearingHouse}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n:EastScarp_ClearingHouse}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 3,
                         "Y": 25
@@ -156,6 +163,7 @@
                     "ID": "EastScarp_ClearingHouse",
                     "TargetLocation": "Custom_LK_ClearingHouse",
                     "DisplayName": "{{i18n:LKClearingHouse}}",
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 54,
                         "Y": 7
@@ -194,7 +202,8 @@
                 "ForestNW": {
                     "Id": "ForestNW",
                     "TargetLocation": "Forest",
-                    "DisplayName": "{{i18n: ForestNW}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: ForestNW}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 14,
                         "Y": 40
@@ -217,7 +226,8 @@
                 "ForestSE": {
                     "Id": "ForestSE",
                     "TargetLocation": "Forest",
-                    "DisplayName": "{{i18n: ForestSE}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: ForestSE}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 97,
                         "Y": 72
@@ -239,7 +249,8 @@
                 "ForestNW": {
                     "Id": "ForestNW",
                     "TargetLocation": "Forest",
-                    "DisplayName": "{{i18n: ForestNW}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: ForestNW}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 17,
                         "Y": 37
@@ -261,7 +272,8 @@
                 "ForestSE": {
                     "Id": "ForestSE",
                     "TargetLocation": "Forest",
-                    "DisplayName": "{{i18n: ForestSE}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: ForestSE}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 102,
                         "Y": 71
@@ -281,7 +293,8 @@
             "TargetField": ["Default", "Destinations"],
             "Fields": {
                 "Mines": {
-                    "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_Mines]", //Add prefix to change menu order
+                    "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_Mines]", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -295,7 +308,8 @@
             "TargetField": ["Default", "Destinations"],
             "Fields": {
                 "Quarry": {
-                    "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_Quarry]", //Add prefix to change menu order
+                    "DisplayName": "[LocalizedText Strings\\Locations:MineCart_Destination_Quarry]", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -311,7 +325,8 @@
                 "Railroad": {
                     "Id": "Railroad",
                     "TargetLocation": "Railroad",
-                    "DisplayName": "{{i18n: Railroad}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Railroad}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 37,
                         "Y": 36
@@ -334,7 +349,8 @@
                 "RSVCableCar": {
                     "Id": "RSVCableCar",
                     "TargetLocation": "Custom_Ridgeside_RSVCableCar",
-                    "DisplayName": "{{i18n: RSVCableCar}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: RSVCableCar}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 25,
                         "Y": 18
@@ -358,7 +374,8 @@
                 "RSVEast": {
                     "Id": "RSVEast",
                     "TargetLocation": "Custom_Ridgeside_RidgesideVillage",
-                    "DisplayName": "{{i18n: RSVEast}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: RSVEast}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 109,
                         "Y": 85
@@ -383,7 +400,8 @@
                 "RSVNorth": {
                     "Id": "RSVNorth",
                     "TargetLocation": "Custom_Ridgeside_RidgesideVillage",
-                    "DisplayName": "{{i18n: RSVNorth}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: RSVNorth}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 69,
                         "Y": 16
@@ -407,7 +425,8 @@
                 "RSVSouth": {
                     "Id": "RSVSouth",
                     "TargetLocation": "Custom_Ridgeside_RidgesideVillage",
-                    "DisplayName": "{{i18n: RSVSouth}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: RSVSouth}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 16,
                         "Y": 82
@@ -431,7 +450,8 @@
                 "RSVSummitEast": {
                     "Id": "RSVSummitEast",
                     "TargetLocation": "Custom_Ridgeside_SummitFarm",
-                    "DisplayName": "{{i18n: RSVSummitEast}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: RSVSummitEast}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 77,
                         "Y": 48
@@ -454,7 +474,8 @@
                 "RSVSummitWest": {
                     "Id": "RSVSummitWest",
                     "TargetLocation": "Custom_Ridgeside_SummitFarm",
-                    "DisplayName": "{{i18n: RSVSummitWest}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: RSVSummitWest}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 23,
                         "Y": 40
@@ -477,16 +498,17 @@
                 "Woods": {
                     "Id": "Woods",
                     "TargetLocation": "Woods",
-                    "DisplayName": "{{i18n: Woods}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Woods}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 48,
                         "Y": 5
                     },
                     "LandingPointDirection": "down",
+					"Condition": "PLAYER_VISITED_LOCATION Any Woods",
                 },
             },
             "When": {
-                "HasFlag: hostPlayer |contains=beenToWoods": "true",
                 "EnableWoods": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"
             },
@@ -501,16 +523,17 @@
                 "Woods": {
                     "Id": "Woods",
                     "TargetLocation": "Woods",
-                    "DisplayName": "{{i18n: Woods}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Woods}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 69,
                         "Y": 23
                     },
                     "LandingPointDirection": "down",
+					"Condition": "PLAYER_VISITED_LOCATION Any Woods",
                 },
             },
             "When": {
-                "HasFlag: hostPlayer |contains=beenToWoods": "true",
                 "EnableWoods": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"
             },
@@ -523,15 +546,15 @@
             "TargetField": ["Default", "Destinations"],
             "Fields": {
                 "Town": {
-                    "DisplayName": "{{i18n: Town}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Town}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
                 "EnableTown": true,
             },
         },
-
-        //Moveable Farm Standard Unmodded
+        //Moveable Farm
         {
             "Action": "EditData",
             "Target": "Data/Minecarts",
@@ -540,152 +563,17 @@
                 "IntegratedFarm": {
                     "Id": "IntegratedFarm",
                     "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
-                        "X": "{{Query: {{IntegratedFarmXTilePosition}}}}",
-                        "Y": "{{Query: {{IntegratedFarmYTilePosition}}+1}}"
+                        "X": "{{Query: {{FarmXTilePosition}}}}",
+                        "Y": "{{Query: {{FarmYTilePosition}}+1}}"
                     },
                     "LandingPointDirection": "down",
                 },
             },
             "When": {
                 "EnableIntegratedFarm": true,
-                "FarmType": "Standard",
-                "HasMod |contains=flashshifter.GrandpasFarm,Lnh.MiNiFarm": "false",
-            },
-        },
-        //Farm Other Vanilla Farms
-        {
-            "Action": "EditData",
-            "Target": "Data/Minecarts",
-            "TargetField": ["Default", "Destinations"],
-            "Entries": {
-                "IntegratedFarm": {
-                    "Id": "IntegratedFarm",
-                    "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
-                    "TargetTile": {
-                        "X": "{{Query: {{IntegratedFarmXTilePosition}}}}",
-                        "Y": "{{Query: {{IntegratedFarmYTilePosition}}+1}}"
-                    },
-                    "LandingPointDirection": "down",
-                },
-            },
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness": "true",
-            },
-        },
-        //Moveable Farm Custom FarmType
-        {
-            "Action": "EditData",
-            "Target": "Data/Minecarts",
-            "TargetField": ["Default", "Destinations"],
-            "Entries": {
-                "IntegratedFarm": {
-                    "Id": "IntegratedFarm",
-                    "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
-                    "TargetTile": {
-                        "X": "{{Query: {{IntegratedFarmXTilePosition}}}}",
-                        "Y": "{{Query: {{IntegratedFarmYTilePosition}}+1}}"
-                    },
-                    "LandingPointDirection": "down",
-                },
-            },
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType |contains=Standard, Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowlandsFarm": "false",
-            },
-        },
-        //Moveable Farm Grandpa
-        {
-            "Action": "EditData",
-            "Target": "Data/Minecarts",
-            "TargetField": ["Default", "Destinations"],
-            "Entries": {
-                "IntegratedFarm": {
-                    "Id": "IntegratedFarm",
-                    "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
-                    "TargetTile": {
-                        "X": "{{Query: {{GrandpaFarmXTilePosition}}}}",
-                        "Y": "{{Query: {{GrandpaFarmYTilePosition}}+1}}"
-                    },
-                    "LandingPointDirection": "down",
-                },
-            },
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "Standard",
-                "HasMod |contains=flashshifter.GrandpasFarm": "true",
-            },
-        },
-        //Moveable Farm LNH Mini Farm
-        {
-            "Action": "EditData",
-            "Target": "Data/Minecarts",
-            "TargetField": ["Default", "Destinations"],
-            "Entries": {
-                "IntegratedFarm": {
-                    "Id": "IntegratedFarm",
-                    "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
-                    "TargetTile": {
-                        "X": "{{Query: {{LNHMiniFarmXTilePosition}}}}",
-                        "Y": "{{Query: {{LNHMiniFarmYTilePosition}}+1}}"
-                    },
-                    "LandingPointDirection": "down",
-                },
-            },
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "Standard",
-                "HasMod |contains=Lnh.MiNiFarm": "true",
-            },
-        },
-        //Moveable Farm Meadowlands Farm
-        {
-            "Action": "EditData",
-            "Target": "Data/Minecarts",
-            "TargetField": ["Default", "Destinations"],
-            "Entries": {
-                "IntegratedFarm": {
-                    "Id": "IntegratedFarm",
-                    "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
-                    "TargetTile": {
-                        "X": "{{Query: {{MeadowlandsFarmXTilePosition}}}}",
-                        "Y": "{{Query: {{MeadowlandsFarmYTilePosition}}+1}}"
-                    },
-                    "LandingPointDirection": "down",
-                },
-            },
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "MeadowLandsFarm"
-            },
-        },
-        //Moveable Farm DaisyNiko's Zenith Farm
-        {
-            "Action": "EditData",
-            "Target": "Data/Minecarts",
-            "TargetField": ["Default", "Destinations"],
-            "Entries": {
-                "IntegratedFarm": {
-                    "Id": "IntegratedFarm",
-                    "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: IntegratedFarm}}", //Add prefix to change menu order
-                    "TargetTile": {
-                        "X": "{{Query: {{DNZenithFarmXTilePosition}}}}",
-                        "Y": "{{Query: {{DNZenithFarmYTilePosition}}+1}}"
-                    },
-                    "LandingPointDirection": "down",
-                },
-            },
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType |contains=DaisyNiko.ZenithFarm.CFL/Zenith Farm,ZenithFarm": "true",
             },
         },
 
@@ -698,7 +586,8 @@
                 "Mountain": {
                     "Id": "Mountain",
                     "TargetLocation": "Mountain",
-                    "DisplayName": "{{i18n: Mountain}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Mountain}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 53,
                         "Y": 7
@@ -708,6 +597,7 @@
             },
             "When": {
                 "EnableMountain": true,
+                "MoveMountainToAdventurersGuild": false,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
                 "HasMod |contains=Himetarts.ARV.CP": "false",
             },
@@ -721,7 +611,8 @@
                 "Mountain": {
                     "Id": "Mountain",
                     "TargetLocation": "Mountain",
-                    "DisplayName": "{{i18n: Mountain}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Mountain}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 53,
                         "Y": 6
@@ -731,8 +622,33 @@
             },
             "When": {
                 "EnableMountain": true,
+                "MoveMountainToAdventurersGuild": false,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
                 "HasMod |contains=Himetarts.ARV.CP": "true",
+            },
+        },
+        //Adventurer's Guild Replacement for Mountain SVE
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "Mountain": {
+                    "Id": "Mountain",
+                    "TargetLocation": "Custom_AdventurerSummit",
+                    "DisplayName": "{{i18n: AdventurersGuild}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
+                    "TargetTile": {
+                        "X": 19,
+                        "Y": 16
+                    },
+                    "LandingPointDirection": "down",
+                },
+            },
+            "When": {
+                "EnableMountain": true,
+                "MoveMountainToAdventurersGuild": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
         //Oasis Greenhouse
@@ -744,7 +660,8 @@
                 "OasisGreenhouse": {
                     "Id": "OasisGreenhouse",
                     "TargetLocation": "Greenhouse",
-                    "DisplayName": "{{i18n: OasisGreenhouse}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: OasisGreenhouse}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 26,
                         "Y": 111
@@ -768,7 +685,8 @@
                 "IF2RFarmWest": {
                     "Id": "IF2RFarmWest",
                     "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: IF2RFarmWest}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: IF2RFarmWest}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 4,
                         "Y": 27
@@ -791,7 +709,8 @@
                 "IF2RFarmEast": {
                     "Id": "IF2RFarmEast",
                     "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: IF2RFarmEast}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: IF2RFarmEast}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 126,
                         "Y": 94
@@ -814,7 +733,8 @@
                 "FarmCave": {
                     "Id": "FarmCave",
                     "TargetLocation": "FarmCave",
-                    "DisplayName": "{{i18n: FarmCave}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: FarmCave}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 25,
                         "Y": 7
@@ -837,6 +757,7 @@
                 "Lumisteria.MtVapius_TrainStation": {
                             "Id": "Lumisteria.MtVapius_TrainStation",
                             "DisplayName": "{{i18n: Lumisteria.MtVapius_TrainStation}}",
+							"Price": "{{PriceToRide}}",
                             "Condition": "PLAYER_VISITED_LOCATION Any Lumisteria.MtVapius_TrainStation",
                             "TargetLocation": "Lumisteria.MtVapius_TrainStation",
                             "TargetTile": {
@@ -859,6 +780,7 @@
                 "Lumisteria.MtVapius_Hamlet": {
                             "Id": "Lumisteria.MtVapius_Hamlet",
                             "DisplayName": "{{i18n: Lumisteria.MtVapius_Hamlet}}",
+							"Price": "{{PriceToRide}}",
                             "Condition": "PLAYER_HAS_MAIL Any Lumisteria.MtVapius_MineCartRepairedMail Any",
                             "TargetLocation": "Lumisteria.MtVapius_Hamlet",
                             "TargetTile": {
@@ -882,7 +804,8 @@
             "Entries": {
                 "Railroad": {
                     "Id": "Railroad",
-                            "DisplayName": "{{i18n: Railroad}}",
+                    "DisplayName": "{{i18n: Railroad}}",
+					"Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_LOCATION_NAME Current Lumisteria.MtVapius_Hamlet",
                     "TargetLocation": "Railroad",
                     "TargetTile": {
@@ -905,7 +828,8 @@
             "TargetField": ["Default", "Destinations"],
             "Fields": {
                 "Beach": {
-                    "DisplayName": "{{i18n: Beach}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Beach}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -920,7 +844,8 @@
             "TargetField": ["Default", "Destinations", ],
             "Fields": {
                 "FarmCave": {
-                    "DisplayName": "{{i18n: FarmCave}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: FarmCave}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -935,7 +860,8 @@
             "TargetField": ["Default", "Destinations"],
             "Fields": {
                 "maxvollmer.deepwoodsmod.deepwoods": {
-                    "DisplayName": "{{i18n: maxvollmerDeepWoods}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: maxvollmerDeepWoods}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 4,
                         "Y": 6
@@ -955,7 +881,8 @@
             "TargetField": ["Default", "Destinations"],
             "Fields": {
                 "MeadowlandsMinecartFarm_NW": {
-                    "DisplayName": "{{i18n: MeadowlandsMinecartFarm_NW}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: MeadowlandsMinecartFarm_NW}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -971,7 +898,8 @@
             "TargetField": ["Default", "Destinations"],
             "Fields": {
                 "MeadowlandsMinecartFarm_SE": {
-                    "DisplayName": "{{i18n: MeadowlandsMinecartFarm_SE}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: MeadowlandsMinecartFarm_SE}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -982,17 +910,20 @@
         },
         //Cape Stardew Cape Forest
         {
-            "Action": "EditData",
+            "Logname": "Cape Forest",
+			"Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": ["Default", "Destinations"],
             "Fields": {
                 "CapeForest": {
-                    "DisplayName": "{{i18n: CapeForest}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: CapeForest}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
                 "HasMod |contains=dreamy.kickitspot": "true",
                 "EnableCapeForest": true,
+				"HasSeenEvent": "146358809",
             },
         },
         //Cape Stardew Sea Cave Secrets
@@ -1002,11 +933,13 @@
             "TargetField": ["Default", "Destinations"],
             "Fields": {
                 "SeaCaveSecrets": {
-                    "DisplayName": "{{i18n: SeaCaveSecrets}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: SeaCaveSecrets}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
                 "HasMod |contains=dreamy.kickitspot": "true",
+                "HasFlag: anyPlayer |contains=MidnightBlue": "true",
                 "EnableSeaCaveSecrets": true,
             },
         },
@@ -1017,7 +950,8 @@
             "TargetField": ["Default", "Destinations", ],
             "Fields": {
                 "GreenFarmCave": {
-                    "DisplayName": "{{i18n: GreenFarmCave}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: GreenFarmCave}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -1032,7 +966,9 @@
             "TargetField": ["Default", "Destinations", ],
             "Fields": {
                 "Custom_SecretWoodsExtraArea": {
-                    "DisplayName": "{{i18n: Custom_SecretWoodsExtraArea}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Custom_SecretWoodsExtraArea}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
+					"Condition": "PLAYER_VISITED_LOCATION Any Custom_Ts.SecretWoodsExtraArea",
                 },
             },
             "When": {
@@ -1047,7 +983,8 @@
             "TargetField": ["Default", "Destinations", ],
             "Fields": {
                 "Custom_Dam": {
-                    "DisplayName": "{{i18n: Custom_Dam}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Custom_Dam}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -1062,7 +999,8 @@
             "TargetField": ["Default", "Destinations", ],
             "Fields": {
                 "Custom_Dam_Cliff": {
-                    "DisplayName": "{{i18n: Custom_Dam_Cliff}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Custom_Dam_Cliff}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -1077,7 +1015,8 @@
             "TargetField": ["Default", "Destinations", ],
             "Fields": {
                 "Custom_Dam_PastureArea": {
-                    "DisplayName": "{{i18n: Custom_Dam_PastureArea}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Custom_Dam_PastureArea}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
@@ -1087,17 +1026,20 @@
         },
         //Flooded Cave
         {
-            "Action": "EditData",
+            "Logname":"Flooded Cave",
+			"Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": ["Default", "Destinations", ],
             "Fields": {
                 "Custom_Flooded_Cave_MinecartRoom": {
-                    "DisplayName": "{{i18n: Custom_Flooded_Cave_MinecartRoom}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Custom_Flooded_Cave_MinecartRoom}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                 },
             },
             "When": {
                 "EnableCustom_Flooded_Cave_MinecartRoom": true,
                 "HasMod |contains=Tikamin557.FloodedCave": "true",
+				"Query:{{DaysPlayed}} >= 31 AND {{Hearts:Lewis}} >= 8 AND {{Hearts:Clint}} >= 5 AND {{Hearts:Willy}} >= 5":true,
             },
         },
         //Railroad VMV
@@ -1107,7 +1049,8 @@
             "TargetField": ["Default", "Destinations", ],
             "Fields": {
                 "Railroad": {
-                    "DisplayName": "{{i18n: Railroad}}", //Add prefix to change menu order
+                    "DisplayName": "{{i18n: Railroad}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 17,
                         "Y": 38

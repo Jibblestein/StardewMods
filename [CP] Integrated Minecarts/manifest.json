@@ -1,7 +1,7 @@
 ﻿{
     "Name": "[CP] Integrated Minecarts",
     "Author": "Jibb",
-    "Version": "4.0.7",
+    "Version": "4.1.0",
     "Description": "Content Pack for Content Patcher",
     "UniqueID": "jibb.minecarts",
     "MinimumApiVersion": "3.0.0",
@@ -45,6 +45,9 @@
             "IsRequired": false,
         }, {
             "UniqueID": "dreamygloom.AnnettaNPC",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "dreamy.kickitspot",
             "IsRequired": false,
         }, {
             "UniqueID": "zilch.meadowlands_minecarts",

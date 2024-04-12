@@ -524,6 +524,15 @@
             "Default": 15,
             "Section": "FarmLocation",
         },
+        //FarmLocation Immersive Farm 2 Remastered
+        "IF2RFarmX": {
+            "Default": 69,
+            "Section": "FarmLocation",
+        },
+        "IF2RFarmY": {
+            "Default": 15,
+            "Section": "FarmLocation",
+        },
     },
 	"DynamicTokens":[
 //FarmCoordinates
@@ -643,6 +652,22 @@
 			"Value":"{{PersonalV3FarmY}}",
 			"When":{
                 "FarmType":"Personal_FarmV3"
+				}
+		},
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{IF2RFarmX}}",
+			"When":{
+                "FarmType": "Standard",
+                "HasMod |contains=flashshifter.immersivefarm2remastered": "true"
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{IF2RFarmY}}",
+			"When":{
+                "FarmType": "Standard",
+                "HasMod |contains=flashshifter.immersivefarm2remastered": "true"
 				}
 		},
 //Cart or CartEntrance

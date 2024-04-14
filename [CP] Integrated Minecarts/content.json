@@ -19,243 +19,249 @@
         //"Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet"
 
         "1.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "IntegratedFarm",
             "Section": "DestinationOrder",
         },
         "2.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Bus",
             "Section": "DestinationOrder",
         },
         "3.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "CommunityCenter",
             "Section": "DestinationOrder",
         },
         "4.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Desert",
             "Section": "DestinationOrder",
         },
         "5.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "ForestNW",
             "Section": "DestinationOrder",
         },
         "6.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "ForestSE",
             "Section": "DestinationOrder",
         },
         "7.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Mines",
             "Section": "DestinationOrder",
         },
         "8.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Mountain",
             "Section": "DestinationOrder",
         },
         "9.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Quarry",
             "Section": "DestinationOrder",
         },
         "10.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Railroad",
             "Section": "DestinationOrder",
         },
         "11.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Woods",
             "Section": "DestinationOrder",
         },
         "12.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Town",
             "Section": "DestinationOrder",
         },
         "13.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "CapeForest",
             "Section": "DestinationOrder",
         },
         "14.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "SeaCaveSecrets",
             "Section": "DestinationOrder",
         },
         "15.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "EastScarp_Village",
             "Section": "DestinationOrder",
         },
         "16.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "EastScarp_DeepMountains",
             "Section": "DestinationOrder",
         },
         "17.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "EastScarp_DeepDark",
             "Section": "DestinationOrder",
         },
         "18.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "EastScarp_ClearingHouse",
             "Section": "DestinationOrder",
         },
         "19.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "GreenFarmCave",
             "Section": "DestinationOrder",
         },
         "20.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "IF2RFarmWest",
             "Section": "DestinationOrder",
         },
         "21.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "IF2RFarmEast",
             "Section": "DestinationOrder",
         },
         "22.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "maxvollmerDeepWoods",
             "Section": "DestinationOrder",
         },
         "23.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "MeadowlandsMinecartFarm_NW",
             "Section": "DestinationOrder",
         },
         "24.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "MeadowlandsMinecartFarm_SE",
             "Section": "DestinationOrder",
         },
         "25.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "OasisGreenhouse",
             "Section": "DestinationOrder",
         },
         "26.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "RSVCableCar",
             "Section": "DestinationOrder",
         },
         "27.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "RSVEast",
             "Section": "DestinationOrder",
         },
         "28.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "RSVNorth",
             "Section": "DestinationOrder",
         },
         "29.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "RSVSouth",
             "Section": "DestinationOrder",
         },
         "30.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "RSVSummitEast",
             "Section": "DestinationOrder",
         },
         "31.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "RSVSummitWest",
             "Section": "DestinationOrder",
         },
         "32.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Beach",
             "Section": "DestinationOrder",
         },
         "33.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "FarmCave",
             "Section": "DestinationOrder",
         },
         "34.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Custom_SecretWoodsExtraArea",
             "Section": "DestinationOrder",
         },
         "35.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Custom_Dam",
             "Section": "DestinationOrder",
         },
         "36.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Custom_Dam_Cliff",
             "Section": "DestinationOrder",
         },
         "37.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Custom_Dam_PastureArea",
             "Section": "DestinationOrder",
         },
         "38.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Custom_Flooded_Cave_MinecartRoom",
             "Section": "DestinationOrder",
         },
         "39.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Lumisteria.MtVapius_TrainStation",
             "Section": "DestinationOrder",
         },
         "40.": {
-            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet",
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
             "AllowBlank": false,
             "Default": "Lumisteria.MtVapius_Hamlet",
+            "Section": "DestinationOrder",
+        },
+        "41.": {
+            "AllowValues": "Disabled,IntegratedFarm,Bus,CommunityCenter,Desert,ForestNW,ForestSE,Mines,Mountain,Quarry,Railroad,Town,Woods,CapeForest,SeaCaveSecrets,EastScarp_Village,EastScarp_DeepMountains,EastScarp_DeepDark,EastScarp_ClearingHouse,GreenFarmCave,IF2RFarmWest,IF2RFarmEast,maxvollmerDeepWoods,MeadowlandsMinecartFarm_NW,MeadowlandsMinecartFarm_SE,OasisGreenhouse,RSVCableCar,RSVEast,RSVNorth,RSVSouth,RSVSummitEast,RSVSummitWest,Beach,FarmCave,Custom_SecretWoodsExtraArea,Custom_Dam,Custom_Dam_Cliff,Custom_Dam_PastureArea,Custom_Flooded_Cave_MinecartRoom,Lumisteria.MtVapius_TrainStation,Lumisteria.MtVapius_Hamlet,WaFFCave",
+            "AllowBlank": false,
+            "Default": "WaFFCave",
             "Section": "DestinationOrder",
         },
         //Enabled
@@ -464,6 +470,12 @@
             "Default": true,
             "Section": "IsEnabled",
         },
+        "EnableWaFFCave": {
+            "AllowValues": "true, false",
+            "Default": true,
+            "Section": "IsEnabled",
+        },
+		
 //Farm Minecart
         "FarmCartStyle": {
             "AllowValues": "Cart, CartEntrance",
@@ -479,13 +491,58 @@
             "Default": 15,
             "Section": "FarmLocation",
         },
-        //FarmLocation Grandpa's Farm
-        "GrandpaFarmX": {
-            "Default": 100,
+        //FarmLocation Hilltop
+        "HilltopFarmX": {
+            "Default": 69,
             "Section": "FarmLocation",
         },
-        "GrandpaFarmY": {
-            "Default": 49,
+        "HilltopFarmY": {
+            "Default": 15,
+            "Section": "FarmLocation",
+        },
+        //FarmLocation Forest
+        "ForestFarmX": {
+            "Default": 69,
+            "Section": "FarmLocation",
+        },
+        "ForestFarmY": {
+            "Default": 15,
+            "Section": "FarmLocation",
+        },
+        //FarmLocation Wilderness
+        "WildernessFarmX": {
+            "Default": 69,
+            "Section": "FarmLocation",
+        },
+        "WildernessFarmY": {
+            "Default": 15,
+            "Section": "FarmLocation",
+        },
+        //FarmLocation Riverland
+        "RiverlandFarmX": {
+            "Default": 69,
+            "Section": "FarmLocation",
+        },
+        "RiverlandFarmY": {
+            "Default": 15,
+            "Section": "FarmLocation",
+        },
+        //FarmLocation Beach
+        "BeachFarmX": {
+            "Default": 69,
+            "Section": "FarmLocation",
+        },
+        "BeachFarmY": {
+            "Default": 15,
+            "Section": "FarmLocation",
+        },
+        //FarmLocation FourCorners
+        "FourCornersFarmX": {
+            "Default": 69,
+            "Section": "FarmLocation",
+        },
+        "FourCornersFarmY": {
+            "Default": 15,
             "Section": "FarmLocation",
         },
         //FarmLocation Meadowlands Farm
@@ -495,6 +552,33 @@
         },
         "MeadowlandsFarmY": {
             "Default": 19,
+            "Section": "FarmLocation",
+        },
+        //FarmLocation WaFF
+        "WaFFFarmX": {
+            "Default": 69,
+            "Section": "FarmLocation",
+        },
+        "WaFFFarmY": {
+            "Default": 15,
+            "Section": "FarmLocation",
+        },
+        //FarmLocation WaFFLE
+        "WaFFLEFarmX": {
+            "Default": 69,
+            "Section": "FarmLocation",
+        },
+        "WaFFLEFarmY": {
+            "Default": 15,
+            "Section": "FarmLocation",
+        },
+        //FarmLocation Grandpa's Farm
+        "GrandpaFarmX": {
+            "Default": 100,
+            "Section": "FarmLocation",
+        },
+        "GrandpaFarmY": {
+            "Default": 49,
             "Section": "FarmLocation",
         },
         //FarmLocation LNH's Mini Farm
@@ -513,6 +597,24 @@
         },
         "DNZenithFarmY": {
             "Default": 17,
+            "Section": "FarmLocation",
+        },
+        //FarmLocation Personal Farm V1
+        "PersonalV1FarmX": {
+            "Default": 69,
+            "Section": "FarmLocation",
+        },
+        "PersonalV1FarmY": {
+            "Default": 15,
+            "Section": "FarmLocation",
+        },
+        //FarmLocation Personal Farm V2
+        "PersonalV2FarmX": {
+            "Default": 69,
+            "Section": "FarmLocation",
+        },
+        "PersonalV2FarmY": {
+            "Default": 15,
             "Section": "FarmLocation",
         },
         //FarmLocation Personal Farm V3
@@ -536,6 +638,7 @@
     },
 	"DynamicTokens":[
 //FarmCoordinates
+//Standard
 		{
 			"Name":"FarmCoordinatesX",
 			"Value":"{{IntegratedFarmX}}",
@@ -552,20 +655,112 @@
                 "HasMod |contains=flashshifter.GrandpasFarm,Lnh.MiNiFarm": "false",
 				}
 		},
+//Hilltop
 		{
 			"Name":"FarmCoordinatesX",
-			"Value":"{{IntegratedFarmX}}",
+			"Value":"{{HilltopFarmX}}",
 			"When":{
-                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, A_TK.FarmProjectForaging/WaFF, A_TK.FarmProjectForaging/WaFFLE": "true",
+				"FarmType":"Hilltop",
 				}
 		},
 		{
 			"Name":"FarmCoordinatesY",
-			"Value":"{{IntegratedFarmY}}",
+			"Value":"{{HilltopFarmY}}",
 			"When":{
-                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, A_TK.FarmProjectForaging/WaFF, A_TK.FarmProjectForaging/WaFFLE": "true",
+				"FarmType":"Hilltop",
 				}
 		},
+//Forest
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{ForestFarmX}}",
+			"When":{
+				"FarmType":"Forest",
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{ForestFarmY}}",
+			"When":{
+				"FarmType":"Forest",
+				}
+		},
+//Wilderness
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{WildernessFarmX}}",
+			"When":{
+				"FarmType":"Wilderness",
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{WildernessFarmY}}",
+			"When":{
+				"FarmType":"Wilderness",
+				}
+		},
+//Riverland
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{RiverlandFarmX}}",
+			"When":{
+				"FarmType":"Riverland",
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{RiverlandFarmY}}",
+			"When":{
+				"FarmType":"Riverland",
+				}
+		},
+//Beach
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{BeachFarmX}}",
+			"When":{
+				"FarmType":"Beach",
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{BeachFarmY}}",
+			"When":{
+				"FarmType":"Beach",
+				}
+		},
+//FourCorners
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{FourCornersFarmX}}",
+			"When":{
+				"FarmType":"FourCorners",
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{FourCornersFarmY}}",
+			"When":{
+				"FarmType":"FourCorners",
+				}
+		},
+//MeadowlandsFarm
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{MeadowlandsFarmX}}",
+			"When":{
+                "FarmType": "MeadowlandsFarm",
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{MeadowlandsFarmY}}",
+			"When":{
+                "FarmType": "MeadowlandsFarm",
+				}
+		},
+//Default Custom Farmtype
 		{
 			"Name":"FarmCoordinatesX",
 			"Value":"{{IntegratedFarmX}}",
@@ -580,6 +775,7 @@
                 "FarmType |contains=Standard, Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowlandsFarm": "false",
 				}
 		},
+//Grandpa Farm
 		{
 			"Name":"FarmCoordinatesX",
 			"Value":"{{GrandpaFarmX}}",
@@ -596,6 +792,7 @@
                 "HasMod |contains=flashshifter.GrandpasFarm": "true",
 				}
 		},
+//LNH Mini Farm
 		{
 			"Name":"FarmCoordinatesX",
 			"Value":"{{LNHMiniFarmX}}",
@@ -612,20 +809,7 @@
                 "HasMod |contains=Lnh.MiNiFarm": "true",
 				}
 		},
-		{
-			"Name":"FarmCoordinatesX",
-			"Value":"{{MeadowlandsFarmX}}",
-			"When":{
-                "FarmType": "MeadowlandsFarm",
-				}
-		},
-		{
-			"Name":"FarmCoordinatesY",
-			"Value":"{{MeadowlandsFarmY}}",
-			"When":{
-                "FarmType": "MeadowlandsFarm",
-				}
-		},
+//Zenith Farm CFL or CP
 		{
 			"Name":"FarmCoordinatesX",
 			"Value":"{{DNZenithFarmX}}",
@@ -640,6 +824,37 @@
                 "FarmType |contains=DaisyNiko.ZenithFarm.CFL/Zenith Farm,ZenithFarm": "true",
 				}
 		},
+//Personal Farm V1
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{PersonalV1FarmX}}",
+			"When":{
+                "FarmType":"Personal_FarmV1"
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{PersonalV1FarmY}}",
+			"When":{
+                "FarmType":"Personal_FarmV1"
+				}
+		},
+//Personal Farm V2
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{PersonalV2FarmX}}",
+			"When":{
+                "FarmType":"Personal_FarmV2"
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{PersonalV2FarmY}}",
+			"When":{
+                "FarmType":"Personal_FarmV2"
+				}
+		},
+//Personal Farm V3
 		{
 			"Name":"FarmCoordinatesX",
 			"Value":"{{PersonalV3FarmX}}",
@@ -654,6 +869,37 @@
                 "FarmType":"Personal_FarmV3"
 				}
 		},
+//WaFF Farm
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{WaFFFarmX}}",
+			"When":{
+                "FarmType":"A_TK.FarmProjectForaging/WaFF"
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{WaFFFarmY}}",
+			"When":{
+                "FarmType":"A_TK.FarmProjectForaging/WaFF"
+				}
+		},
+//WaFFLE Farm
+		{
+			"Name":"FarmCoordinatesX",
+			"Value":"{{WaFFLEFarmX}}",
+			"When":{
+                "FarmType":"A_TK.FarmProjectForaging/WaFFLE"
+				}
+		},
+		{
+			"Name":"FarmCoordinatesY",
+			"Value":"{{WaFFLEFarmY}}",
+			"When":{
+                "FarmType":"A_TK.FarmProjectForaging/WaFFLE"
+				}
+		},
+//IF2R
 		{
 			"Name":"FarmCoordinatesX",
 			"Value":"{{IF2RFarmX}}",
@@ -711,7 +957,7 @@
 			"Value": "{{Query:{{FarmCoordinatesY}}+2}}",
 			"When":{"FarmCartStyle":"CartEntrance"}
 		},
-//FarmMap
+//FarmMaps
 		{
 			"Name":"FarmMap",
 			"Value":"Farm",
@@ -787,7 +1033,17 @@
 			"Value":"Personal_FarmV3",
 			"When":{"FarmType":"Personal_FarmV3"}
 		},
-
+//Misc
+		{
+			"Name":"WaFFCaveMap",
+			"Value":"A_Tk.FarmProjectForaging_Custom_waterfall_cave_WaFF",
+			"When":{"FarmType":"A_TK.FarmProjectForaging/WaFF"}
+		},
+		{
+			"Name":"WaFFCaveMap",
+			"Value":"A_Tk.FarmProjectForaging.LE_Custom_waterfall_cave_WaFFLE",
+			"When":{"FarmType":"A_TK.FarmProjectForaging/WaFFLE"}
+		},		
 	],
     "Changes": [
         //Destinations

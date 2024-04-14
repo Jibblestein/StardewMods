@@ -64,6 +64,7 @@
 						{"ID": "{{38.}}", "ToPosition": "Bottom"},
 						{"ID": "{{39.}}", "ToPosition": "Bottom"},
 						{"ID": "{{40.}}", "ToPosition": "Bottom"},
+						{"ID": "{{41.}}", "ToPosition": "Bottom"},
 						],
 	},
 {
@@ -111,6 +112,7 @@
         "{{38.}}": {"DisplayName": "38. {{i18n: {{38.}}}}",},
         "{{39.}}": {"DisplayName": "39. {{i18n: {{39.}}}}",},
         "{{40.}}": {"DisplayName": "40. {{i18n: {{40.}}}}",},
+        "{{41.}}": {"DisplayName": "41. {{i18n: {{41.}}}}",},
     },
 	"When": {
 		"Numbering": true,

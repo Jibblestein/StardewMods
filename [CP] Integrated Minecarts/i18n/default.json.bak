@@ -43,7 +43,6 @@
 		"Custom_Flooded_Cave_MinecartRoom": "Flooded Cave Minecart Room",
 		"Lumisteria.MtVapius_TrainStation": "Mount Vapius - Train Station",
 		"Lumisteria.MtVapius_Hamlet": "Mount Vapius - Glimsap Hamlet",
-		"WaFFCave": "Waterfall Cave",
 		
 //Config Menu translation
 //General
@@ -147,8 +146,6 @@
 		"config.EnableLumisteria.MtVapius_Hamlet.description": "Lumisteria Visit Mount Vapius - Train Station",
 		"config.EnableLumisteria.MtVapiusHamletToRailroad.name": "Hamlet To Railroad",
 		"config.EnableLumisteria.MtVapiusHamletToRailroad.description": "Lumisteria Visit Mount Vapius - Adds Railroad Destination to VMV Minecart Network",
-		"config.EnableWaFFCave.name": "WaFFCave",
-		"config.EnableWaFFCave.description": "WaFF or WaFFLE - Waterfall Cave",
 //Farm Location
 		"config.FarmCartStyle.name": "Farm Minecart Style",
 		"config.FarmCartStyle.description": "Sets the style of the Farm Minecart. Use Cart for open areas. Use CartEntrance if setting into a wall.",

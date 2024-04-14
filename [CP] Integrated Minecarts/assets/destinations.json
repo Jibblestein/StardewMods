@@ -820,6 +820,30 @@
                 "HasMod |contains=Lumisteria.MtVapius": "true",
             },
         },
+        //WaFF + WaFFLE Cave
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "WaFFCave": {
+                    "Id": "WaFFCave",
+                    "TargetLocation": "{{WaFFCaveMap}}",
+                    "DisplayName": "{{i18n: WaFFCave}}", //Add prefix to change menu order 
+					"Price": "{{PriceToRide}}",
+                    "TargetTile": {
+                        "X": 50,
+                        "Y": 5
+                    },
+                    "LandingPointDirection": "down",
+                },
+            },
+            "When": {
+                "EnableWaFFCave": true,
+                "FarmType|contains=A_TK.FarmProjectForaging/WaFF, A_TK.FarmProjectForaging/WaFFLE": "true",
+                "HasMod |contains=A_TK.FarmProjectForaging, A_TK.FarmProjectForaging.LE": "true"
+            },
+        },
         //Rename other mod's minecarts.
         //UncleArya's Beach
         {

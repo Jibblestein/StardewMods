@@ -1301,5 +1301,47 @@
                 "HasMod |contains=Tikamin557.FloodedCave": "true",
             },
         },
+		//WaFF + WaFFLE Cave Minecart Tile Properties
+		{
+            "Action": "EditMap",
+            "Target": "Maps/{{WaFFCaveMap}}",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "50",
+                        "Y": "4"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default WaffCave",
+                    },
+                },
+            ],
+            "When": {
+                "EnableWaFFCave": true,
+                "FarmType|contains=A_TK.FarmProjectForaging/WaFF, A_TK.FarmProjectForaging/WaFFLE": "true",
+                "HasMod |contains=A_TK.FarmProjectForaging, A_TK.FarmProjectForaging.LE": "true"
+            },
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/{{WaFFCaveMap}}",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "51",
+                        "Y": "4"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default WaffCave",
+                    },
+                },
+            ],
+            "When": {
+                "EnableWaFFCave": true,
+                "FarmType|contains=A_TK.FarmProjectForaging/WaFF, A_TK.FarmProjectForaging/WaFFLE": "true",
+                "HasMod |contains=A_TK.FarmProjectForaging, A_TK.FarmProjectForaging.LE": "true"
+            },
+			"Priority": "Late",
+        },
     ]
 }

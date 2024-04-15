@@ -80,141 +80,103 @@
             },
             "Priority": "Late",
         },
-        //EastScarp_Village Tile Properties
+        //Desert Vanilla
         {
             "Action": "EditMap",
-            "Target": "Maps/EastScarp_Village",
-            "MapTiles": [{
-                    "Position": {
-                        "X": "67",
-                        "Y": "16"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default EastScarp_Village",
-                    },
-                },
-            ],
+            "Target": "Maps/Desert",
+            "FromFile": "assets/Desert.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 2,
+                "Height": 5
+            },
+            "ToArea": {
+                "X": 36,
+                "Y": 39,
+                "Width": 2,
+                "Height": 5
+            },
+            "PatchMode": "Replace",
             "When": {
-                "EnableEastScarp_Village": true,
+                "EnableDesert": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
             },
         },
-        //EastScarp_DeepMountains Tile Properties
+        //Desert Vanilla Tile Properties
         {
             "Action": "EditMap",
-            "Target": "Maps/EastScarp_DeepMountains",
+            "Target": "Maps/Desert",
             "MapTiles": [{
                     "Position": {
-                        "X": "55",
-                        "Y": "37"
+                        "X": "36",
+                        "Y": "42"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default EastScarp_DeepMountains",
+                        "Action": "MinecartTransport Default Desert",
                     },
                 },
             ],
             "When": {
-                "EnableEastScarp_DeepMountains": true,
+                "EnableDesert": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
             },
         },
-
-        //EastScarp_DeepDark Tile Properties
+        //Desert SVE
         {
             "Action": "EditMap",
-            "Target": "Maps/EastScarp_DeepDark",
-            "MapTiles": [{
-                    "Position": {
-                        "X": "4",
-                        "Y": "65"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default EastScarp_DeepDark",
-                    },
-                },
-            ],
-            "When": {
-                "EnableEastScarp_DeepDark": true,
+            "Target": "Maps/Desert",
+            "FromFile": "assets/SVEDesert.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 2,
+                "Height": 2
             },
-        }, {
-            "Action": "EditMap",
-            "Target": "Maps/EastScarp_DeepDark",
-            "MapTiles": [{
-                    "Position": {
-                        "X": "3",
-                        "Y": "65"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default EastScarp_DeepDark",
-                    },
-                },
-            ],
+            "ToArea": {
+                "X": 36,
+                "Y": 42,
+                "Width": 2,
+                "Height": 2
+            },
+            "PatchMode": "Overlay",
             "When": {
-                "EnableEastScarp_DeepDark": true,
+                "EnableDesert": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
-        //East Scarp Scarp Crossing Tile Properties
+        //Desert SVE Tile Properties
         {
             "Action": "EditMap",
-            "Target": "Maps/EastScarp_ClearingHouse",
+            "Target": "Maps/Desert",
             "MapTiles": [{
                     "Position": {
-                        "X": "2",
-                        "Y": "26"
+                        "X": "36",
+                        "Y": "43"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default EastScarp_ClearingHouse",
+                        "Action": "MinecartTransport Default Desert",
                     },
                 },
             ],
             "When": {
-                "HasMod": "Lemurkat.EastScarpNPCs.CP",
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
-                "EnableEastScarp_ClearingHouse": true,
+                "EnableDesert": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
+        //Farm Standard Unmodded
         {
             "Action": "EditMap",
-            "Target": "Maps/EastScarp_ClearingHouse",
-            "MapTiles": [{
-                    "Position": {
-                        "X": "1",
-                        "Y": "26"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default EastScarp_ClearingHouse",
-                    },
+            "Target": "Maps/Desert",
+			"Priority": "Late",
+            "MapProperties": 
+				{
+                    "LocationContext": null,
                 },
-            ],
             "When": {
-                "HasMod": "Lemurkat.EastScarpNPCs.CP",
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
-                "EnableEastScarp_ClearingHouse": true,
-            },
-        },
-        //Jessie and Juliet Scarp Crossing Replacement Tile Properties
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Custom_LK_ClearingHouse",
-            "MapTiles": [{
-                    "Position": {
-                        "X": "55",
-                        "Y": "7"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default EastScarp_ClearingHouse",
-                    },
-                },
-            ],
-            "When": {
-                "HasMod": "LemurKat.JulietHouse.NPC",
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
-                "EnableEastScarp_ClearingHouse": true,
+                "EnableDesert": true,
             },
         },
         //Forest NW
@@ -323,7 +285,7 @@
             "PatchMode": "Replace",
             "When": {
                 "EnableForestSE": true,
-
+                "HasMod |contains=DaisyNiko.SVR3": "false"
             },
         },
         //Forest SE Tile Properties
@@ -389,6 +351,145 @@
                 "HasMod |contains=DaisyNiko.SVR3": "true"
             },
         },
+        //Mountain SVE
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/CustomCartEntrance.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 3,
+                "Height": 3
+            },
+            "ToArea": {
+                "X": 52,
+                "Y": 4,
+                "Width": 3,
+                "Height": 3
+            },
+            "PatchMode": "Overlay",
+            "When": {
+                "EnableMountain": true,
+                "MoveMountainToAdventurersGuild": false,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+                "HasMod |contains=Himetarts.ARV.CP": "false",
+            },
+        },
+        //Mountain SVE Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "53",
+                        "Y": "6"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Mountain",
+                    },
+                },
+            ],
+            "When": {
+                "EnableMountain": true,
+                "MoveMountainToAdventurersGuild": false,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+                "HasMod |contains=Himetarts.ARV.CP": "false",
+            },
+        },
+        //Mountain SVE + ARV
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "FromFile": "assets/CustomCartEntrance.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 3,
+                "Height": 3
+            },
+            "ToArea": {
+                "X": 52,
+                "Y": 3,
+                "Width": 3,
+                "Height": 3
+            },
+            "PatchMode": "Overlay",
+            "When": {
+                "EnableMountain": true,
+                "MoveMountainToAdventurersGuild": false,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+                "HasMod |contains=Himetarts.ARV.CP": "true",
+            },
+        },
+        //Mountain SVE + ARV Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Mountain",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "53",
+                        "Y": "5"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Mountain",
+                    },
+                },
+            ],
+            "When": {
+                "EnableMountain": true,
+                "MoveMountainToAdventurersGuild": false,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+                "HasMod |contains=Himetarts.ARV.CP": "true",
+            },
+        },
+        //Adventurer's Guild Replacement for Mountain SVE
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_AdventurerSummit",
+            "FromFile": "assets/CartEntrance.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 3,
+                "Height": 3
+            },
+            "ToArea": {
+                "X": 18,
+                "Y": 13,
+                "Width": 3,
+                "Height": 3
+            },
+            "PatchMode": "Overlay",
+            "When": {
+                "EnableMountain": true,
+                "MoveMountainToAdventurersGuild": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+            },
+        },
+        //Adventurer's Guild Replacement for Mountain SVE Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_AdventurerSummit",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "19",
+                        "Y": "15"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Mountain",
+                    },
+                },
+            ],
+            "When": {
+                "EnableMountain": true,
+                "MoveMountainToAdventurersGuild": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+            },
+        },
         //Railroad no VMV
         {
             "Action": "EditMap",
@@ -412,7 +513,7 @@
                 "HasMod |contains=Lumisteria.MtVapius": "false"
             },
         },
-        //Railroad Tile Properties
+        //Railroad no VMV Tile Properties
         {
             "Action": "EditMap",
             "Target": "Maps/Railroad",
@@ -429,6 +530,114 @@
             ],
             "When": {
                 "EnableRailroad": true,
+                "HasMod |contains=Lumisteria.MtVapius": "false"
+            },
+        },
+		//Railroad VMV Tile Properties
+		{
+            "Action": "EditMap",
+            "Target": "Maps/Railroad",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "17",
+                        "Y": "37"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Railroad",
+                    },
+                },
+            ],
+            "When": {
+                "EnableRailroad": true,
+                "HasMod |contains=Lumisteria.MtVapius": "true",
+            },
+        },
+
+        //Woods Vanilla
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+            "FromFile": "assets/Woods.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 1,
+                "Height": 2
+            },
+            "ToArea": {
+                "X": 48,
+                "Y": 3,
+                "Width": 1,
+                "Height": 2
+            },
+            "PatchMode": "Overlay",
+            "When": {
+                "EnableWoods": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"
+            },
+        },
+        //Woods Vanilla Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "48",
+                        "Y": "4"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Woods",
+                    },
+                },
+            ],
+            "When": {
+                "EnableWoods": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"
+            },
+        },
+        //Woods SVE
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+            "FromFile": "assets/SVEWoods.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 2,
+                "Height": 3
+            },
+            "ToArea": {
+                "X": 68,
+                "Y": 20,
+                "Width": 2,
+                "Height": 3
+            },
+            "PatchMode": "Replace",
+            "When": {
+                "EnableWoods": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"
+            },
+        },
+        //Woods SVE Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Woods",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "69",
+                        "Y": "22"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Woods",
+                    },
+                },
+            ],
+            "When": {
+                "EnableWoods": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"
             },
         },
         //RSVCableCar Tile Properties
@@ -561,216 +770,170 @@
                 "HasFlag": "ccBoilerRoom",
             },
         },
-
-        //Woods Vanilla
+        //EastScarp_Village Tile Properties
         {
             "Action": "EditMap",
-            "Target": "Maps/Woods",
-            "FromFile": "assets/Woods.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 1,
-                "Height": 2
-            },
-            "ToArea": {
-                "X": 48,
-                "Y": 3,
-                "Width": 1,
-                "Height": 2
-            },
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableWoods": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"
-            },
-        },
-        //Woods Vanilla Tile Properties
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Woods",
+            "Target": "Maps/EastScarp_Village",
             "MapTiles": [{
                     "Position": {
-                        "X": "48",
-                        "Y": "4"
+                        "X": "67",
+                        "Y": "16"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default Woods",
+                        "Action": "MinecartTransport Default EastScarp_Village",
                     },
                 },
             ],
             "When": {
-                "EnableWoods": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"
+                "EnableEastScarp_Village": true,
             },
         },
-        //Woods SVE
+        //EastScarp_Village Remove LocationContext
+//        {
+//            "Action": "EditMap",
+//            "Target": "Maps/EastScarp_Village",
+//			"Priority": "Late",
+//            "MapProperties": 
+//				{
+//                    "LocationContext": null,
+//                },
+//            "When": {
+//                "EnableEastScarp_Village": true,
+//            },
+//        },
+        //EastScarp_DeepMountains Tile Properties
         {
             "Action": "EditMap",
-            "Target": "Maps/Woods",
-            "FromFile": "assets/SVEWoods.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 2,
-                "Height": 3
-            },
-            "ToArea": {
-                "X": 68,
-                "Y": 20,
-                "Width": 2,
-                "Height": 3
-            },
-            "PatchMode": "Replace",
-            "When": {
-                "EnableWoods": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"
-            },
-        },
-        //Woods SVE Tile Properties
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Woods",
+            "Target": "Maps/EastScarp_DeepMountains",
             "MapTiles": [{
                     "Position": {
-                        "X": "69",
-                        "Y": "22"
+                        "X": "55",
+                        "Y": "37"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default Woods",
+                        "Action": "MinecartTransport Default EastScarp_DeepMountains",
                     },
                 },
             ],
             "When": {
-                "EnableWoods": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"
-            },
-        },
-        //Desert Vanilla
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Desert",
-            "FromFile": "assets/Desert.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 2,
-                "Height": 5
-            },
-            "ToArea": {
-                "X": 36,
-                "Y": 39,
-                "Width": 2,
-                "Height": 5
-            },
-            "PatchMode": "Replace",
-            "When": {
-                "EnableDesert": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
-            },
-        },
-        //Desert Vanilla Tile Properties
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Desert",
-            "MapTiles": [{
-                    "Position": {
-                        "X": "36",
-                        "Y": "42"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default Desert",
-                    },
-                },
-            ],
-            "When": {
-                "EnableDesert": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
-            },
-        },
-        //Desert SVE
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Desert",
-            "FromFile": "assets/SVEDesert.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 2,
-                "Height": 2
-            },
-            "ToArea": {
-                "X": 36,
-                "Y": 42,
-                "Width": 2,
-                "Height": 2
-            },
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableDesert": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
-            },
-        },
-        //Desert SVE Tile Properties
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Desert",
-            "MapTiles": [{
-                    "Position": {
-                        "X": "36",
-                        "Y": "43"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default Desert",
-                    },
-                },
-            ],
-            "When": {
-                "EnableDesert": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+                "EnableEastScarp_DeepMountains": true,
             },
         },
 
-        //Farm Standard Unmodded
+        //EastScarp_DeepDark Tile Properties
         {
             "Action": "EditMap",
-            "Target": "Maps/Farm",
-            "FromFile": "assets/{{FarmCartStyle}}.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "ToArea": {
-                "X": "{{Query:{{IntegratedFarmX}}}}",
-                "Y": "{{Query:{{IntegratedFarmY}}}}",
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
+            "Target": "Maps/EastScarp_DeepDark",
             "MapTiles": [{
                     "Position": {
-                        "X": "{{Query:{{IntegratedFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{IntegratedFarmYTilePosition}}}}"
+                        "X": "4",
+                        "Y": "65"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
+                        "Action": "MinecartTransport Default EastScarp_DeepDark",
                     },
                 },
             ],
-            "PatchMode": "Overlay",
             "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "Standard",
-                "HasMod |contains=flashshifter.GrandpasFarm,Lnh.MiNiFarm": "false",
+                "EnableEastScarp_DeepDark": true,
+            },
+        }, {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_DeepDark",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "3",
+                        "Y": "65"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default EastScarp_DeepDark",
+                    },
+                },
+            ],
+            "When": {
+                "EnableEastScarp_DeepDark": true,
             },
         },
-        //Farm Other Vanilla Farms
+        //EastScarp_DeepDark Remove LocationContext
+//        {
+//            "Action": "EditMap",
+//            "Target": "Maps/EastScarp_DeepDark",
+//			"Priority": "Late",
+//            "MapProperties": 
+//				{
+//                    "LocationContext": null,
+//                },
+//            "When": {
+//                "EnableEastScarp_Village": true,
+//            },
+//        },
+        //East Scarp Scarp Crossing Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_ClearingHouse",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "2",
+                        "Y": "26"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default EastScarp_ClearingHouse",
+                    },
+                },
+            ],
+            "When": {
+                "HasMod": "Lemurkat.EastScarpNPCs.CP",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+                "EnableEastScarp_ClearingHouse": true,
+            },
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_ClearingHouse",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "1",
+                        "Y": "26"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default EastScarp_ClearingHouse",
+                    },
+                },
+            ],
+            "When": {
+                "HasMod": "Lemurkat.EastScarpNPCs.CP",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+                "EnableEastScarp_ClearingHouse": true,
+            },
+        },
+        //Jessie and Juliet Scarp Crossing Replacement Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_LK_ClearingHouse",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "55",
+                        "Y": "7"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default EastScarp_ClearingHouse",
+                    },
+                },
+            ],
+            "When": {
+                "HasMod": "LemurKat.JulietHouse.NPC",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": true,
+                "EnableEastScarp_ClearingHouse": true,
+            },
+        },
+        //Moveable Farm
         {
             "Action": "EditMap",
             "Target": "Maps/{{FarmMap}}",
@@ -782,15 +945,15 @@
                 "Height": "{{Query:2+{{CartAssetYModifier}}}}",
             },
             "ToArea": {
-                "X": "{{Query:{{IntegratedFarmX}}}}",
-                "Y": "{{Query:{{IntegratedFarmY}}}}",
+                "X": "{{Query:{{FarmCoordinatesX}}}}",
+                "Y": "{{Query:{{FarmCoordinatesY}}}}",
                 "Width": "{{Query:1+{{CartAssetXModifier}}}}",
                 "Height": "{{Query:2+{{CartAssetYModifier}}}}",
             },
             "MapTiles": [{
                     "Position": {
-                        "X": "{{Query:{{IntegratedFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{IntegratedFarmYTilePosition}}}}"
+                        "X": "{{Query:{{FarmXTilePosition}}}}",
+                        "Y": "{{Query:{{FarmYTilePosition}}}}"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
@@ -801,408 +964,6 @@
             "PatchMode": "Overlay",
             "When": {
                 "EnableIntegratedFarm": true,
-                "FarmType |contains=Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness": "true",
-            },
-        },
-        //Custom FarmType that replaces Farm?
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Farm",
-            "FromFile": "assets/{{FarmCartStyle}}.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "ToArea": {
-                "X": "{{Query:{{IntegratedFarmX}}}}",
-                "Y": "{{Query:{{IntegratedFarmY}}}}",
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "MapTiles": [{
-                    "Position": {
-                        "X": "{{Query:{{IntegratedFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{IntegratedFarmYTilePosition}}}}"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
-                    },
-                },
-            ],
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType |contains=Standard, Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowlandsFarm": "false",
-            },
-        },
-        //Farm Standard Grandpa
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Farm",
-            "FromFile": "assets/{{FarmCartStyle}}.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "ToArea": {
-                "X": "{{Query:{{GrandpaFarmX}}}}",
-                "Y": "{{Query:{{GrandpaFarmY}}}}",
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "MapTiles": [{
-                    "Position": {
-                        "X": "{{Query:{{GrandpaFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{GrandpaFarmYTilePosition}}}}"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
-                    },
-                },
-            ],
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "Standard",
-                "HasMod |contains=flashshifter.GrandpasFarm": "true",
-            },
-        },
-        //Farm Standard LNH Mini Farm
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Farm",
-            "FromFile": "assets/{{FarmCartStyle}}.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "ToArea": {
-                "X": "{{Query:{{LNHMiniFarmX}}}}",
-                "Y": "{{Query:{{LNHMiniFarmY}}}}",
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "MapTiles": [{
-                    "Position": {
-                        "X": "{{Query:{{LNHMiniFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{LNHMiniFarmYTilePosition}}}}"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
-                    },
-                },
-            ],
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "Standard",
-                "HasMod |contains=Lnh.MiNiFarm": "true",
-            },
-        },
-
-
-        //Farm Meadowlands Farm
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Farm_Ranching",
-            "FromFile": "assets/{{FarmCartStyle}}.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "ToArea": {
-                "X": "{{Query:{{MeadowlandsFarmX}}}}",
-                "Y": "{{Query:{{MeadowlandsFarmY}}}}",
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "MapTiles": [{
-                    "Position": {
-                        "X": "{{Query:{{MeadowlandsFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{MeadowlandsFarmYTilePosition}}}}"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
-                    },
-                },
-            ],
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "MeadowLandsFarm"
-            },
-        },
-        //Zenith Farm CFL by DaisyNiko
-        {
-            "Action": "EditMap",
-            "Target": "Maps/CFL_Map/DaisyNiko.ZenithFarm.CFL/Zenith Farm",
-            "FromFile": "assets/{{FarmCartStyle}}.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "ToArea": {
-                "X": "{{Query:{{DNZenithFarmX}}}}",
-                "Y": "{{Query:{{DNZenithFarmY}}}}",
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "MapTiles": [{
-                    "Position": {
-                        "X": "{{Query:{{DNZenithFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{DNZenithFarmYTilePosition}}}}"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
-                    },
-                },
-            ],
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "DaisyNiko.ZenithFarm.CFL/Zenith Farm"
-            },
-        },
-        //Zenith Farm CP by DaisyNiko
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Farm_ZenithFarm",
-            "FromFile": "assets/{{FarmCartStyle}}.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "ToArea": {
-                "X": "{{Query:{{DNZenithFarmX}}}}",
-                "Y": "{{Query:{{DNZenithFarmY}}}}",
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "MapTiles": [{
-                    "Position": {
-                        "X": "{{Query:{{DNZenithFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{DNZenithFarmYTilePosition}}}}"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
-                    },
-                },
-            ],
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "ZenithFarm"
-            },
-        },
-        //WAFF Farm
-        {
-            "Action": "EditMap",
-            "Target": "Maps/WaFF_Farm",
-            "FromFile": "assets/{{FarmCartStyle}}.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "ToArea": {
-                "X": "{{Query:{{IntegratedFarmX}}}}",
-                "Y": "{{Query:{{IntegratedFarmY}}}}",
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "MapTiles": [{
-                    "Position": {
-                        "X": "{{Query:{{IntegratedFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{IntegratedFarmYTilePosition}}}}"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
-                    },
-                },
-            ],
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "A_TK.FarmProjectForaging/WaFF"
-            },
-        },
-        //WAFFLE Farm
-        {
-            "Action": "EditMap",
-            "Target": "Maps/WaFFLE_Farm",
-            "FromFile": "assets/{{FarmCartStyle}}.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "ToArea": {
-                "X": "{{Query:{{IntegratedFarmX}}}}",
-                "Y": "{{Query:{{IntegratedFarmY}}}}",
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "MapTiles": [{
-                    "Position": {
-                        "X": "{{Query:{{IntegratedFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{IntegratedFarmYTilePosition}}}}"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
-                    },
-                },
-            ],
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType": "A_TK.FarmProjectForaging/WaFFLE"
-            },
-        },
-        //Custom Farm that has mapname same as FarmType
-        {
-            "Action": "EditMap",
-            "Target": "Maps/{{FarmType}}",
-            "FromFile": "assets/{{FarmCartStyle}}.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "ToArea": {
-                "X": "{{Query:{{IntegratedFarmX}}}}",
-                "Y": "{{Query:{{IntegratedFarmY}}}}",
-                "Width": "{{Query:1+{{CartAssetXModifier}}}}",
-                "Height": "{{Query:2+{{CartAssetYModifier}}}}",
-            },
-            "MapTiles": [{
-                    "Position": {
-                        "X": "{{Query:{{IntegratedFarmXTilePosition}}}}",
-                        "Y": "{{Query:{{IntegratedFarmYTilePosition}}}}"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default IntegratedFarm",
-                    },
-                },
-            ],
-            "PatchMode": "Overlay",
-			"Priority": "Late",
-            "When": {
-                "EnableIntegratedFarm": true,
-                "FarmType |contains=Standard, Beach, FourCorners, Forest, Hilltop, Riverland, Wilderness, MeadowlandsFarm": "false",
-            },
-        },
-        //Mountain SVE
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Mountain",
-            "FromFile": "assets/CustomCartEntrance.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 3,
-                "Height": 3
-            },
-            "ToArea": {
-                "X": 52,
-                "Y": 4,
-                "Width": 3,
-                "Height": 3
-            },
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableMountain": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
-                "HasMod |contains=Himetarts.ARV.CP": "false",
-            },
-        },
-        //Mountain SVE Tile Properties
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Mountain",
-            "MapTiles": [{
-                    "Position": {
-                        "X": "53",
-                        "Y": "6"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default Mountain",
-                    },
-                },
-            ],
-            "When": {
-                "EnableMountain": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
-                "HasMod |contains=Himetarts.ARV.CP": "false",
-            },
-        },
-        //Mountain SVE + ARV
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Mountain",
-            "FromFile": "assets/CustomCartEntrance.tmx",
-            "FromArea": {
-                "X": 0,
-                "Y": 0,
-                "Width": 3,
-                "Height": 3
-            },
-            "ToArea": {
-                "X": 52,
-                "Y": 3,
-                "Width": 3,
-                "Height": 3
-            },
-            "PatchMode": "Overlay",
-            "When": {
-                "EnableMountain": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
-                "HasMod |contains=Himetarts.ARV.CP": "true",
-            },
-        },
-        //Mountain SVE + ARV Tile Properties
-        {
-            "Action": "EditMap",
-            "Target": "Maps/Mountain",
-            "MapTiles": [{
-                    "Position": {
-                        "X": "53",
-                        "Y": "5"
-                    },
-                    "Layer": "Buildings",
-                    "SetProperties": {
-                        "Action": "MinecartTransport Default Mountain",
-                    },
-                },
-            ],
-            "When": {
-                "EnableMountain": true,
-                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
-                "HasMod |contains=Himetarts.ARV.CP": "true",
             },
         },
         //Lunatyx's Legacy Farm Cave Standard Farm
@@ -1579,25 +1340,47 @@
                 "HasMod |contains=Tikamin557.FloodedCave": "true",
             },
         },
-		//Railroad VMV Tile Properties
+		//WaFF + WaFFLE Cave Minecart Tile Properties
 		{
             "Action": "EditMap",
-            "Target": "Maps/Railroad",
+            "Target": "Maps/{{WaFFCaveMap}}",
             "MapTiles": [{
                     "Position": {
-                        "X": "17",
-                        "Y": "37"
+                        "X": "50",
+                        "Y": "4"
                     },
                     "Layer": "Buildings",
                     "SetProperties": {
-                        "Action": "MinecartTransport Default Railroad",
+                        "Action": "MinecartTransport Default WaffCave",
                     },
                 },
             ],
             "When": {
-                "EnableRailroad": true,
-                "HasMod |contains=Lumisteria.MtVapius": "true",
+                "EnableWaFFCave": true,
+                "FarmType|contains=A_TK.FarmProjectForaging/WaFF, A_TK.FarmProjectForaging/WaFFLE": "true",
+                "HasMod |contains=A_TK.FarmProjectForaging, A_TK.FarmProjectForaging.LE": "true"
             },
+        },
+		{
+            "Action": "EditMap",
+            "Target": "Maps/{{WaFFCaveMap}}",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "51",
+                        "Y": "4"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default WaffCave",
+                    },
+                },
+            ],
+            "When": {
+                "EnableWaFFCave": true,
+                "FarmType|contains=A_TK.FarmProjectForaging/WaFF, A_TK.FarmProjectForaging/WaFFLE": "true",
+                "HasMod |contains=A_TK.FarmProjectForaging, A_TK.FarmProjectForaging.LE": "true"
+            },
+			"Priority": "Late",
         },
     ]
 }

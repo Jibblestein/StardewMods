@@ -166,6 +166,19 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
+        //Desrt Remove LocationContext
+//        {
+//            "Action": "EditMap",
+//            "Target": "Maps/Desert",
+//			"Priority": "Late",
+//            "MapProperties": 
+//				{
+//                    "LocationContext": null,
+//                },
+//            "When": {
+//                "EnableDesert": true,
+//            },
+//        },
         //Forest NW
         {
             "Action": "EditMap",
@@ -776,6 +789,19 @@
                 "EnableEastScarp_Village": true,
             },
         },
+        //EastScarp_Village Remove LocationContext
+//        {
+//            "Action": "EditMap",
+//            "Target": "Maps/EastScarp_Village",
+//			"Priority": "Late",
+//            "MapProperties": 
+//				{
+//                    "LocationContext": null,
+//                },
+//            "When": {
+//                "EnableEastScarp_Village": true,
+//            },
+//        },
         //EastScarp_DeepMountains Tile Properties
         {
             "Action": "EditMap",
@@ -832,6 +858,19 @@
                 "EnableEastScarp_DeepDark": true,
             },
         },
+        //EastScarp_DeepDark Remove LocationContext
+//        {
+//            "Action": "EditMap",
+//            "Target": "Maps/EastScarp_DeepDark",
+//			"Priority": "Late",
+//            "MapProperties": 
+//				{
+//                    "LocationContext": null,
+//                },
+//            "When": {
+//                "EnableEastScarp_Village": true,
+//            },
+//        },
         //East Scarp Scarp Crossing Tile Properties
         {
             "Action": "EditMap",

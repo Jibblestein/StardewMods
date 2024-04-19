@@ -1,8 +1,0 @@
-F:\Visual Studio\source\repos\IntegratedMinecarts\IntegratedMinecarts\bin\Debug\net6.0\IntegratedMinecarts.deps.json
-F:\Visual Studio\source\repos\IntegratedMinecarts\IntegratedMinecarts\bin\Debug\net6.0\IntegratedMinecarts.dll
-F:\Visual Studio\source\repos\IntegratedMinecarts\IntegratedMinecarts\obj\Debug\net6.0\IntegratedMinecarts.csproj.AssemblyReference.cache
-F:\Visual Studio\source\repos\IntegratedMinecarts\IntegratedMinecarts\obj\Debug\net6.0\IntegratedMinecarts.GeneratedMSBuildEditorConfig.editorconfig
-F:\Visual Studio\source\repos\IntegratedMinecarts\IntegratedMinecarts\obj\Debug\net6.0\IntegratedMinecarts.AssemblyInfoInputs.cache
-F:\Visual Studio\source\repos\IntegratedMinecarts\IntegratedMinecarts\obj\Debug\net6.0\IntegratedMinecarts.AssemblyInfo.cs
-F:\Visual Studio\source\repos\IntegratedMinecarts\IntegratedMinecarts\obj\Debug\net6.0\IntegratedMinecarts.csproj.CoreCompileInputs.cache
-F:\Visual Studio\source\repos\IntegratedMinecarts\IntegratedMinecarts\obj\Debug\net6.0\IntegratedMinecarts.dll

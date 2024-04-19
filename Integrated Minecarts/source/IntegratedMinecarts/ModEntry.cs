@@ -30,7 +30,6 @@ namespace IntegratedMinecarts
         {
             Instance = this;
             Harmony = new Harmony(ModManifest.UniqueID);
-            Harmony.DEBUG = true;
             Config = Helper.ReadConfig<ModConfig>();
             helper.Events.Player.Warped += Player_Warped;
             helper.Events.GameLoop.GameLaunched += GameLoop_GameLaunched;

@@ -11,19 +11,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings {{Query:{{FarmCoordinatesX}}+2}} {{Query:{{FarmCoordinatesY}}+1}} 510 Buildings2 {{Query:{{FarmCoordinatesX}}+2}} {{Query:{{FarmCoordinatesY}}+1}} 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "{{Query:{{FarmCoordinatesX}}+2}} {{Query:{{FarmCoordinatesY}}+1}} 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings {{Query:{{FarmCoordinatesX}}+2}} {{Query:{{FarmCoordinatesY}}+1}} 507 Buildings2 {{Query:{{FarmCoordinatesX}}+2}} {{Query:{{FarmCoordinatesY}}+1}} 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {
@@ -42,19 +42,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 46 7 510 Buildings2 46 7 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "46 7 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 46 7 507 Buildings2 46 7 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {
@@ -70,19 +70,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 15 38 510 Buildings2 15 38 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "15 38 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 15 38 507 Buildings2 15 38 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {
@@ -99,19 +99,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 18 36 510 Buildings2 18 36 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "18 36 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 18 36 507 Buildings2 18 36 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {
@@ -128,19 +128,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 98 70 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "98 70 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 98 70 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {
@@ -157,19 +157,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 103 69 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "103 69 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 103 69 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {
@@ -186,19 +186,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 54 5 510 Buildings2 54 5 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "54 5 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 54 5 507 Buildings2 54 5 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {
@@ -217,19 +217,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 54 4 510 Buildings2 54 4 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "54 4 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 54 4 507 Buildings2 54 4 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {
@@ -248,19 +248,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 20 14 510 Buildings2 20 14 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "20 14 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 20 14 507 Buildings2 20 14 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {
@@ -278,19 +278,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 125 8 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "125 8 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 125 8 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
         },
@@ -303,19 +303,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 38 34 510 Buildings2 38 34 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "38 34 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 38 34 507 Buildings2 38 34 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {
@@ -332,19 +332,19 @@
                     "Operation": "Append",
                     "Target": ["MapProperties", "DayTiles"],
                     "Value": "Buildings 18 36 510",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "Light"],
                     "Value": "18 36 4",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
 				{
                     "Operation": "Append",
                     "Target": ["MapProperties", "NightTiles"],
                     "Value": "Buildings 18 36 507",
-                    "Delimiter": " " // if the field isn't empty, add a space between the old & new text
+                    "Delimiter": " " 
                 },
             ],
             "When": {

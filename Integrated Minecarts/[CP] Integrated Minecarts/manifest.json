@@ -1,7 +1,7 @@
 ﻿{
     "Name": "Integrated Minecarts (CP Component)",
     "Author": "Jibb",
-    "Version": "4.2.1",
+    "Version": "4.3.0",
     "Description": "Content Pack for Content Patcher",
     "UniqueID": "jibb.minecarts",
     "MinimumApiVersion": "3.0.0",
@@ -84,6 +84,27 @@
             "IsRequired": false,
         }, {
             "UniqueID": "Lumisteria.MtVapius",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Kanjinuma.PersonalFarmTypeV1",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Kanjinuma.PersonalFarmTypeV2",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Kanjinuma.PersonalFarmTypeV3",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "ApryllForever.CPPolyamorySweet",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Inkubus.ModestCave",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "SYS.AB",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "flashshifter.GrampletonFields",
             "IsRequired": false,
         },
     ]

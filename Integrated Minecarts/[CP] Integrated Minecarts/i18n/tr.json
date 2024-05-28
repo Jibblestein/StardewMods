@@ -175,7 +175,7 @@
     //TODO    "config.UseCustomFarmMap.description": "If not playing on any of the farms listed below, and the Farm minecart does not show up, use the options in this section. If the minecart does show up, but the farm is not listed, use Standard",
     //TODO   "config.CustomFarmMap.name": "Custom Farm Map",
     //TODO   "config.CustomFarmMap.description": "If using a CP Farm mod, check the content.json for a line in the format \"Target\": \"Maps/{MapName}\" followed by \"FromFile\": \"{path}/{MapFileName}\", use the MapName in this field. For a CFL Farm map, it will be in the format CFL_Map/{ModId}/{MapName}. ModId can be found from manifest.json. If you cannot find the MapName in the content.json, try the map file name without the file extension. You will need to enter in the whole string in this field.",
-    //TODO   "config.CustomFarmCartStyle.name": "Farm Minecart Style",
+
     //TODO   "config.CustomFarmCartStyle.description": "Sets the style of the Farm Minecart. Use Cart for open areas. Use CartEntrance if setting into a wall. Use CartEntranceNarrow if CartEntrance is too wide.",
     //TODO   "config.CustomFarmX.description": "This and the X settings below sets the horizontal coordinate for the Farm minecart. 0 being left edge of map.",
     //TODO   "config.CustomFarmY.description": "This and the X settings below sets the vertical coordinate for the Farm minecart. 0 being top edge of map.",

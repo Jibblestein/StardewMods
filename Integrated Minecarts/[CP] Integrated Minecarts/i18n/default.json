@@ -58,11 +58,11 @@
     "config.section.General.name": "General",
     "config.PriceToRide.name": "Price to Ride",
     "config.PriceToRide.description": "This sets the price for riding on the minecarts. Leave blank or set to 0 to disable",
-    "config.Numbering.name": "Enumerated List",
+    "config.Numbering.name": "Numbering",
     "config.Numbering.description": "This enables/disables enumeration of the destinations in the minecart menu e.g. \"1. Farm\" when enabled or \"Farm\" when disabled",
     //Destination order
     "config.section.DestinationOrder.name": "Destination Order",
-    "config.section.DestinationOrder.description": "The following options in this section determine the positioning of the destinations in the minecart menu. The selected destination will be moved to the corresponding position in the list. Each minecart should only be selected once, otherwise the highest numbered option will be used. Selections use the MinecartID, see the Minecart Enabled section for a list. Check the tooltips for the source mod and minecart location. See ",
+    "config.section.DestinationOrder.description": "The following options in this section determine the positioning of the destinations in the minecart menu. The selected destination will be moved to the corresponding position in the list. Each minecart should only be selected once, otherwise the highest numbered option will be used. Selections use the MinecartID, see the Minecart Enabled section for a list. Check the tooltips for the source mod and minecart location.",
     "config.1..description": "This and the following options in this section determine the positioning of the destinations in the minecart menu. The selected destination will be moved to the corresponding position in the list. Each minecart should only be selected once, otherwise the highest numbered option will be used. Selections use the MinecartID, see the Minecart Enabled section for a list. Check the tooltips for the source mod and minecart location",
     //Minecart Enabled
     "config.section.IsEnabled.name": "Minecart Enabled",
@@ -174,7 +174,6 @@
     "config.UseCustomFarmMap.description": "If not playing on any of the farms listed below, and the Farm minecart does not show up, use the options in this section. If the minecart does show up, but the farm is not listed, use Standard",
     "config.CustomFarmMap.name": "Custom Farm Map",
     "config.CustomFarmMap.description": "If using a CP Farm mod, check the content.json for a line in the format \"Target\": \"Maps/{MapName}\" followed by \"FromFile\": \"{path}/{MapFileName}\", use the MapName in this field. For a CFL Farm map, it will be in the format CFL_Map/{ModId}/{MapName}. ModId can be found from manifest.json. If you cannot find the MapName in the content.json, try the map file name without the file extension. You will need to enter in the whole string in this field.",
-    "config.CustomFarmCartStyle.name": "Farm Minecart Style",
     "config.CustomFarmCartStyle.description": "Sets the style of the Farm Minecart. Use Cart for open areas. Use CartEntrance if setting into a wall. Use CartEntranceNarrow if CartEntrance is too wide.",
     "config.CustomFarmX.description": "This and the X settings below sets the horizontal coordinate for the Farm minecart. 0 being left edge of map.",
     "config.CustomFarmY.description": "This and the X settings below sets the vertical coordinate for the Farm minecart. 0 being top edge of map.",

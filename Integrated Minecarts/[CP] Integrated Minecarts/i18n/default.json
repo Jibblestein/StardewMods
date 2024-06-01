@@ -176,7 +176,7 @@
     "config.UseCustomFarmMap.name": "Use Custom Farm Map",
     "config.UseCustomFarmMap.description": "If not playing on any of the farms listed below, and the Farm minecart does not show up, use the options in this section. If the minecart does show up, but the farm is not listed, try Standard.",
     "config.CustomFarmMap.name": "Custom Farm Map",
-    "config.CustomFarmMap.description": "Used to specify an unsupported Farm map. If using a CP Farm mod, search the Farm mod's content.json for a line in the format \"MapName\": \"{MapName}\", use {MapName} field here. For a CFL Farm mod, use \"CFL\"",
+    "config.CustomFarmMap.description": "Used to specify an unsupported Farm map. If using a CP Farm mod, search the Farm mod's content.json for a line in the format \"MapName\": \"{MapName}\", use {MapName} here. For a CFL Farm mod, use \"CFL\"",
     "config.CustomFarmCartStyle.description": "Sets the style of the Farm Minecart. Use Cart for open areas. Use CartEntrance if setting into a wall. Use CartEntranceNarrow if CartEntrance is too wide.",
     "config.CustomFarmX.description": "This and the X settings below sets the horizontal coordinate for the Farm minecart. 0 being left edge of map.",
     "config.CustomFarmY.description": "This and the X settings below sets the vertical coordinate for the Farm minecart. 0 being top edge of map.",

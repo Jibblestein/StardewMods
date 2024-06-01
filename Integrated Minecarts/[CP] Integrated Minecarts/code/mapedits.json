@@ -643,6 +643,48 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
+        //SVE Aurora Vineyard
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_ForestWest",
+            "FromFile": "assets/CartEntrance.tmx",
+            "FromArea": {
+                "X": 0,
+                "Y": 0,
+                "Width": 3,
+                "Height": 3
+            },
+            "ToArea": {
+                "X": 46,
+                "Y": 10,
+                "Width": 3,
+                "Height": 3
+            },
+            "PatchMode": "Overlay",
+            "When": {
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+            },
+        },
+        //SVE Aurora Vineyard Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_ForestWest",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "47",
+                        "Y": "12"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default SVEAurora",
+                    },
+                },
+            ],
+            "When": {
+                "EnableSVEAurora": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+            },
+        },
         //Quarry Tile Properties
         {
             "Action": "EditMap",

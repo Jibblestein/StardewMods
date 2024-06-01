@@ -269,6 +269,35 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
+        //Aurora Vineyard SVE
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_ForestWest",
+            "TextOperations": [
+				{
+                    "Operation": "Append",
+                    "Target": ["MapProperties", "DayTiles"],
+                    "Value": "Buildings 48 11 510 Buildings2 48 11 510",
+                    "Delimiter": " " 
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["MapProperties", "Light"],
+                    "Value": "48 11 4",
+                    "Delimiter": " " 
+                },
+				{
+                    "Operation": "Append",
+                    "Target": ["MapProperties", "NightTiles"],
+                    "Value": "Buildings 48 11 507 Buildings2 48 11 507",
+                    "Delimiter": " " 
+                },
+            ],
+            "When": {
+                "EnableSVEAurora": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+            },
+        },
         //Quarry
         {
             "Action": "EditMap",

@@ -1048,6 +1048,30 @@
                 "HasMod |contains=flashshifter.GrampletonFields": "true"
             },
         },
+        //Aurora Vineyard SVE
+        {
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "SVEAurora": {
+                    "Id": "SVEAurora",
+                    "TargetLocation": "Custom_ForestWest",
+                    "DisplayName": "{{i18n: SVEAurora}}",  
+					"Price": "{{PriceToRide}}",
+					"Condition": "PLAYER_VISITED_LOCATION Any Custom_ForestWest",
+                    "TargetTile": {
+                        "X": 47,
+                        "Y": 13
+                    },
+                    "TargetDirection": "down",
+                },
+            },
+            "When": {
+                "EnableSVEAurora": true,
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
+            },
+        },
 //Rename other mod's minecarts.
         //UncleArya's Beach
         {

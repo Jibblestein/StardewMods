@@ -51,7 +51,8 @@
     "GrampletonFieldsE": "Grampleton Fields - East",
     "GrampletonFieldsS": "Grampleton Fields - South",
     "GrampletonFieldsW": "Grampleton Fields - West",
-    "IslandFarm": "Island Farm",	
+    "IslandFarm": "Island Farm",
+    "SVEAurora": "Aurora Vineyard",
 	
     //Config Menu translation
     //General
@@ -164,16 +165,18 @@
     "config.EnableGrampletonFields.name": "GrampletonFields",
     "config.EnableGrampletonFields.description": "Grampleton Fields - All minecarts",
 	"config.EnableGingerIslandFarm.name": "IslandFarm",
-    "config.EnableGingerIslandFarm.description": "Integrated Minecarts - Ginger Island Farm",	
+    "config.EnableGingerIslandFarm.description": "Integrated Minecarts - Ginger Island Farm",
+    "config.EnableSVEAurora.name": "SVEAurora",
+    "config.EnableSVEAurora.description": "Stardew Valley Expanded - Aurora Vineyard",
     //Farm Location
     "config.section.FarmLocation.name": "Farm Minecart Settings",
     "config.section.FarmLocation.description": "The settings in this section relate to the Farm Minecart. Use the settings relevant to the farm you are playing on below",
 
     //Custom Farm
     "config.UseCustomFarmMap.name": "Use Custom Farm Map",
-    "config.UseCustomFarmMap.description": "If not playing on any of the farms listed below, and the Farm minecart does not show up, use the options in this section. If the minecart does show up, but the farm is not listed, try Standard. Note that this option will disable all other Farm settings. Disable this when not playing on the Custom Farm",
+    "config.UseCustomFarmMap.description": "If not playing on any of the farms listed below, and the Farm minecart does not show up, use the options in this section. If the minecart does show up, but the farm is not listed, try Standard.",
     "config.CustomFarmMap.name": "Custom Farm Map",
-    "config.CustomFarmMap.description": "If using a CP Farm mod, check the content.json for a line in the format \"Target\": \"Maps/{MapName}\" followed by \"FromFile\": \"{path}/{MapFileName}\", use the MapName in this field. For a CFL Farm map, it will be in the format CFL_Map/{ModId}/{MapName}. ModId can be found from manifest.json. If you cannot find the MapName in the content.json, try the map file name without the file extension. You will need to enter in the whole string in this field.",
+    "config.CustomFarmMap.description": "Used to specify an unsupported Farm map. If using a CP Farm mod, search the Farm mod's content.json for a line in the format \"MapName\": \"{MapName}\", use {MapName} field here. For a CFL Farm mod, use \"CFL\"",
     "config.CustomFarmCartStyle.description": "Sets the style of the Farm Minecart. Use Cart for open areas. Use CartEntrance if setting into a wall. Use CartEntranceNarrow if CartEntrance is too wide.",
     "config.CustomFarmX.description": "This and the X settings below sets the horizontal coordinate for the Farm minecart. 0 being left edge of map.",
     "config.CustomFarmY.description": "This and the X settings below sets the vertical coordinate for the Farm minecart. 0 being top edge of map.",

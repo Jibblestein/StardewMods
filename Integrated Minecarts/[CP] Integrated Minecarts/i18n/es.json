@@ -53,6 +53,7 @@
     "GrampletonFieldsW": "Grampleton Fields - Oeste",
     "IslandFarm": "Granja de la Isla",
     //TODO "SVEAurora": "Aurora Vineyard",
+	//TODO    "Clairabelle": "Clairabelle Lagoon",	
     //Config Menu translation
     //General
     "config.section.General.name": "General",
@@ -168,6 +169,8 @@
     "config.EnableGingerIslandFarm.description": "Integrated Minecarts - Granja de Isla Jengibre",
 	//TODO    "config.EnableSVEAurora.name": "SVEAurora",
 	//TODO    "config.EnableSVEAurora.description": "Stardew Valley Expanded - Aurora Vineyard",
+    //TODO 		"config.EnableClairabelle.name": "Clairabelle",
+    //TODO 		"config.EnableClairabelle.description": "Nuclear Valley - Clairabelle Lagoon",
     //Farm Location
     "config.section.FarmLocation.name": "Ajustes de Vagoneta de la Granja",
     "config.section.FarmLocation.description": "Las configuraciones en esta sección se relacionan con la Vagoneta de la Granja. Usa las configuraciones relevantes para la granja en la que estás jugando a continuación",
@@ -176,11 +179,12 @@
     "config.UseCustomFarmMap.name": "Utilizar Mapa Personalizado de la Granja",
     "config.UseCustomFarmMap.description": "Si no juegas en ninguna de las granjas que se enumeran a continuación y la vagoneta de la granja no aparece, usa las opciones de esta sección. Si aparece la vagoneta, pero la granja no aparece en la lista, prueba con la Granja Estándar.",
     "config.CustomFarmMap.name": "Mapa de Granja Personalizada",
-//TODO    "config.CustomFarmMap.description": "Used to specify an unsupported Farm map. If using a CP Farm mod, search the Farm mod's content.json for a line in the format \"MapName\": \"{MapName}\", use {MapName} here. For a CFL Farm mod, use \"CFL\"",
+	"config.CustomFarmMap.description": "Utilizado para especificar una Granja que este mod no soporta. Si utilizas una Granja CP, busca su content.json para encontrar la línea \"MapName\": \"{MapName}\", utiliza el campo {MapName} que puedes encontrar aquí. Para una Granja CFL, utiliza \"CFL\"",
     "config.CustomFarmCartStyle.description": "Establece el estilo del Farm Minecart. Utilice el carrito para áreas abiertas. Utilice CartEntrance si lo instala en una pared. Utilice CartEntranceNarrow si CartEntrance es demasiado ancho.",
     "config.CustomFarmX.description": "Esta y la configuración de X a continuación establecen la coordenada horizontal para el carro minero de la granja. 0 es el borde izquierdo del mapa.",
     "config.CustomFarmY.description": "Esta y la configuración de Y a continuación establecen la coordenada vertical para el carro minero de la granja. 0 es el borde superior del mapa.",
     //LNH Mini Farm Location
     "config.LNHMiniFarmReplacement.name": "Reemplazo de Granja LNH Mini Farm",
     "config.LNHMiniFarmReplacement.description": "Debe usarse si se juega en LNH Mini Farm. La configuración debe coincidir con la configuración del tipo de granja en LNH Mini Farm. Mantener deshabilitado si no usa LNH Mini Farm o usa la versión (Custom Farm o Granja Personalizada).",
+    "config.LNHNewFarmReplacement.description": "Debe usarse si se juega en LNH New Farm. La configuración debe coincidir con la configuración del tipo de granja en LNH New Farm. Mantener deshabilitado si no usa LNH New Farm.",
 }

@@ -1,0 +1,11 @@
+{
+    "Name": "[CP] Tradeable Iridium Weapons",
+    "Author": "Jibb",
+    "Version": "1.0.0",
+    "Description": "Adds listings to trade galaxy weapons at the Adventurer's Guild",
+    "UniqueID": "jibb.tradegalaxyweapons",
+    "UpdateKeys": ["Nexus:24820"],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    }
+}

@@ -934,6 +934,20 @@
             "Default": 20, 
             "Section": "Marine", 
         },
+        //FarmLocation IF2Fix Farm
+        "IF2Fix.FarmCartStyle": { 
+            "AllowValues": "Cart, CartEntrance, CartEntranceNarrow", 
+            "Default": "Cart", 
+            "Section": "IF2Fix", 
+        },
+        "IF2Fix.FarmX": { 
+            "Default": 69, 
+            "Section": "IF2Fix", 
+        },
+        "IF2Fix.FarmY": { 
+            "Default": 15, 
+            "Section": "IF2Fix", 
+        },
     },
     "DynamicTokens": [
         //FarmCoordinates
@@ -1734,6 +1748,32 @@
             "Value": "{{MarineFarmCartStyle}}",
             "When": {
                 "FarmType": "Kana.MareFarm", 
+            }
+        },
+        //IF2Fix
+        {
+            "Name": "FarmMap",  
+            "Value": "zanderb14_IF2Fix", 
+            "When": {
+                "FarmType": "zanderb14_IF2Fix", 
+            }
+        }, {
+            "Name": "FarmCoordinatesX",  
+            "Value": "{{IF2Fix.FarmX}}", 
+            "When": {
+                "FarmType": "zanderb14_IF2Fix", 
+            }
+        }, {
+            "Name": "FarmCoordinatesY",  
+            "Value": "{{IF2Fix.FarmY}}",
+            "When": {
+                "FarmType": "zanderb14_IF2Fix",
+            }
+        }, {
+            "Name": "FarmCartStyle",  
+            "Value": "{{IF2Fix.FarmCartStyle}}",
+            "When": {
+                "FarmType": "zanderb14_IF2Fix", 
             }
         },
         //CartStyle

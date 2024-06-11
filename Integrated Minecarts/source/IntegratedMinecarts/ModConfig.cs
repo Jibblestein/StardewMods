@@ -8,6 +8,5 @@ namespace IntegratedMinecarts
 {
     public sealed class ModConfig
     {
-        public int DestinationsPerPage { get; set; } = 5;
     }
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="2" height="5" tilewidth="16" tileheight="16" infinite="0" nextlayerid="11" nextobjectid="6">
+<map version="1.10" tiledversion="1.10.2" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="3" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="6">
  <properties>
   <property name="Arch" value="124 .005 125 .004 126 .0003 127 .0003"/>
   <property name="Debris" value="6 .02 3 8 .01 3 0 .03 4 2 .025 3"/>
@@ -236,49 +236,44 @@
  <tileset firstgid="402" name="spring_outdoorsTileSheet" tilewidth="16" tileheight="16" tilecount="1975" columns="25">
   <image source=".spring_outdoorsTileSheet.png" width="400" height="1264"/>
  </tileset>
- <layer id="1" name="Back" width="2" height="5">
+ <layer id="1" name="Back" width="3" height="4">
   <data encoding="csv">
-99,99,
-619,99,
-320,51,
-304,51,
-51,42
+0,0,0,
+0,288,0,
+0,288,0,
+0,0,0
 </data>
  </layer>
- <layer id="2" name="Buildings" width="2" height="5">
+ <layer id="2" name="Buildings" width="3" height="4">
   <data encoding="csv">
-2,3,
-272,6,
-1335,9,
-1360,12,
-0,15
+255,256,257,
+271,272,273,
+287,1335,289,
+303,1360,305
 </data>
  </layer>
- <layer id="3" name="Front" width="2" height="5">
+ <layer id="3" name="Front" width="3" height="4">
   <data encoding="csv">
-0,0,
-0,0,
-0,0,
-0,0,
-0,0
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0
 </data>
  </layer>
- <layer id="4" name="Paths" width="2" height="5">
+ <layer id="4" name="Paths" width="3" height="4">
   <data encoding="csv">
-0,0,
-0,0,
-0,0,
-0,0,
-0,0
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0
 </data>
  </layer>
- <layer id="5" name="AlwaysFront" width="2" height="5">
+ <layer id="5" name="AlwaysFront" width="3" height="4">
   <data encoding="csv">
-0,0,
-0,0,
-0,0,
-0,0,
-0,0
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0
 </data>
  </layer>
  <objectgroup id="6" name="Back"/>

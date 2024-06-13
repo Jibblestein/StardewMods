@@ -35,7 +35,6 @@ namespace IntegratedMinecarts
             helper.Events.Player.Warped += Player_Warped;
  //           helper.Events.GameLoop.GameLaunched += GameLoop_GameLaunched;
             helper.Events.GameLoop.SaveLoaded += GameLoop_SaveLoaded;
-            helper.Events.GameLoop.TimeChanged += GameLoop_TimeChanged;
             helper.Events.Content.AssetsInvalidated += Content_AssetsInvalidated;
             MinecartWarpPatcher.Patch(this);
             MinecartMenuPatcher.Patch(this);
@@ -56,11 +55,6 @@ namespace IntegratedMinecarts
         }
 
         private void GameLoop_SaveLoaded(object? sender, SaveLoadedEventArgs e)
-        {
-
-        }
-
-        private void GameLoop_TimeChanged(object? sender, TimeChangedEventArgs e)
         {
             var tokens = Game1.content.Load<Dictionary<string, string>>("Mods/jibb.minecarts/config");
             DestinationsPerPage = Int32.Parse(tokens["DestinationsPerPage"]);

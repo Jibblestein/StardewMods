@@ -125,10 +125,9 @@ namespace IntegratedMinecarts.Patches
         }
         public void Patched_ShowPagedResponses(int page=-1)
         {
-            int itemsPerPage = 5;
 //            Monitor.Log($"Executing CreateResponses", LogLevel.Warn);
             GameLocation._PagedResponsePage = page;
-            itemsPerPage = GameLocation._PagedResponseItemsPerPage;
+            int itemsPerPage = GameLocation._PagedResponseItemsPerPage;
             int pages = (GameLocation._PagedResponses.Count - 1) / itemsPerPage;
             int itemsOnCurPage = itemsPerPage;
             if (GameLocation._PagedResponsePage == pages - 1 && GameLocation._PagedResponses.Count % itemsPerPage == 1)

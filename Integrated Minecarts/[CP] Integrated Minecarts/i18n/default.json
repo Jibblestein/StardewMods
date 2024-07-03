@@ -57,7 +57,9 @@
     "jibb.minecarts.WTDCave": "Walk to Desert - Cave",
     "jibb.minecarts.Fostoria": "Fostoria",
     "jibb.minecarts.Stoffton": "Stoffton",
-	"jibb.minecarts.LunatyxFarmCave": "Farm Cave",	
+	"jibb.minecarts.LunatyxFarmCave": "Farm Cave",
+    "GrandpasFarmShed": "Grandpa's Shed",
+	"GrandpasFarmGreenhouse": "Greenhouse",
     //Config Menu translation
     //General
     "config.section.General.name": "General",
@@ -192,6 +194,10 @@
     "config.Enablejibb.minecarts.AimonSmallHilltopFarm_Quarry.description": "Aimon's Small Hilltop Farm - Quarry Minecart",
     "config.EnablePolyCarts.name": "PolyCarts Integration",
     "config.EnablePolyCarts.description": "PolyCarts",
+    "config.EnableGrandpasFarmShed.name": "GrandpasFarmShed",
+    "config.EnableGrandpasFarmShed.description": "Grandpa's Farm Minecarts - Shed",
+    "config.EnableGrandpasFarmGreenhouse.name": "GrandpasFarmGreenhouse",
+    "config.EnableGrandpasFarmGreenhouse.description": "Grandpa's Farm Minecarts - Greenhouse",
     //Farm Location
     "config.section.FarmLocation.name": "Farm Minecart Settings",
     "config.section.FarmLocation.description": "The settings in this section relate to the Farm Minecart. Use the settings relevant to the farm you are playing on below",

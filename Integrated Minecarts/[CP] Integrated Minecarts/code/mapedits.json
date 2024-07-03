@@ -1922,7 +1922,9 @@
                 },
             ],
             "When": {
-                "HasMod |contains=Aimon.SmallHilltopFarm": "true"
+                "Enablejibb.minecarts.AimonSmallHilltopFarm_Quarry": true,                
+                "HasMod |contains=Aimon.SmallHilltopFarm": "true",
+                "FarmType": "Hilltop",
             },
         },
                 //Lunatyx's Deserted Island Farm Cave Standard Farm Tile Properties

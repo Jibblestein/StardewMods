@@ -1387,7 +1387,8 @@
             },
             "When": {
                 "Enablejibb.minecarts.AimonSmallHilltopFarm_Quarry": true,                
-                "HasMod |contains=Aimon.SmallHilltopFarm": "true"
+                "HasMod |contains=Aimon.SmallHilltopFarm": "true",
+                "FarmType": "Hilltop",
             },
         },
         //Lunatyx's Deserted Island Farm Cave
@@ -1697,7 +1698,7 @@
                 "Query:{{DaysPlayed}} >= 31 AND {{Hearts:Lewis}} >= 8 AND {{Hearts:Clint}} >= 5 AND {{Hearts:Willy}} >= 5": true,
             },
         },
-        //Railroad VMV
+        //Railroad Delete VMV
         {
             "LogName": "Railroad.VMV.Destination",
             "Action": "EditData",
@@ -1706,18 +1707,39 @@
                 "Default",
                 "Destinations",
             ],
-            "Fields": {
-                "Railroad": {
-                    "DisplayName": "{{i18n: Railroad}}",
+            "Entries": {
+                "Railroad": null,
+            },
+            "When": {
+                "Enablejibb.minecarts.Railroad": true,
+                "HasMod |contains=Lumisteria.MtVapius": "true"
+            },
+        },
+        //Railroad VMV
+        {
+            "LogName": "jibb.minecarts.Railroad.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations"
+            ],
+            "Entries": {
+                "jibb.minecarts.Railroad": {
+                    "Id": "jibb.minecarts.Railroad",
+                    "TargetLocation": "Railroad",
+                    "DisplayName": "{{i18n: jibb.minecarts.Railroad}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Railroad, LOCATION_ACCESSIBLE Railroad",
                     "TargetTile": {
                         "X": 17,
                         "Y": 38
                     },
+                    "TargetDirection": "down",
                 },
             },
             "When": {
+                "Enablejibb.minecarts.Railroad": true,
                 "HasMod |contains=Lumisteria.MtVapius": "true"
             },
         },
@@ -1821,6 +1843,49 @@
             "When": {
                 "EnableClairabelle": true,
                 "HasMod |contains=ApryllForever.NuclearBombCP": "true",
+            },
+        },
+        //Grandpa's Farm Minecarts
+        {
+            "LogName": "GrandpasFarmMinecarts.Shed.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations",
+            ],
+            "Fields": {
+                "GrandpaShed": {
+                    "DisplayName": "{{i18n: GrandpasFarmShed}}",
+                    "Price": "{{PriceToRide}}",
+                },
+            },
+            "When": {
+                "EnableGrandpasFarmShed": true,
+                "FarmType": "Standard",
+                "HasMod |contains=BrianOvaltine.gsminecart": "true",
+                "HasMod |contains=flashshifter.GrandpasFarm": "true",
+            },
+        },
+        {
+            "LogName": "GrandpasFarmMinecarts.Greenhouse.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations",
+            ],
+            "Fields": {
+                "Greenhouse": {
+                    "DisplayName": "{{i18n: GrandpasFarmGreenhouse}}",
+                    "Price": "{{PriceToRide}}",
+                },
+            },
+            "When": {
+                "EnableGrandpasFarmGreenhouse": true,
+                "FarmType": "Standard",
+                "HasMod |contains=BrianOvaltine.gsminecart": "true",
+                "HasMod |contains=flashshifter.GrandpasFarm": "true",
             },
         },
     ]

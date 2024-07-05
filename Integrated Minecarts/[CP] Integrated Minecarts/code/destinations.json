@@ -223,7 +223,7 @@
                 "Default",
                 "Destinations"
             ],
-            "Fields": {
+            "Entries": {
                 "EastScarp_ClearingHouse": {
                     "ID": "EastScarp_ClearingHouse",
                     "TargetLocation": "Custom_LK_ClearingHouse",

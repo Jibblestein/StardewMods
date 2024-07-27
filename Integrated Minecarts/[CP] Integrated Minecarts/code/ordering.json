@@ -116,6 +116,8 @@
 						{"ID": "{{89.}}", "ToPosition": "Bottom"},
 						{"ID": "{{90.}}", "ToPosition": "Bottom"},
 						{"ID": "{{91.}}", "ToPosition": "Bottom"},
+                        {"ID": "{{92.}}", "ToPosition": "Bottom"},
+                        {"ID": "{{93.}}", "ToPosition": "Bottom"},
 						],
 	},
     {
@@ -660,6 +662,16 @@
                 "Operation": "Prepend",
                 "Target": ["Fields","{{91.}}","DisplayName"],
                 "Value": "91.",
+                "Delimiter": " ",
+            },            {
+                "Operation": "Prepend",
+                "Target": ["Fields","{{92.}}","DisplayName"],
+                "Value": "92.",
+                "Delimiter": " ",
+            },            {
+                "Operation": "Prepend",
+                "Target": ["Fields","{{93.}}","DisplayName"],
+                "Value": "93.",
                 "Delimiter": " ",
             },
         ],

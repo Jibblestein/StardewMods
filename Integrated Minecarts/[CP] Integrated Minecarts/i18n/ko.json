@@ -37,7 +37,6 @@
     "jibb.minecarts.RSVSummitEast": "산마루 숲 정상 농장 동쪽",
     "jibb.minecarts.RSVSummitWest": "산마루 숲 정상 농장 서쪽",
     "unclearya.beachminecart.Beach": "해변",
-    "unclearya.farmcaveminecart.FarmCave": "농장 동굴",
     "Custom_SecretWoodsExtraArea": "비밀의 숲 광산 수레 정류장",
     "Custom_Dam": "댐",
     "Custom_Dam_Cliff": "댐 정상",
@@ -47,7 +46,7 @@
     "jibb.minecarts.Lumisteria.MtVapius_Hamlet": "바피우스산 - 글림샘 햄릿",
     "jibb.minecarts.WaFFCave": "폭포 동굴",
     "Lantana": "란타나 호",
-    "ModestFarmCave": "겸손한 농장 동굴",
+    "FarmCave": "농장 동굴",
     "jibb.minecarts.GrampletonFieldsE": "그램플턴 평야 동쪽",
     "jibb.minecarts.GrampletonFieldsS": "그램플턴 평야 남쪽",
     "jibb.minecarts.GrampletonFieldsW": "그램플턴 평야 서쪽",
@@ -57,7 +56,8 @@
     "jibb.minecarts.WTDCave": "걸어서 사막까지 - 동굴",
     "jibb.minecarts.Fostoria": "포스토리아",
     "jibb.minecarts.Stoffton": "스토프톤",
-    "jibb.minecarts.LunatyxFarmCave": "레거시 농장 동굴",
+	//TODO "jibb.minecarts.AimonSmallHilltopFarm_Quarry": "Farm Quarry",
+    //TODO "FarmCaveBasement": "Farm Cave Basement",
     //Config Menu translation
     //General
     "config.section.General.name": "일반 설정",
@@ -137,6 +137,10 @@
     //TODO "config.Enablejibb.minecarts.AimonSmallHilltopFarm_Quarry.description": "Aimon's Small Hilltop Farm - Quarry Minecart",
     //TODO "config.EnablePolyCarts.name": "PolyCarts Integration",
     //TODO "config.EnablePolyCarts.description": "PolyCarts",
+    //TODO "config.EnableBrianOvaltine.gsminecart.GrandpaShed.description": "Grandpa's Farm Minecarts - Shed",
+    //TODO "config.EnableBrianOvaltine.gsminecart.Greenhouse.description": "Grandpa's Farm Minecarts - Greenhouse",
+    //TODO "config.Enableneuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave.description": "Hidden Spring Farm Cave",
+    //TODO "config.Enablejibb.minecarts.slightymoreinterestingfarmcave.description": "slightly more interesting farm cave",
     //Farm Location
     "config.section.FarmLocation.name": "농장 마인카트 설정",
     "config.section.FarmLocation.description": "농장 내 마인카트의 설정에 관련된 항목들입니다. 자신의 농장 타입에 맞는 항목을 골라 설정하십시오.",

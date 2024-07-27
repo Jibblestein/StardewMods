@@ -351,7 +351,7 @@
                 "HasMod |contains=DaisyNiko.SVR3": "true"
             },
         },
-        //Forest SE Abandoned Bride SVE
+        //Forest SE Abandoned Bride
         {
             "Action": "EditMap",
             "Target": "Maps/Forest",
@@ -374,7 +374,7 @@
                 "HasMod |contains=SYS.AB": "true",
             },
         },
-        //Forest SE Abandoned Bride SVE Tile Properties
+        //Forest SE Abandoned Bride Tile Properties
         {
             "Action": "EditMap",
             "Target": "Maps/Forest",
@@ -903,7 +903,7 @@
             "When": {
                 "Enablejibb.minecarts.RSVCableCar": true,
                 "HasFlag: anyPlayer |contains=RSV.FixedMinecart": "true",
-                "HasFlag": "ccBoilerRoom",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
             },
             "Update": "OnLocationChange",
         },
@@ -925,7 +925,7 @@
             "When": {
                 "Enablejibb.minecarts.RSVEast": true,
                 "HasFlag: anyPlayer |contains=RSV.FixedMinecart": "true",
-                "HasFlag": "ccBoilerRoom",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
             },
             "Update": "OnTimeChange",
         },
@@ -947,7 +947,7 @@
             "When": {
                 "Enablejibb.minecarts.RSVNorth": true,
                 "HasFlag: anyPlayer |contains=RSV.FixedMinecart": "true",
-                "HasFlag": "ccBoilerRoom",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
             },
             "Update": "OnTimeChange",
         },
@@ -969,7 +969,7 @@
             "When": {
                 "Enablejibb.minecarts.RSVSouth": true,
                 "HasFlag: anyPlayer |contains=RSV.FixedMinecart": "true",
-                "HasFlag": "ccBoilerRoom",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
             },
             "Update": "OnTimeChange",
         },
@@ -991,7 +991,7 @@
             "When": {
                 "Enablejibb.minecarts.RSVSummitEast": true,
                 "HasFlag: anyPlayer |contains=RSV.FixedMinecart": "true",
-                "HasFlag": "ccBoilerRoom",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
             },
         },
         //RSVSummitWest Tile Properties
@@ -1012,7 +1012,7 @@
             "When": {
                 "Enablejibb.minecarts.RSVSummitWest": true,
                 "HasFlag: anyPlayer |contains=RSV.FixedMinecart": "true",
-                "HasFlag": "ccBoilerRoom",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
             },
         },
         //EastScarp_Village Tile Properties
@@ -1336,7 +1336,7 @@
             ],
             "When": {
                 "Enablejibb.minecarts.IF2R": true,
-                "HasFlag": "ccBoilerRoom",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
                 "FarmType": "Standard",
                 "HasMod |contains=flashshifter.immersivefarm2remastered": "true",
             },
@@ -1358,7 +1358,7 @@
             ],
             "When": {
                 "Enablejibb.minecarts.IF2R": true,
-                "HasFlag": "ccBoilerRoom",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
                 "FarmType": "Standard",
                 "HasMod |contains=flashshifter.immersivefarm2remastered": "true"
             },
@@ -1788,7 +1788,7 @@
             "When": {
                 "Enablejibb.minecarts.WTDCave": true,
                 "HasMod |contains=Tarniyar.CP.WalkToDesert": "true",
-                "HasFlag": "ccBoilerRoom",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
             },
         },
         {
@@ -1808,7 +1808,7 @@
             "When": {
                 "Enablejibb.minecarts.WTDCave": true,
                 "HasMod |contains=Tarniyar.CP.WalkToDesert": "true",
-                "HasFlag": "ccBoilerRoom",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
             },
         },
         //Fostoria
@@ -1927,7 +1927,7 @@
                 "FarmType": "Hilltop",
             },
         },
-                //Lunatyx's Deserted Island Farm Cave Standard Farm Tile Properties
+                //Lunatyx's Deserted Island Farm Cave Tile Properties
                 {
                     "Action": "EditMap",
                     "Target": "Maps/FarmCave",
@@ -1966,6 +1966,65 @@
                         "Enablejibb.minecarts.LunatyxFarmCave": true,
                         "HasMod |contains=Lunatyx.DesertedIslandFarmCave": "true",
                         "FarmType": "Beach",
+                    },
+                },
+                //Hidden Spring Farm Cave Tile Properties
+                {
+                    "Action": "EditMap",
+                    "Target": "Maps/FarmCave",
+                    "MapTiles": [{
+                            "Position": {
+                                "X": "17",
+                                "Y": "4"
+                            },
+                            "Layer": "Buildings",
+                            "SetProperties": {
+                                "Action": "MinecartTransport Default neuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave",
+                            },
+                        },
+                    ],
+                    "When": {
+                        "Enableneuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave": true,
+                        "HasMod |contains=neuralwiles.HiddenSpringFarmCave": "true",
+                    },
+                },
+                {
+                    "Action": "EditMap",
+                    "Target": "Maps/FarmCave",
+                    "MapTiles": [{
+                            "Position": {
+                                "X": "18",
+                                "Y": "4"
+                            },
+                            "Layer": "Buildings",
+                            "SetProperties": {
+                                "Action": "MinecartTransport Default neuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave",
+                            },
+                        },
+                    ],
+                    "When": {
+                        "Enableneuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave": true,
+                        "HasMod |contains=neuralwiles.HiddenSpringFarmCave": "true",
+                    },
+                },
+                //slightly more interesting farm cave Tile Properties
+                {
+                    "Action": "EditMap",
+                    "Target": "Maps/Custom_SlightlyMoreInterestingFarmCave_Basement",
+                    "MapTiles": [{
+                            "Position": {
+                                "X": "11",
+                                "Y": "9"
+                            },
+                            "Layer": "Buildings",
+                            "SetProperties": {
+                                "Action": "MinecartTransport Default jibb.minecarts.slightymoreinterestingfarmcave",
+                            },
+                        },
+                    ],
+                    "When": {
+                        "Enablejibb.minecarts.slightymoreinterestingfarmcave": true,
+                        "HasMod |contains=mycroftjr.slightymoreinterestingfarmcave": "true",
                     },
                 },
     ]

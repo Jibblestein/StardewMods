@@ -37,7 +37,6 @@
     "jibb.minecarts.RSVSummitEast": "Ridgeside - Cumbre este granja",
     "jibb.minecarts.RSVSummitWest": "Ridgeside - Cumbre oeste granja",
     "unclearya.beachminecart.Beach": "Playa",
-    "unclearya.farmcaveminecart.FarmCave": "Cueva de la Granja",
     "Custom_SecretWoodsExtraArea": "Bosque Secreto Extra",
     "Custom_Dam": "Presa",
     "Custom_Dam_Cliff": "Acantilado de la Presa",
@@ -47,7 +46,7 @@
     "jibb.minecarts.Lumisteria.MtVapius_Hamlet": "Monte Vapius - Aldea",
     "jibb.minecarts.WaFFCave": "Cueva de la Cascada",
     "Lantana": "Lago Lantana",
-    "ModestFarmCave": "Cueva de la Granja",
+    "FarmCave": "Cueva de la Granja",
     "jibb.minecarts.GrampletonFieldsE": "Grampleton Fields - Este",
     "jibb.minecarts.GrampletonFieldsS": "Grampleton Fields - Sur",
     "jibb.minecarts.GrampletonFieldsW": "Grampleton Fields - Oeste",
@@ -57,7 +56,8 @@
     //TODO "jibb.minecarts.WTDCave": "Walk to Desert - Cave",
     //TODO "jibb.minecarts.Fostoria": "Fostoria",
     //TODO "jibb.minecarts.Stoffton": "Stoffton",
-     "jibb.minecarts.LunatyxFarmCave": "Cueva de la Granja",
+	//TODO "jibb.minecarts.AimonSmallHilltopFarm_Quarry": "Farm Quarry",
+    //TODO "FarmCaveBasement": "Farm Cave Basement",
     //Config Menu translation
     //General
     "config.section.General.name": "General",
@@ -172,6 +172,10 @@
     //TODO "config.Enablejibb.minecarts.AimonSmallHilltopFarm_Quarry.description": "Aimon's Small Hilltop Farm - Quarry Minecart",
     //TODO "config.EnablePolyCarts.name": "PolyCarts Integration",
     //TODO "config.EnablePolyCarts.description": "PolyCarts",
+    //TODO "config.EnableBrianOvaltine.gsminecart.GrandpaShed.description": "Grandpa's Farm Minecarts - Shed",
+    //TODO "config.EnableBrianOvaltine.gsminecart.Greenhouse.description": "Grandpa's Farm Minecarts - Greenhouse",
+    //TODO "config.Enableneuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave.description": "Hidden Spring Farm Cave",
+    //TODO "config.Enablejibb.minecarts.slightymoreinterestingfarmcave.description": "slightly more interesting farm cave",
     //Farm Location
     "config.section.FarmLocation.name": "Ajustes de Vagoneta de la Granja",
     "config.section.FarmLocation.description": "Las configuraciones en esta sección se relacionan con la Vagoneta de la Granja. Usa las configuraciones relevantes para la granja en la que estás jugando a continuación",

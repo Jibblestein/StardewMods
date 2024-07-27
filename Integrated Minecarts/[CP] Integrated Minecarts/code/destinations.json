@@ -1008,7 +1008,7 @@
                 "jibb.minecarts.LunatyxFarmCave": {
                     "Id": "jibb.minecarts.LunatyxFarmCave",
                     "TargetLocation": "FarmCave",
-                    "DisplayName": "{{i18n: jibb.minecarts.LunatyxFarmCave}}",
+                    "DisplayName": "{{i18n: FarmCave}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 25,
@@ -1404,7 +1404,7 @@
                 "jibb.minecarts.LunatyxFarmCave": {
                     "Id": "jibb.minecarts.LunatyxFarmCave",
                     "TargetLocation": "FarmCave",
-                    "DisplayName": "{{i18n: jibb.minecarts.LunatyxFarmCave}}",
+                    "DisplayName": "{{i18n: FarmCave}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 25,
@@ -1452,7 +1452,7 @@
             ],
             "Fields": {
                 "unclearya.farmcaveminecart.FarmCave": {
-                    "DisplayName": "{{i18n: unclearya.farmcaveminecart.FarmCave}}",
+                    "DisplayName": "{{i18n: FarmCave}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any FarmCave",
                 },
@@ -1808,7 +1808,7 @@
             "Entries": {
                 "ModestFarmCave": {
                     "Id": "ModestFarmCave",
-                    "DisplayName": "{{i18n: ModestFarmCave}}",
+                    "DisplayName": "{{i18n: FarmCave}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any FarmCave",
                     "Price": "{{PriceToRide}}",
                     "TargetLocation": "FarmCave",
@@ -1847,7 +1847,7 @@
         },
         //Grandpa's Farm Minecarts
         {
-            "LogName": "GrandpasFarmMinecarts.Shed.Destination",
+            "LogName": "BrianOvaltine.gsminecart.GrandpaShed.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1855,20 +1855,20 @@
                 "Destinations",
             ],
             "Fields": {
-                "GrandpaShed": {
-                    "DisplayName": "{{i18n: GrandpasFarmShed}}",
+                "BrianOvaltine.gsminecart.GrandpaShed": {
+                    "DisplayName": "{{i18n: BrianOvaltine.gsminecart.GrandpaShed}}",
                     "Price": "{{PriceToRide}}",
                 },
             },
             "When": {
-                "EnableGrandpasFarmShed": true,
+                "EnableBrianOvaltine.gsminecart.GrandpaShed": true,
                 "FarmType": "Standard",
                 "HasMod |contains=BrianOvaltine.gsminecart": "true",
                 "HasMod |contains=flashshifter.GrandpasFarm": "true",
             },
         },
         {
-            "LogName": "GrandpasFarmMinecarts.Greenhouse.Destination",
+            "LogName": "BrianOvaltine.gsminecart.Greenhouse.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1876,16 +1876,68 @@
                 "Destinations",
             ],
             "Fields": {
-                "Greenhouse": {
-                    "DisplayName": "{{i18n: GrandpasFarmGreenhouse}}",
+                "BrianOvaltine.gsminecart.Greenhouse": {
+                    "DisplayName": "{{i18n: BrianOvaltine.gsminecart.Greenhouse}}",
                     "Price": "{{PriceToRide}}",
                 },
             },
             "When": {
-                "EnableGrandpasFarmGreenhouse": true,
+                "EnableBrianOvaltine.gsminecart.Greenhouse": true,
                 "FarmType": "Standard",
                 "HasMod |contains=BrianOvaltine.gsminecart": "true",
                 "HasMod |contains=flashshifter.GrandpasFarm": "true",
+            },
+        },
+        //Hidden Spring Farm Cave
+        {
+            "LogName": "neuralwiles.HiddenSpringFarmCave.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations",
+            ],
+            "Fields": {
+                "neuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave": {
+                    "DisplayName": "{{i18n: FarmCave}}",
+                    "Price": "{{PriceToRide}}",
+                    "TargetTile": {
+                        "X": 18,
+                        "Y": 5
+                      },
+                },
+            },
+            "When": {
+                "Enableneuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave": true,
+                "HasMod |contains=neuralwiles.HiddenSpringFarmCave": "true",
+            },
+        },
+        //slightly more interesting farm cave
+        {
+            "LogName": "jibb.minecarts.slightymoreinterestingfarmcave.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations",
+            ],
+            "Entries": {
+                "jibb.minecarts.slightymoreinterestingfarmcave": {
+                    "Id": "jibb.minecarts.slightymoreinterestingfarmcave",
+                    "DisplayName": "{{i18n: FarmCaveBasement}}",
+                    "Price": "{{PriceToRide}}",
+                    "Condition": "PLAYER_VISITED_LOCATION Any Custom_SlightlyMoreInterestingFarmCave_Basement", 
+                    "TargetLocation": "Custom_SlightlyMoreInterestingFarmCave_Basement",
+                    "TargetTile": {
+                        "X": 10,
+                        "Y": 9
+                    },
+                    "TargetDirection": "left",
+                },
+            },
+            "When": {
+                "Enablejibb.minecarts.slightymoreinterestingfarmcave": true,
+                "HasMod |contains=mycroftjr.slightymoreinterestingfarmcave": "true",
             },
         },
     ]

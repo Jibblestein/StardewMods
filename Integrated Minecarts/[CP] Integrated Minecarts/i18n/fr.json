@@ -39,7 +39,6 @@
     "jibb.minecarts.RSVSummitEast": "Ridgeside - Ferme du Sommet (Est)",
     "jibb.minecarts.RSVSummitWest": "Ridgeside - Ferme du Sommet (Ouest)",
     "unclearya.beachminecart.Beach": "Plage",
-	"unclearya.farmcaveminecart.FarmCave": "Caverne de la Ferme",
     "Custom_SecretWoodsExtraArea": "Zone Supplémentaire de la Forêt Secrète",
     "Custom_Dam": "Barrage",
     "Custom_Dam_Cliff": "Falaise du Barrage",
@@ -49,7 +48,7 @@
     "jibb.minecarts.Lumisteria.MtVapius_Hamlet": "Mont Vapius - Hameau",
     "jibb.minecarts.WaFFCave": "Caverne de la cascade",
     "Lantana": "Lagune de Lantana",
-    "ModestFarmCave": "Caverne de la Ferme",
+    "FarmCave": "Caverne de la Ferme",
     "jibb.minecarts.GrampletonFieldsE": "Champs de Grampleton - Est",
     "jibb.minecarts.GrampletonFieldsS": "Champs de Grampleton - Sud",
     "jibb.minecarts.GrampletonFieldsW": "Champs de Grampleton - Ouest",
@@ -59,7 +58,8 @@
     "jibb.minecarts.WTDCave": "Caverne du Chemin vers le Désert",
     "jibb.minecarts.Fostoria": "Fostoria",
     "jibb.minecarts.Stoffton": "Stoffton",
-	"jibb.minecarts.LunatyxFarmCave": "Caverne de la Ferme",
+	//TODO "jibb.minecarts.AimonSmallHilltopFarm_Quarry": "Farm Quarry",
+    //TODO "FarmCaveBasement": "Farm Cave Basement",
     //Config Menu translation
     //General
     "config.section.General.name": "Général",
@@ -191,6 +191,10 @@
     //TODO "config.Enablejibb.minecarts.AimonSmallHilltopFarm_Quarry.description": "Aimon's Small Hilltop Farm - Quarry Minecart",
     //TODO "config.EnablePolyCarts.name": "PolyCarts Integration",
     //TODO "config.EnablePolyCarts.description": "PolyCarts",
+    //TODO "config.EnableBrianOvaltine.gsminecart.GrandpaShed.description": "Grandpa's Farm Minecarts - Shed",
+    //TODO "config.EnableBrianOvaltine.gsminecart.Greenhouse.description": "Grandpa's Farm Minecarts - Greenhouse",
+    //TODO "config.Enableneuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave.description": "Hidden Spring Farm Cave",
+    //TODO "config.Enablejibb.minecarts.slightymoreinterestingfarmcave.description": "slightly more interesting farm cave",
     //Farm Location
     "config.section.FarmLocation.name": "Paramètres du wagonnet de la ferme",
     "config.section.FarmLocation.description": "Les paramètres de cette section concernent le wagonnet de la ferme. Utilisez les paramètres pertinents pour la ferme sur laquelle vous jouez ci-dessous.",

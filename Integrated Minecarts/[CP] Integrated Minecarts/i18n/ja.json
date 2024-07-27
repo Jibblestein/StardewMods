@@ -37,7 +37,7 @@
     "jibb.minecarts.RSVSummitEast": "RSV - サミットファーム 東",
     "jibb.minecarts.RSVSummitWest": "RSV - サミットファーム 西",
     "unclearya.beachminecart.Beach": "ビーチ",
-    "unclearya.farmcaveminecart.FarmCave": "農場の洞窟",
+    "FarmCave": "農場の洞窟",
     "Custom_SecretWoodsExtraArea": "秘密の森 追加エリア",
     //TODO		"Custom_Dam": "Dam",
     //TODO		"Custom_Dam_Cliff": "Dam Cliff",
@@ -47,7 +47,6 @@
     //TODO		"jibb.minecarts.Lumisteria.MtVapius_Hamlet": "Mount Vapius - Glimsap Hamlet",
     //TODO		"jibb.minecarts.jibb.minecarts.WaFFCave": "Waterfall Cave",
     //TODO   "Lantana": "Lantana Lagoon",
-    //TODO   "ModestFarmCave": "Farm Cave",
     //TODO   "jibb.minecarts.GrampletonFieldsE": "Grampleton Fields - East",
     //TODO   "jibb.minecarts.GrampletonFieldsS": "Grampleton Fields - South",
     //TODO   "jibb.minecarts.GrampletonFieldsW": "Grampleton Fields - West",
@@ -57,7 +56,8 @@
     //TODO "jibb.minecarts.WTDCave": "Walk to Desert - Cave",
     //TODO "jibb.minecarts.Fostoria": "Fostoria",
     //TODO "jibb.minecarts.Stoffton": "Stoffton",
-    "jibb.minecarts.LunatyxFarmCave": "農場の洞窟",
+	//TODO "jibb.minecarts.AimonSmallHilltopFarm_Quarry": "Farm Quarry",
+    //TODO "FarmCaveBasement": "Farm Cave Basement",
     //Config Menu translation
     //General
     //TODO"config.section.General.name": "General",
@@ -186,6 +186,10 @@
     //TODO "config.Enablejibb.minecarts.AimonSmallHilltopFarm_Quarry.description": "Aimon's Small Hilltop Farm - Quarry Minecart",
     //TODO "config.EnablePolyCarts.name": "PolyCarts Integration",
     //TODO "config.EnablePolyCarts.description": "PolyCarts",
+    //TODO "config.EnableBrianOvaltine.gsminecart.GrandpaShed.description": "Grandpa's Farm Minecarts - Shed",
+    //TODO "config.EnableBrianOvaltine.gsminecart.Greenhouse.description": "Grandpa's Farm Minecarts - Greenhouse",
+    //TODO "config.Enableneuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave.description": "Hidden Spring Farm Cave",
+    //TODO "config.Enablejibb.minecarts.slightymoreinterestingfarmcave.description": "slightly more interesting farm cave",
     //Farm Location
     //TODO    "config.section.FarmLocation.name": "Farm Minecart Settings",
     //TODO    "config.section.FarmLocation.description": "The settings in this section relate to the Farm Minecart. Use the settings relevant to the farm you are playing on below",

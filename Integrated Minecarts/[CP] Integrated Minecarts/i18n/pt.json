@@ -37,7 +37,6 @@
     "jibb.minecarts.RSVSummitEast": "Ridgeside - Leste da Fazenda do Cume",
     "jibb.minecarts.RSVSummitWest": "Ridgeside - Oeste da Fazenda do Cume",
     "unclearya.beachminecart.Beach": "Praia",
-    "unclearya.farmcaveminecart.FarmCave": "Caverna da Fazenda",
     "Custom_SecretWoodsExtraArea": "Bosque Secreto - Extra",
     "Custom_Dam": "Barragem",
     "Custom_Dam_Cliff": "Penhasco da Barragem",
@@ -47,7 +46,7 @@
     "jibb.minecarts.Lumisteria.MtVapius_Hamlet": "Monte Vapius - Aldeia Glimsap",
     "jibb.minecarts.WaFFCaveecarts.WaFFCave": "Caverna da Cachoeira",
     "Lantana": "Lagoa Lantana",
-    "ModestFarmCave": "Caverna da Fazenda",
+    "FarmCave": "Caverna da Fazenda",
     "jibb.minecarts.GrampletonFieldsE": "Campos de Grampleton - Leste",
     "jibb.minecarts.GrampletonFieldsS": "Campos de Grampleton - Sul",
     "jibb.minecarts.GrampletonFieldsW": "Campos de Grampleton - Oeste",
@@ -57,7 +56,8 @@
     //TODO "jibb.minecarts.WTDCave": "Walk to Desert - Cave",
     //TODO "jibb.minecarts.Fostoria": "Fostoria",
     //TODO "jibb.minecarts.Stoffton": "Stoffton",
-    "jibb.minecarts.LunatyxFarmCave": "Caverna da Fazenda",
+	//TODO "jibb.minecarts.AimonSmallHilltopFarm_Quarry": "Farm Quarry",
+    //TODO "FarmCaveBasement": "Farm Cave Basement",
     //Config Menu translation
     //General
     "config.section.General.name": "Geral",
@@ -185,6 +185,10 @@
     //TODO "config.Enablejibb.minecarts.AimonSmallHilltopFarm_Quarry.description": "Aimon's Small Hilltop Farm - Quarry Minecart",
     //TODO "config.EnablePolyCarts.name": "PolyCarts Integration",
     //TODO "config.EnablePolyCarts.description": "PolyCarts",
+    //TODO "config.EnableBrianOvaltine.gsminecart.GrandpaShed.description": "Grandpa's Farm Minecarts - Shed",
+    //TODO "config.EnableBrianOvaltine.gsminecart.Greenhouse.description": "Grandpa's Farm Minecarts - Greenhouse",
+    //TODO "config.Enableneuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave.description": "Hidden Spring Farm Cave",
+    //TODO "config.Enablejibb.minecarts.slightymoreinterestingfarmcave.description": "slightly more interesting farm cave",
     //Farm Location
     "config.section.FarmLocation.name": "Configurações do Minecart da Fazenda",
     "config.section.FarmLocation.description": "As configurações nesta seção estão relacionadas ao Minecart da Fazenda. Use as configurações relevantes para a fazenda em que você está jogando abaixo",

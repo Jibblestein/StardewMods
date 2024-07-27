@@ -37,7 +37,6 @@
     "jibb.minecarts.RSVSummitEast": "RSV - Фермерский дом на вершине Восток",
     "jibb.minecarts.RSVSummitWest": "RSV - Фермерский дом на вершине Запад",
     "unclearya.beachminecart.Beach": "Пляж",
-    "unclearya.farmcaveminecart.FarmCave": "Пещера",
     "Custom_SecretWoodsExtraArea": "Дополнительная зона Тайного леса",
     "Custom_Dam": "Плотина",
     "Custom_Dam_Cliff": "Утес плотины",
@@ -47,7 +46,7 @@
     "jibb.minecarts.Lumisteria.MtVapius_Hamlet": "Mount Vapius - Glimsap Hamlet", //Еще нет локализации для мода
     "jibb.minecarts.WaFFCave": "Waterfall Cave", //Еще нет локализации для мода
     "Lantana": "Лагуна Лантана",
-    "ModestFarmCave": "Фермерская пещера", //Возможно нужно другое название, чтоб не было совпадения с 'FarmCave' 'Пещера'
+    "FarmCave": "пещера", //Возможно нужно другое название, чтоб не было совпадения с 'FarmCave' 'Пещера'
     "jibb.minecarts.GrampletonFieldsE": "Грамплетонские поля - Восток",
     "jibb.minecarts.GrampletonFieldsS": "Грамплетонские поля - Юг",
     "jibb.minecarts.GrampletonFieldsW": "Грамплетонские поля - Запад",
@@ -57,7 +56,8 @@
     //TODO "jibb.minecarts.WTDCave": "Walk to Desert - Cave",
     //TODO "jibb.minecarts.Fostoria": "Fostoria",
     //TODO "jibb.minecarts.Stoffton": "Stoffton",
-    "jibb.minecarts.LunatyxFarmCave": "Пещера", 
+	//TODO "jibb.minecarts.AimonSmallHilltopFarm_Quarry": "Farm Quarry",
+    //TODO "FarmCaveBasement": "Farm Cave Basement",
     //Config Menu translation
     //General
     "config.section.General.name": "Общие",
@@ -185,6 +185,10 @@
     //TODO "config.Enablejibb.minecarts.AimonSmallHilltopFarm_Quarry.description": "Aimon's Small Hilltop Farm - Quarry Minecart",
     //TODO "config.EnablePolyCarts.name": "PolyCarts Integration",
     //TODO "config.EnablePolyCarts.description": "PolyCarts",
+    //TODO "config.EnableBrianOvaltine.gsminecart.GrandpaShed.description": "Grandpa's Farm Minecarts - Shed",
+    //TODO "config.EnableBrianOvaltine.gsminecart.Greenhouse.description": "Grandpa's Farm Minecarts - Greenhouse",
+    //TODO "config.Enableneuralwiles.HiddenSpringFarmCave_HiddenSpringFarmCave.description": "Hidden Spring Farm Cave",
+    //TODO "config.Enablejibb.minecarts.slightymoreinterestingfarmcave.description": "slightly more interesting farm cave",
     //Farm Location
     "config.section.FarmLocation.name": "Настройки вагонетки на ферме",
     "config.section.FarmLocation.description": "Настройки в этом разделе относятся к вагонетке на ферме. Используйте настройки, подходящие для вашей фермы.",

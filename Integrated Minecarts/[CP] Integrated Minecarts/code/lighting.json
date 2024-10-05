@@ -28,7 +28,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.Farm": true,
+                "Enablejibb.Farm": true,
                 "FarmCartStyle": "CartEntrance",
 
             },
@@ -59,7 +59,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.CommunityCenter": true,
+                "Enablejibb.CommunityCenter": true,
             },
         },
         //Forest NW
@@ -87,7 +87,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.ForestNW": true,
+                "Enablejibb.ForestNW": true,
                 "HasMod |contains=DaisyNiko.SVR3": "false"
             },
         },
@@ -116,7 +116,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.ForestNW": true,
+                "Enablejibb.ForestNW": true,
                 "HasMod |contains=DaisyNiko.SVR3": "true"
             },
         },
@@ -130,7 +130,7 @@
                 "120 36 Beach 0 6"
             ],
             "When": {
-                "Enablejibb.minecarts.ForestNW": true,
+                "Enablejibb.ForestNW": true,
                 "HasFlag: anyPlayer": "communityUpgradeShortcuts",
             },
         },
@@ -159,7 +159,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.ForestSE": true,
+                "Enablejibb.ForestSE": true,
                 "HasMod |contains=DaisyNiko.SVR3": "false",
                 "HasMod |contains=SYS.AB": "false"
             },
@@ -189,7 +189,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.ForestSE": true,
+                "Enablejibb.ForestSE": true,
                 "HasMod |contains=DaisyNiko.SVR3": "true"
             },
         },
@@ -218,7 +218,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.Mountain": true,
+                "Enablejibb.Mountain": true,
                 "MoveMountainToAdventurersGuild": false,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
                 "HasMod |contains=Himetarts.ARV.CP": "false",
@@ -249,7 +249,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.Mountain": true,
+                "Enablejibb.Mountain": true,
                 "MoveMountainToAdventurersGuild": false,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
                 "HasMod |contains=Himetarts.ARV.CP": "true",
@@ -280,7 +280,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.Mountain": true,
+                "Enablejibb.Mountain": true,
                 "MoveMountainToAdventurersGuild": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
@@ -310,7 +310,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.SVEAurora": true,
+                "Enablejibb.SVEAurora": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
@@ -364,7 +364,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.minecarts.Railroad": true,
+                "Enablejibb.Railroad": true,
                 "HasMod |contains=Lumisteria.MtVapius": "false"
             },
         },

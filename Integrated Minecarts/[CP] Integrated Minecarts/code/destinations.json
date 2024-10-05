@@ -23,7 +23,7 @@
         },
         //Community Center
         {
-            "LogName": "jibb.minecarts.CommunityCenter.Destination",
+            "LogName": "jibb.CommunityCenter.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -31,10 +31,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.CommunityCenter": {
-                    "Id": "jibb.minecarts.CommunityCenter",
+                "jibb.CommunityCenter": {
+                    "Id": "jibb.CommunityCenter",
                     "TargetLocation": "Town",
-                    "DisplayName": "{{i18n: jibb.minecarts.CommunityCenter}}",
+                    "DisplayName": "{{i18n: jibb.CommunityCenter}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 45,
@@ -44,12 +44,12 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.CommunityCenter": true,
+                "Enablejibb.CommunityCenter": true,
             },
         },
         //Desert Vanilla
         {
-            "LogName": "jibb.minecarts.Desert.Destination",
+            "LogName": "jibb.Desert.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -57,10 +57,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Desert": {
-                    "Id": "jibb.minecarts.Desert",
+                "jibb.Desert": {
+                    "Id": "jibb.Desert",
                     "TargetLocation": "Desert",
-                    "DisplayName": "{{i18n: jibb.minecarts.Desert}}",
+                    "DisplayName": "{{i18n: jibb.Desert}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 32,
@@ -71,13 +71,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Desert": true,
+                "Enablejibb.Desert": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false",
             },
         },
         //Desert SVE
         {
-            "LogName": "jibb.minecarts.DesertSVE.Destination",
+            "LogName": "jibb.DesertSVE.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -85,10 +85,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Desert": {
-                    "Id": "jibb.minecarts.Desert",
+                "jibb.Desert": {
+                    "Id": "jibb.Desert",
                     "TargetLocation": "Desert",
-                    "DisplayName": "{{i18n: jibb.minecarts.Desert}}",
+                    "DisplayName": "{{i18n: jibb.Desert}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 30,
@@ -99,13 +99,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Desert": true,
+                "Enablejibb.Desert": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
         //East Scarp
         {
-            "LogName": "jibb.minecarts.EastScarp_Village.Destination",
+            "LogName": "jibb.EastScarp_Village.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -113,10 +113,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.EastScarp_Village": {
-                    "ID": "jibb.minecarts.EastScarp_Village",
+                "jibb.EastScarp_Village": {
+                    "ID": "jibb.EastScarp_Village",
                     "TargetLocation": "EastScarp_Village",
-                    "DisplayName": "{{i18n: jibb.minecarts.EastScarp_Village}}",
+                    "DisplayName": "{{i18n: jibb.EastScarp_Village}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any EastScarp_Village",
                     "TargetTile": {
@@ -128,12 +128,12 @@
             },
             "When": {
                 "HasMod": "Lemurkat.EastScarpNPCs.CP",
-                "Enablejibb.minecarts.EastScarp_Village": true,
+                "Enablejibb.EastScarp_Village": true,
             },
         },
         //East Scarp - Deep Mountains
         {
-            "LogName": "jibb.minecarts.EastScarp_DeepMountains.Destination",
+            "LogName": "jibb.EastScarp_DeepMountains.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -141,10 +141,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.EastScarp_DeepMountains": {
-                    "ID": "jibb.minecarts.EastScarp_DeepMountains",
+                "jibb.EastScarp_DeepMountains": {
+                    "ID": "jibb.EastScarp_DeepMountains",
                     "TargetLocation": "EastScarp_DeepMountains",
-                    "DisplayName": "{{i18n:jibb.minecarts.EastScarp_DeepMountains}}",
+                    "DisplayName": "{{i18n:jibb.EastScarp_DeepMountains}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any EastScarp_DeepMountains",
                     "TargetTile": {
@@ -156,7 +156,7 @@
             },
             "When": {
                 "HasMod": "Lemurkat.EastScarpNPCs.CP",
-                "Enablejibb.minecarts.EastScarp_DeepMountains": true,
+                "Enablejibb.EastScarp_DeepMountains": true,
             },
         },
         //East Scarp - UnderScarp
@@ -169,10 +169,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.EastScarp_DeepDark": {
-                    "ID": "jibb.minecarts.EastScarp_DeepDark",
+                "jibb.EastScarp_DeepDark": {
+                    "ID": "jibb.EastScarp_DeepDark",
                     "TargetLocation": "EastScarp_DeepDark",
-                    "DisplayName": "{{i18n:jibb.minecarts.EastScarp_DeepDark}}",
+                    "DisplayName": "{{i18n:jibb.EastScarp_DeepDark}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any EastScarp_DeepDark",
                     "TargetTile": {
@@ -184,7 +184,7 @@
             },
             "When": {
                 "HasMod": "Lemurkat.EastScarpNPCs.CP",
-                "Enablejibb.minecarts.EastScarp_DeepDark": true,
+                "Enablejibb.EastScarp_DeepDark": true,
             },
         },
         //East Scarp - Scarp Crossing
@@ -264,7 +264,7 @@
         },
         //Forest - NW
         {
-            "LogName": "jibb.minecarts.ForestNW.Destination",
+            "LogName": "jibb.ForestNW.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -272,10 +272,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.ForestNW": {
-                    "Id": "jibb.minecarts.ForestNW",
+                "jibb.ForestNW": {
+                    "Id": "jibb.ForestNW",
                     "TargetLocation": "Forest",
-                    "DisplayName": "{{i18n: jibb.minecarts.ForestNW}}",
+                    "DisplayName": "{{i18n: jibb.ForestNW}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Forest",
                     "TargetTile": {
@@ -286,13 +286,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.ForestNW": true,
+                "Enablejibb.ForestNW": true,
                 "HasMod |contains=DaisyNiko.SVR3": "false"
             },
         },
         //Forest - SE Vanilla
         {
-            "LogName": "jibb.minecarts.ForestSE.Vanilla.Destination",
+            "LogName": "jibb.ForestSE.Vanilla.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -300,10 +300,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.ForestSE": {
-                    "Id": "jibb.minecarts.ForestSE",
+                "jibb.ForestSE": {
+                    "Id": "jibb.ForestSE",
                     "TargetLocation": "Forest",
-                    "DisplayName": "{{i18n: jibb.minecarts.ForestSE}}",
+                    "DisplayName": "{{i18n: jibb.ForestSE}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Forest",
                     "TargetTile": {
@@ -314,13 +314,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.ForestSE": true,
+                "Enablejibb.ForestSE": true,
                 "HasMod |contains=DaisyNiko.SVR3,SYS.AB": "false"
             },
         },
         //Forest - NW SVR3
         {
-            "LogName": "jibb.minecarts.ForestNW.SVR3.Destination",
+            "LogName": "jibb.ForestNW.SVR3.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -328,10 +328,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.ForestNW": {
-                    "Id": "jibb.minecarts.ForestNW",
+                "jibb.ForestNW": {
+                    "Id": "jibb.ForestNW",
                     "TargetLocation": "Forest",
-                    "DisplayName": "{{i18n: jibb.minecarts.ForestNW}}",
+                    "DisplayName": "{{i18n: jibb.ForestNW}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Forest",
                     "TargetTile": {
@@ -342,13 +342,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.ForestNW": true,
+                "Enablejibb.ForestNW": true,
                 "HasMod |contains=DaisyNiko.SVR3": "true"
             },
         },
         //Forest - SE SVR3
         {
-            "LogName": "jibb.minecarts.ForestSE.SVR3.Destination",
+            "LogName": "jibb.ForestSE.SVR3.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -356,10 +356,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.ForestSE": {
-                    "Id": "jibb.minecarts.ForestSE",
+                "jibb.ForestSE": {
+                    "Id": "jibb.ForestSE",
                     "TargetLocation": "Forest",
-                    "DisplayName": "{{i18n: jibb.minecarts.ForestSE}}",
+                    "DisplayName": "{{i18n: jibb.ForestSE}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Forest",
                     "TargetTile": {
@@ -370,13 +370,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.ForestSE": true,
+                "Enablejibb.ForestSE": true,
                 "HasMod |contains=DaisyNiko.SVR3": "true"
             },
         },
         //Forest - SE Abandoned Bride
         {
-            "LogName": "jibb.minecarts.ForestSE.AB.Destination",
+            "LogName": "jibb.ForestSE.AB.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -384,10 +384,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.ForestSE": {
-                    "Id": "jibb.minecarts.ForestSE",
+                "jibb.ForestSE": {
+                    "Id": "jibb.ForestSE",
                     "TargetLocation": "Forest",
-                    "DisplayName": "{{i18n: jibb.minecarts.ForestSE}}",
+                    "DisplayName": "{{i18n: jibb.ForestSE}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Forest",
                     "TargetTile": {
@@ -398,24 +398,24 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.ForestSE": true,
+                "Enablejibb.ForestSE": true,
                 "HasMod |contains=SYS.AB": "true",
             },
         },
         //Island North Cave
         {
-            "LogName": "jibb.minecarts.IslandNorthCave.Destination",
+            "LogName": "jibb.IslandNorthCave.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
-                "Default",
+                "{{GingerIslandNetwork}}",
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.IslandNorthCave": {
-                    "Id": "jibb.minecarts.IslandNorthCave",
+                "jibb.IslandNorthCave": {
+                    "Id": "jibb.IslandNorthCave",
                     "TargetLocation": "IslandNorthCave1",
-                    "DisplayName": "{{i18n: jibb.minecarts.IslandNorthCave}}",
+                    "DisplayName": "{{i18n: jibb.IslandNorthCave}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any IslandNorthCave1",
                     "TargetTile": {
@@ -426,23 +426,24 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.IslandNorthCave": true,
+                "Enablejibb.IslandNorthCave": true,
             },
         },
+
         //Island Caldera
         {
-            "LogName": "jibb.minecarts.Caldera.Destination",
+            "LogName": "jibb.Caldera.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
-                "Default",
+                "{{GingerIslandNetwork}}",
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Caldera": {
-                    "Id": "jibb.minecarts.Caldera",
+                "jibb.Caldera": {
+                    "Id": "jibb.Caldera",
                     "TargetLocation": "Caldera",
-                    "DisplayName": "{{i18n: jibb.minecarts.Caldera}}",
+                    "DisplayName": "{{i18n: jibb.Caldera}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Caldera",
                     "TargetTile": {
@@ -453,23 +454,23 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Caldera": true,
+                "Enablejibb.Caldera": true,
             },
         },
-        //Island Farm
+        //Island Farm Vanilla
         {
-            "LogName": "jibb.minecarts.IslandFarm.Destination",
+            "LogName": "jibb.IslandFarm.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
-                "Default",
+                "{{GingerIslandNetwork}}",
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.IslandFarm": {
-                    "Id": "jibb.minecarts.IslandFarm",
+                "jibb.IslandFarm": {
+                    "Id": "jibb.IslandFarm",
                     "TargetLocation": "IslandWest",
-                    "DisplayName": "{{i18n: jibb.minecarts.IslandFarm}}",
+                    "DisplayName": "{{i18n: jibb.IslandFarm}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any IslandWest",
                     "TargetTile": {
@@ -480,7 +481,36 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.IslandFarm": true,
+                "Enablejibb.IslandFarm": true,
+				"HasMod |contains=InkubusMods.ModestGinger": "false",
+            },
+        },
+        //Island Farm Modest Maps
+        {
+            "LogName": "jibb.IslandFarm.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "{{GingerIslandNetwork}}",
+                "Destinations"
+            ],
+            "Entries": {
+                "jibb.IslandFarm": {
+                    "Id": "jibb.IslandFarm",
+                    "TargetLocation": "IslandWest",
+                    "DisplayName": "{{i18n: jibb.IslandFarm}}",
+                    "Price": "{{PriceToRide}}",
+                    "Condition": "PLAYER_VISITED_LOCATION Any IslandWest",
+                    "TargetTile": {
+                        "X": 63,
+                        "Y": 42
+                    },
+                    "TargetDirection": "down",
+                },
+            },
+            "When": {
+                "Enablejibb.IslandFarm": true,
+				"HasMod |contains=InkubusMods.ModestGinger": "true",
             },
         },
         //Mine
@@ -523,7 +553,7 @@
         },
         //Railroad vanilla
         {
-            "LogName": "jibb.minecarts.Railroad.Destination",
+            "LogName": "jibb.Railroad.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -531,10 +561,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Railroad": {
-                    "Id": "jibb.minecarts.Railroad",
+                "jibb.Railroad": {
+                    "Id": "jibb.Railroad",
                     "TargetLocation": "Railroad",
-                    "DisplayName": "{{i18n: jibb.minecarts.Railroad}}",
+                    "DisplayName": "{{i18n: jibb.Railroad}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Railroad, LOCATION_ACCESSIBLE Railroad",
                     "TargetTile": {
@@ -545,13 +575,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Railroad": true,
+                "Enablejibb.Railroad": true,
                 "HasMod |contains=Lumisteria.MtVapius": "false"
             },
         },
         //RSV Cable Car
         {
-            "LogName": "jibb.minecarts.RSVCableCar.Destination",
+            "LogName": "jibb.RSVCableCar.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -559,10 +589,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.RSVCableCar": {
-                    "Id": "jibb.minecarts.RSVCableCar",
+                "jibb.RSVCableCar": {
+                    "Id": "jibb.RSVCableCar",
                     "TargetLocation": "Custom_Ridgeside_RSVCableCar",
-                    "DisplayName": "{{i18n: jibb.minecarts.RSVCableCar}}",
+                    "DisplayName": "{{i18n: jibb.RSVCableCar}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_HAS_MAIL Any RSV.FixedMinecart Received",
                     "TargetTile": {
@@ -574,13 +604,13 @@
             },
             "When": {
                 "HasMod": "Rafseazz.RSVCP",
-                "Enablejibb.minecarts.RSVCableCar": true,
+                "Enablejibb.RSVCableCar": true,
             },
             "Update": "OnLocationChange",
         },
         //RSV - East
         {
-            "LogName": "jibb.minecarts.RSVEast.Destination",
+            "LogName": "jibb.RSVEast.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -588,10 +618,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.RSVEast": {
-                    "Id": "jibb.minecarts.RSVEast",
+                "jibb.RSVEast": {
+                    "Id": "jibb.RSVEast",
                     "TargetLocation": "Custom_Ridgeside_RidgesideVillage",
-                    "DisplayName": "{{i18n: jibb.minecarts.RSVEast}}",
+                    "DisplayName": "{{i18n: jibb.RSVEast}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_HAS_MAIL Any RSV.FixedMinecart Received",
                     "TargetTile": {
@@ -603,13 +633,13 @@
             },
             "When": {
                 "HasMod": "Rafseazz.RSVCP",
-                "Enablejibb.minecarts.RSVEast": true,
+                "Enablejibb.RSVEast": true,
             },
             "Update": "OnLocationChange",
         },
         //RSV - North
         {
-            "LogName": "jibb.minecarts.RSVNorth.Destination",
+            "LogName": "jibb.RSVNorth.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -617,10 +647,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.RSVNorth": {
-                    "Id": "jibb.minecarts.RSVNorth",
+                "jibb.RSVNorth": {
+                    "Id": "jibb.RSVNorth",
                     "TargetLocation": "Custom_Ridgeside_RidgesideVillage",
-                    "DisplayName": "{{i18n: jibb.minecarts.RSVNorth}}",
+                    "DisplayName": "{{i18n: jibb.RSVNorth}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_HAS_MAIL Any RSV.FixedMinecart Received",
                     "TargetTile": {
@@ -632,13 +662,13 @@
             },
             "When": {
                 "HasMod": "Rafseazz.RSVCP",
-                "Enablejibb.minecarts.RSVNorth": true,
+                "Enablejibb.RSVNorth": true,
             },
             "Update": "OnLocationChange",
         },
         //RSV - South
         {
-            "LogName": "jibb.minecarts.RSVSouth.Destination",
+            "LogName": "jibb.RSVSouth.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -646,10 +676,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.RSVSouth": {
-                    "Id": "jibb.minecarts.RSVSouth",
+                "jibb.RSVSouth": {
+                    "Id": "jibb.RSVSouth",
                     "TargetLocation": "Custom_Ridgeside_RidgesideVillage",
-                    "DisplayName": "{{i18n: jibb.minecarts.RSVSouth}}",
+                    "DisplayName": "{{i18n: jibb.RSVSouth}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_HAS_MAIL Any RSV.FixedMinecart Received",
                     "TargetTile": {
@@ -661,13 +691,13 @@
             },
             "When": {
                 "HasMod": "Rafseazz.RSVCP",
-                "Enablejibb.minecarts.RSVSouth": true,
+                "Enablejibb.RSVSouth": true,
             },
             "Update": "OnLocationChange",
         },
         //RSV Summit Farm East
         {
-            "LogName": "jibb.minecarts.RSVSummitEast.Destination",
+            "LogName": "jibb.RSVSummitEast.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -675,10 +705,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.RSVSummitEast": {
-                    "Id": "jibb.minecarts.RSVSummitEast",
+                "jibb.RSVSummitEast": {
+                    "Id": "jibb.RSVSummitEast",
                     "TargetLocation": "Custom_Ridgeside_SummitFarm",
-                    "DisplayName": "{{i18n: jibb.minecarts.RSVSummitEast}}",
+                    "DisplayName": "{{i18n: jibb.RSVSummitEast}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Custom_Ridgeside_SummitFarm",
                     "TargetTile": {
@@ -690,12 +720,12 @@
             },
             "When": {
                 "HasMod": "Rafseazz.RSVCP",
-                "Enablejibb.minecarts.RSVSummitEast": true,
+                "Enablejibb.RSVSummitEast": true,
             },
         },
         //RSV Summit Farm West
         {
-            "LogName": "jibb.minecarts.RSVSummitWest.Destination",
+            "LogName": "jibb.RSVSummitWest.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -703,10 +733,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.RSVSummitWest": {
-                    "Id": "jibb.minecarts.RSVSummitWest",
+                "jibb.RSVSummitWest": {
+                    "Id": "jibb.RSVSummitWest",
                     "TargetLocation": "Custom_Ridgeside_SummitFarm",
-                    "DisplayName": "{{i18n: jibb.minecarts.RSVSummitWest}}",
+                    "DisplayName": "{{i18n: jibb.RSVSummitWest}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Custom_Ridgeside_SummitFarm",
                     "TargetTile": {
@@ -718,12 +748,12 @@
             },
             "When": {
                 "HasMod": "Rafseazz.RSVCP",
-                "Enablejibb.minecarts.RSVSummitWest": true,
+                "Enablejibb.RSVSummitWest": true,
             },
         },
         //Secret Woods non SVE
         {
-            "LogName": "jibb.minecarts.Woods.Vanilla.Destination",
+            "LogName": "jibb.Woods.Vanilla.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -731,10 +761,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Woods": {
-                    "Id": "jibb.minecarts.Woods",
+                "jibb.Woods": {
+                    "Id": "jibb.Woods",
                     "TargetLocation": "Woods",
-                    "DisplayName": "{{i18n: jibb.minecarts.Woods}}",
+                    "DisplayName": "{{i18n: jibb.Woods}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Woods",
                     "TargetTile": {
@@ -745,14 +775,14 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Woods": true,
+                "Enablejibb.Woods": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"
             },
             "Update": "OnLocationChange",
         },
         //Secret Woods SVE
         {
-            "LogName": "jibb.minecarts.Woods.SVE.Destination",
+            "LogName": "jibb.Woods.SVE.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -760,10 +790,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Woods": {
-                    "Id": "jibb.minecarts.Woods",
+                "jibb.Woods": {
+                    "Id": "jibb.Woods",
                     "TargetLocation": "Woods",
-                    "DisplayName": "{{i18n: jibb.minecarts.Woods}}",
+                    "DisplayName": "{{i18n: jibb.Woods}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Woods",
                     "TargetTile": {
@@ -774,7 +804,7 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Woods": true,
+                "Enablejibb.Woods": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"
             },
             "Update": "OnLocationChange",
@@ -800,7 +830,7 @@
         },
         //Moveable Farm
         {
-            "LogName": "jibb.minecarts.Farm.Destination",
+            "LogName": "jibb.Farm.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -808,10 +838,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Farm": {
-                    "Id": "jibb.minecarts.Farm",
+                "jibb.Farm": {
+                    "Id": "jibb.Farm",
                     "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: jibb.minecarts.Farm}}",
+                    "DisplayName": "{{i18n: jibb.Farm}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": "{{Query: {{FarmXTilePosition}}}}",
@@ -821,12 +851,12 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Farm": true,
+                "Enablejibb.Farm": true,
             },
         },
         //Mountain SVE
         {
-            "LogName": "jibb.minecarts.Mountain.SVE.Destination",
+            "LogName": "jibb.Mountain.SVE.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -834,10 +864,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Mountain": {
-                    "Id": "jibb.minecarts.Mountain",
+                "jibb.Mountain": {
+                    "Id": "jibb.Mountain",
                     "TargetLocation": "Mountain",
-                    "DisplayName": "{{i18n: jibb.minecarts.Mountain}}",
+                    "DisplayName": "{{i18n: jibb.Mountain}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 53,
@@ -847,7 +877,7 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Mountain": true,
+                "Enablejibb.Mountain": true,
                 "MoveMountainToAdventurersGuild": false,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
                 "HasMod |contains=Himetarts.ARV.CP": "false",
@@ -855,7 +885,7 @@
         },
         //Mountain SVE + ARV
         {
-            "LogName": "jibb.minecarts.Mountain.SVE.ARV.Destination",
+            "LogName": "jibb.Mountain.SVE.ARV.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -863,10 +893,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Mountain": {
-                    "Id": "jibb.minecarts.Mountain",
+                "jibb.Mountain": {
+                    "Id": "jibb.Mountain",
                     "TargetLocation": "Mountain",
-                    "DisplayName": "{{i18n: jibb.minecarts.Mountain}}",
+                    "DisplayName": "{{i18n: jibb.Mountain}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 53,
@@ -876,7 +906,7 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Mountain": true,
+                "Enablejibb.Mountain": true,
                 "MoveMountainToAdventurersGuild": false,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
                 "HasMod |contains=Himetarts.ARV.CP": "true",
@@ -892,8 +922,8 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Mountain": {
-                    "Id": "jibb.minecarts.Mountain",
+                "jibb.Mountain": {
+                    "Id": "jibb.Mountain",
                     "TargetLocation": "Custom_AdventurerSummit",
                     "DisplayName": "{{i18n: AdventurersGuild}}",
                     "Price": "{{PriceToRide}}",
@@ -906,14 +936,14 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Mountain": true,
+                "Enablejibb.Mountain": true,
                 "MoveMountainToAdventurersGuild": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
         //Oasis Greenhouse
         {
-            "LogName": "jibb.minecarts.OasisGreenhouse.Destination",
+            "LogName": "jibb.OasisGreenhouse.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -921,10 +951,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.OasisGreenhouse": {
-                    "Id": "jibb.minecarts.OasisGreenhouse",
+                "jibb.OasisGreenhouse": {
+                    "Id": "jibb.OasisGreenhouse",
                     "TargetLocation": "Greenhouse",
-                    "DisplayName": "{{i18n: jibb.minecarts.OasisGreenhouse}}",
+                    "DisplayName": "{{i18n: jibb.OasisGreenhouse}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 26,
@@ -935,13 +965,13 @@
             },
             "When": {
                 "HasFlag: anyPlayer |contains=ccPantry": "true",
-                "Enablejibb.minecarts.OasisGreenhouse": true,
+                "Enablejibb.OasisGreenhouse": true,
                 "HasMod |contains=DaisyNiko.OasisGreenhouse": "true"
             },
         },
         //IF2R Farm west
         {
-            "LogName": "jibb.minecarts.IF2RFarmWest.Destination",
+            "LogName": "jibb.IF2RFarmWest.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -949,10 +979,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.IF2RFarmWest": {
-                    "Id": "jibb.minecarts.IF2RFarmWest",
+                "jibb.IF2RFarmWest": {
+                    "Id": "jibb.IF2RFarmWest",
                     "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: jibb.minecarts.IF2RFarmWest}}",
+                    "DisplayName": "{{i18n: jibb.IF2RFarmWest}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 4,
@@ -962,14 +992,14 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.IF2R": true,
+                "Enablejibb.IF2R": true,
                 "FarmType": "Standard",
                 "HasMod |contains=flashshifter.immersivefarm2remastered": "true"
             },
         },
         //IF2R Farm East
         {
-            "LogName": "jibb.minecarts.IF2RFarmEast.Destination",
+            "LogName": "jibb.IF2RFarmEast.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -977,10 +1007,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.IF2RFarmEast": {
-                    "Id": "jibb.minecarts.IF2RFarmEast",
+                "jibb.IF2RFarmEast": {
+                    "Id": "jibb.IF2RFarmEast",
                     "TargetLocation": "Farm",
-                    "DisplayName": "{{i18n: jibb.minecarts.IF2RFarmEast}}",
+                    "DisplayName": "{{i18n: jibb.IF2RFarmEast}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 126,
@@ -990,14 +1020,14 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.IF2R": true,
+                "Enablejibb.IF2R": true,
                 "FarmType": "Standard",
                 "HasMod |contains=flashshifter.immersivefarm2remastered": "true"
             },
         },
         //Lunatyx's Legacy Farm Cave
         {
-            "LogName": "jibb.minecarts.LegacyFarmCave.Destination",
+            "LogName": "jibb.LegacyFarmCave.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1005,8 +1035,8 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.LunatyxFarmCave": {
-                    "Id": "jibb.minecarts.LunatyxFarmCave",
+                "jibb.LunatyxFarmCave": {
+                    "Id": "jibb.LunatyxFarmCave",
                     "TargetLocation": "FarmCave",
                     "DisplayName": "{{i18n: FarmCave}}",
                     "Price": "{{PriceToRide}}",
@@ -1018,13 +1048,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.LunatyxFarmCave": true,
+                "Enablejibb.LunatyxFarmCave": true,
                 "HasMod |contains=Lunatyx.LegacyFarmCave": "true",
             },
         },
         //Visit Mount Vapius Default Network
         {
-            "LogName": "jibb.minecarts.Lumisteria.MtVapius_TrainStation.Destination",
+            "LogName": "jibb.Lumisteria.MtVapius_TrainStation.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1032,9 +1062,9 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Lumisteria.MtVapius_TrainStation": {
-                    "Id": "jibb.minecarts.Lumisteria.MtVapius_TrainStation",
-                    "DisplayName": "{{i18n: jibb.minecarts.Lumisteria.MtVapius_TrainStation}}",
+                "jibb.Lumisteria.MtVapius_TrainStation": {
+                    "Id": "jibb.Lumisteria.MtVapius_TrainStation",
+                    "DisplayName": "{{i18n: jibb.Lumisteria.MtVapius_TrainStation}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Lumisteria.MtVapius_TrainStation",
                     "TargetLocation": "Lumisteria.MtVapius_TrainStation",
@@ -1046,12 +1076,11 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Lumisteria.MtVapius_TrainStation": true,
+                "Enablejibb.Lumisteria.MtVapius_TrainStation": true,
                 "HasMod |contains=Lumisteria.MtVapius": "true",
             },
-        },
-        {
-            "LogName": "jibb.minecarts.Lumisteria.MtVapius_Hamlet.Destination",
+        }, {
+            "LogName": "jibb.Lumisteria.MtVapius_Hamlet.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1059,9 +1088,9 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Lumisteria.MtVapius_Hamlet": {
-                    "Id": "jibb.minecarts.Lumisteria.MtVapius_Hamlet",
-                    "DisplayName": "{{i18n: jibb.minecarts.Lumisteria.MtVapius_Hamlet}}",
+                "jibb.Lumisteria.MtVapius_Hamlet": {
+                    "Id": "jibb.Lumisteria.MtVapius_Hamlet",
+                    "DisplayName": "{{i18n: jibb.Lumisteria.MtVapius_Hamlet}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_HAS_MAIL Any Lumisteria.MtVapius_MineCartRepairedMail Any",
                     "TargetLocation": "Lumisteria.MtVapius_Hamlet",
@@ -1073,13 +1102,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Lumisteria.MtVapius_Hamlet": true,
+                "Enablejibb.Lumisteria.MtVapius_Hamlet": true,
                 "HasMod |contains=Lumisteria.MtVapius": "true",
             },
         },
         //Visit Mount Vapius Lumisteria.MtVapiusNetwork Network
         {
-            "LogName": "jibb.minecarts.Railroad.VMVNetwork.Destination",
+            "LogName": "jibb.Railroad.VMVNetwork.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1087,9 +1116,9 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Railroad": {
-                    "Id": "jibb.minecarts.Railroad",
-                    "DisplayName": "{{i18n: jibb.minecarts.Railroad}}",
+                "jibb.Railroad": {
+                    "Id": "jibb.Railroad",
+                    "DisplayName": "{{i18n: jibb.Railroad}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_LOCATION_NAME Any Lumisteria.MtVapius_Hamlet",
                     "TargetLocation": "Railroad",
@@ -1107,7 +1136,7 @@
         },
         //WaFF + WaFFLE Cave
         {
-            "LogName": "jibb.minecarts.WaFFCave.Destination",
+            "LogName": "jibb.WaFFCave.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1115,10 +1144,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.WaFFCave": {
-                    "Id": "jibb.minecarts.WaFFCave",
+                "jibb.WaFFCave": {
+                    "Id": "jibb.WaFFCave",
                     "TargetLocation": "{{WaFFCaveMap}}",
-                    "DisplayName": "{{i18n: jibb.minecarts.WaFFCave}}",
+                    "DisplayName": "{{i18n: jibb.WaFFCave}}",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
                         "X": 50,
@@ -1128,7 +1157,7 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.WaFFCave": true,
+                "Enablejibb.WaFFCave": true,
                 "FarmType|contains=A_TK.FarmProjectForaging/WaFF, A_TK.FarmProjectForaging/WaFFLE": "true",
             },
         },
@@ -1145,7 +1174,7 @@
                 "WAFF_Cave_Minecart": null,
             },
             "When": {
-                "Enablejibb.minecarts.WaFFCave": true,
+                "Enablejibb.WaFFCave": true,
                 "FarmType|contains=A_TK.FarmProjectForaging/WaFF, A_TK.FarmProjectForaging/WaFFLE": "true",
             },
         },
@@ -1162,13 +1191,13 @@
                 "WAFFLE_Cave_Minecart": null,
             },
             "When": {
-                "Enablejibb.minecarts.WaFFCave": true,
+                "Enablejibb.WaFFCave": true,
                 "FarmType|contains= A_TK.FarmProjectForaging/WaFFLE": "true",
             },
         },
         //Grampleton Fields West
         {
-            "LogName": "jibb.minecarts.GrampletonFieldsW.Destination",
+            "LogName": "jibb.GrampletonFieldsW.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1176,10 +1205,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.GrampletonFieldsW": {
-                    "Id": "jibb.minecarts.GrampletonFieldsW",
+                "jibb.GrampletonFieldsW": {
+                    "Id": "jibb.GrampletonFieldsW",
                     "TargetLocation": "Custom_GrampletonFields",
-                    "DisplayName": "{{i18n: jibb.minecarts.GrampletonFieldsW}}",
+                    "DisplayName": "{{i18n: jibb.GrampletonFieldsW}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Custom_GrampletonFields",
                     "TargetTile": {
@@ -1190,13 +1219,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.GrampletonFieldsW": true,
+                "Enablejibb.GrampletonFieldsW": true,
                 "HasMod |contains=flashshifter.GrampletonFields": "true"
             },
         },
         //Grampleton Fields East
         {
-            "LogName": "jibb.minecarts.GrampletonFieldsE.Destination",
+            "LogName": "jibb.GrampletonFieldsE.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1204,10 +1233,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.GrampletonFieldsE": {
-                    "Id": "jibb.minecarts.GrampletonFieldsE",
+                "jibb.GrampletonFieldsE": {
+                    "Id": "jibb.GrampletonFieldsE",
                     "TargetLocation": "Custom_GrampletonFields",
-                    "DisplayName": "{{i18n: jibb.minecarts.GrampletonFieldsE}}",
+                    "DisplayName": "{{i18n: jibb.GrampletonFieldsE}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Custom_GrampletonFields",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
@@ -1218,13 +1247,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.GrampletonFieldsE": true,
+                "Enablejibb.GrampletonFieldsE": true,
                 "HasMod |contains=flashshifter.GrampletonFields": "true"
             },
         },
         //Grampleton Fields South
         {
-            "LogName": "jibb.minecarts.GrampletonFieldsS.Destination",
+            "LogName": "jibb.GrampletonFieldsS.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1232,10 +1261,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.GrampletonFieldsS": {
-                    "Id": "jibb.minecarts.GrampletonFieldsS",
+                "jibb.GrampletonFieldsS": {
+                    "Id": "jibb.GrampletonFieldsS",
                     "TargetLocation": "Custom_GrampletonFields",
-                    "DisplayName": "{{i18n: jibb.minecarts.GrampletonFieldsS}}",
+                    "DisplayName": "{{i18n: jibb.GrampletonFieldsS}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Custom_GrampletonFields",
                     "Price": "{{PriceToRide}}",
                     "TargetTile": {
@@ -1246,13 +1275,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.GrampletonFieldsS": true,
+                "Enablejibb.GrampletonFieldsS": true,
                 "HasMod |contains=flashshifter.GrampletonFields": "true"
             },
         },
         //Aurora Vineyard SVE
         {
-            "LogName": "jibb.minecarts.SVEAurora.Destination",
+            "LogName": "jibb.SVEAurora.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1260,10 +1289,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.SVEAurora": {
-                    "Id": "jibb.minecarts.SVEAurora",
+                "jibb.SVEAurora": {
+                    "Id": "jibb.SVEAurora",
                     "TargetLocation": "Custom_ForestWest",
-                    "DisplayName": "{{i18n: jibb.minecarts.SVEAurora}}",
+                    "DisplayName": "{{i18n: jibb.SVEAurora}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Custom_ForestWest",
                     "TargetTile": {
@@ -1274,13 +1303,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.SVEAurora": true,
+                "Enablejibb.SVEAurora": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
         //Walk to Desert Cave
         {
-            "LogName": "jibb.minecarts.WTDCave.Destination",
+            "LogName": "jibb.WTDCave.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1288,10 +1317,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.WTDCave": {
-                    "Id": "jibb.minecarts.WTDCave",
+                "jibb.WTDCave": {
+                    "Id": "jibb.WTDCave",
                     "TargetLocation": "Tarniyar.CP.WalkToDesert_Cave",
-                    "DisplayName": "{{i18n: jibb.minecarts.WTDCave}}",
+                    "DisplayName": "{{i18n: jibb.WTDCave}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Tarniyar.CP.WalkToDesert_Cave",
                     "TargetTile": {
@@ -1302,13 +1331,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.WTDCave": true,
+                "Enablejibb.WTDCave": true,
                 "HasMod |contains=Tarniyar.CP.WalkToDesert": "true",
             },
         },
         //Fostoria
         {
-            "LogName": "jibb.minecarts.Fostoria.Destination",
+            "LogName": "jibb.Fostoria.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1316,10 +1345,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Fostoria": {
-                    "Id": "jibb.minecarts.Fostoria",
+                "jibb.Fostoria": {
+                    "Id": "jibb.Fostoria",
                     "TargetLocation": "Fostoria.Stoffton_Fostoria",
-                    "DisplayName": "{{i18n: jibb.minecarts.Fostoria}}",
+                    "DisplayName": "{{i18n: jibb.Fostoria}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Fostoria.Stoffton_Fostoria",
                     "TargetTile": {
@@ -1330,13 +1359,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Fostoria": true,
+                "Enablejibb.Fostoria": true,
                 "HasMod |contains=Fostoria.Stoffton": "true",
             },
         },
         //Stoffton
         {
-            "LogName": "jibb.minecarts.Stoffton.Destination",
+            "LogName": "jibb.Stoffton.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1344,10 +1373,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Stoffton": {
-                    "Id": "jibb.minecarts.Stoffton",
+                "jibb.Stoffton": {
+                    "Id": "jibb.Stoffton",
                     "TargetLocation": "Lizzie.Stoffton_Stoffton",
-                    "DisplayName": "{{i18n: jibb.minecarts.Stoffton}}",
+                    "DisplayName": "{{i18n: jibb.Stoffton}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Lizzie.Stoffton_Stoffton",
                     "TargetTile": {
@@ -1358,13 +1387,13 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Stoffton": true,
+                "Enablejibb.Stoffton": true,
                 "HasMod |contains=Lizzie.Stoffton": "true"
             },
         },
         //Aimon Small Hilltop Farm Quarry
         {
-            "LogName": "jibb.minecarts.AimonSmallHilltopFarm_Quarry.Destination",
+            "LogName": "jibb.AimonSmallHilltopFarm_Quarry.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1372,10 +1401,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.AimonSmallHilltopFarm_Quarry": {
-                    "Id": "jibb.minecarts.AimonSmallHilltopFarm_Quarry",
+                "jibb.AimonSmallHilltopFarm_Quarry": {
+                    "Id": "jibb.AimonSmallHilltopFarm_Quarry",
                     "TargetLocation": "Aimon.SmallHilltopFarm_Quarry",
-                    "DisplayName": "{{i18n: jibb.minecarts.AimonSmallHilltopFarm_Quarry}}",
+                    "DisplayName": "{{i18n: jibb.AimonSmallHilltopFarm_Quarry}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Aimon.SmallHilltopFarm_Quarry",
                     "TargetTile": {
@@ -1386,14 +1415,14 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.AimonSmallHilltopFarm_Quarry": true,                
+                "Enablejibb.AimonSmallHilltopFarm_Quarry": true,
                 "HasMod |contains=Aimon.SmallHilltopFarm": "true",
                 "FarmType": "Hilltop",
             },
         },
         //Lunatyx's Deserted Island Farm Cave
         {
-            "LogName": "jibb.minecarts.DesertedIslandFarmCave.Destination",
+            "LogName": "jibb.DesertedIslandFarmCave.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1401,8 +1430,8 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.LunatyxFarmCave": {
-                    "Id": "jibb.minecarts.LunatyxFarmCave",
+                "jibb.LunatyxFarmCave": {
+                    "Id": "jibb.LunatyxFarmCave",
                     "TargetLocation": "FarmCave",
                     "DisplayName": "{{i18n: FarmCave}}",
                     "Price": "{{PriceToRide}}",
@@ -1414,9 +1443,205 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.LunatyxFarmCave": true,
+                "Enablejibb.LunatyxFarmCave": true,
                 "HasMod |contains=Lunatyx.DesertedIslandFarmCave": "true",
                 "FarmType": "Beach",
+            },
+        },
+
+        //slightly more interesting farm cave
+        {
+            "LogName": "jibb.slightymoreinterestingfarmcave.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations",
+            ],
+            "Entries": {
+                "jibb.slightymoreinterestingfarmcave": {
+                    "Id": "jibb.slightymoreinterestingfarmcave",
+                    "DisplayName": "{{i18n: FarmCaveBasement}}",
+                    "Price": "{{PriceToRide}}",
+                    "Condition": "PLAYER_VISITED_LOCATION Any Custom_SlightlyMoreInterestingFarmCave_Basement",
+                    "TargetLocation": "Custom_SlightlyMoreInterestingFarmCave_Basement",
+                    "TargetTile": {
+                        "X": 10,
+                        "Y": 9
+                    },
+                    "TargetDirection": "left",
+                },
+            },
+            "When": {
+                "Enablejibb.slightymoreinterestingfarmcave": true,
+                "HasMod |contains=mycroftjr.slightymoreinterestingfarmcave": "true",
+            },
+        },
+
+        //Farm Extended Unoffical 1.6
+        {
+            "LogName": "jibb.farmextendedticketmachine.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations",
+            ],
+            "Entries": {
+                "jibb.farmextendedticketmachine": {
+                    "Id": "jibb.farmextendedticketmachine",
+                    "DisplayName": "{{i18n: jibb.farmextendedticketmachine}}",
+                    "Price": "{{PriceToRide}}",
+                    "TargetLocation": "Farm",
+                    "TargetTile": {
+                        "X": 78,
+                        "Y": 9
+                    },
+                    "TargetDirection": "down",
+                },
+            },
+            "When": {
+                "Enablejibb.farmextendedticketmachine": true,
+                "HasMod |contains=Windroach.ExtendedFarm1.6": "true",
+            },
+        }, {
+            "LogName": "jibb.farmextendedquarry.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations",
+            ],
+            "Entries": {
+                "jibb.farmextendedquarry": {
+                    "Id": "jibb.farmextendedquarry",
+                    "DisplayName": "{{i18n: jibb.farmextendedquarry}}",
+                    "Price": "{{PriceToRide}}",
+                    "TargetLocation": "Farm",
+                    "TargetTile": {
+                        "X": 49,
+                        "Y": 68
+                    },
+                    "TargetDirection": "down",
+                },
+            },
+            "When": {
+                "Enablejibb.farmextendedquarry": true,
+                "HasMod |contains=Windroach.ExtendedFarm1.6": "true",
+            },
+        },
+        //Frontier Farm Minecarts
+        {
+            "LogName": "jibb.FrontierFarm.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations",
+            ],
+            "Entries": {
+                "jibb.FrontierFarm_Right": {
+                    "Id": "jibb.FrontierFarm_Right",
+                    "DisplayName": "{{i18n: jibb.FrontierFarm_Right}}",
+                    "Price": "{{PriceToRide}}",
+                    "TargetLocation": "Farm",
+                    "TargetTile": {
+                        "X": 144,
+                        "Y": 39
+                    },
+                    "TargetDirection": "down",
+                },
+                "jibb.FrontierFarm_Middle": {
+                    "Id": "jibb.FrontierFarm_Middle",
+                    "DisplayName": "{{i18n: jibb.FrontierFarm_Middle}}",
+                    "Price": "{{PriceToRide}}",
+                    "TargetLocation": "Farm",
+                    "TargetTile": {
+                        "X": 84,
+                        "Y": 23
+                    },
+                    "TargetDirection": "down",
+                },
+                "jibb.FrontierFarm_Left": {
+                    "Id": "jibb.FrontierFarm_Left",
+                    "DisplayName": "{{i18n: jibb.FrontierFarm_Left}}",
+                    "Price": "{{PriceToRide}}",
+                    "TargetLocation": "Farm",
+                    "TargetTile": {
+                        "X": 25,
+                        "Y": 31
+                    },
+                    "TargetDirection": "down",
+                },
+
+            },
+            "When": {
+                "Enablejibb.FrontierFarm": true,
+                "HasMod |contains=flashshifter.FrontierFarm": "true",
+                "HasSeenEvent: anyPlayer|contains=1337431": true,
+                "FarmType": "FrontierFarm",
+            },
+        },
+        //Frontier Farm Ferngill Republic Minecarts
+        {
+            "LogName": "jibb.FernGillRepublic.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": [
+                "Default",
+                "Destinations",
+            ],
+            "Entries": {
+                "jibb.FernGillRepublic_Ravine": {
+                    "Id": "jibb.FernGillRepublic_Ravine",
+                    "DisplayName": "{{i18n: jibb.FernGillRepublic_Ravine}}",
+                    "Price": "{{PriceToRide}}",
+                    "TargetLocation": "Custom_FerngillRepublicFrontier",
+                    "TargetTile": {
+                        "X": 134,
+                        "Y": 31
+                    },
+                    "TargetDirection": "down",
+                },
+                "jibb.FernGillRepublic_Mountain": {
+                    "Id": "jibb.FernGillRepublic_Mountain",
+                    "DisplayName": "{{i18n: jibb.FernGillRepublic_Mountain}}",
+                    "Price": "{{PriceToRide}}",
+                    "TargetLocation": "Custom_FerngillRepublicFrontier",
+                    "TargetTile": {
+                        "X": 71,
+                        "Y": 6
+                    },
+                    "TargetDirection": "down",
+                },
+                "jibb.FernGillRepublic_Grassland": {
+                    "Id": "jibb.FernGillRepublic_Grassland",
+                    "DisplayName": "{{i18n: jibb.FernGillRepublic_Grassland}}",
+                    "Price": "{{PriceToRide}}",
+                    "TargetLocation": "Custom_FerngillRepublicFrontier",
+                    "TargetTile": {
+                        "X": 66,
+                        "Y": 67
+                    },
+                    "TargetDirection": "down",
+                },
+                "jibb.FernGillRepublic_Beach": {
+                    "Id": "jibb.FernGillRepublic_Beach",
+                    "DisplayName": "{{i18n: jibb.FernGillRepublic_Beach}}",
+                    "Price": "{{PriceToRide}}",
+                    "TargetLocation": "Custom_FerngillRepublicFrontier",
+                    "TargetTile": {
+                        "X": 47,
+                        "Y": 128
+                    },
+                    "TargetDirection": "down",
+                },
+            },
+            "When": {
+                "Enablejibb.FrontierFarm": true,
+                "HasMod |contains=flashshifter.FrontierFarm": "true",
+                "HasSeenEvent: anyPlayer|contains=1337427": true,
+                "FarmType": "FrontierFarm",
             },
         },
         //Rename other mod's minecarts.
@@ -1632,6 +1857,7 @@
             "When": {
                 "EnableCustom_Dam": true,
                 "HasMod |contains=Tikamin557.dam": "true",
+				"Query:{{DaysPlayed}} >= 31": true,
             },
         },
         //Dam Cliff
@@ -1653,6 +1879,7 @@
             "When": {
                 "EnableCustom_Dam_Cliff": true,
                 "HasMod |contains=Tikamin557.dam": "true",
+				"HasFlag": "Tikamin557.dam_CliffMinecart_Mail"
             },
         },
         //Dam Dumped Farm
@@ -1674,7 +1901,8 @@
             "When": {
                 "EnableCustom_Dam_PastureArea": true,
                 "HasMod |contains=Tikamin557.dam": "true",
-            },
+				"HasFlag": "Tikamin557.dam_PAUC_DayCount4"
+			},
         },
         //Flooded Cave
         {
@@ -1711,13 +1939,13 @@
                 "Railroad": null,
             },
             "When": {
-                "Enablejibb.minecarts.Railroad": true,
+                "Enablejibb.Railroad": true,
                 "HasMod |contains=Lumisteria.MtVapius": "true"
             },
         },
         //Railroad VMV
         {
-            "LogName": "jibb.minecarts.Railroad.Destination",
+            "LogName": "jibb.Railroad.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
@@ -1725,10 +1953,10 @@
                 "Destinations"
             ],
             "Entries": {
-                "jibb.minecarts.Railroad": {
-                    "Id": "jibb.minecarts.Railroad",
+                "jibb.Railroad": {
+                    "Id": "jibb.Railroad",
                     "TargetLocation": "Railroad",
-                    "DisplayName": "{{i18n: jibb.minecarts.Railroad}}",
+                    "DisplayName": "{{i18n: jibb.Railroad}}",
                     "Price": "{{PriceToRide}}",
                     "Condition": "PLAYER_VISITED_LOCATION Any Railroad, LOCATION_ACCESSIBLE Railroad",
                     "TargetTile": {
@@ -1739,7 +1967,7 @@
                 },
             },
             "When": {
-                "Enablejibb.minecarts.Railroad": true,
+                "Enablejibb.Railroad": true,
                 "HasMod |contains=Lumisteria.MtVapius": "true"
             },
         },
@@ -1787,7 +2015,7 @@
         //            "TargetField": ["Default", "Destinations", ],
         //            "Fields": {
         //                "ModestFarmCave": {
-        //                    "DisplayName": "{{i18n: ModestFarmCave}}",  
+        //                    "DisplayName": "{{i18n: ModestFarmCave}}",
         //					"Price": "{{PriceToRide}}",
         //                },
         //            },
@@ -1866,8 +2094,7 @@
                 "HasMod |contains=BrianOvaltine.gsminecart": "true",
                 "HasMod |contains=flashshifter.GrandpasFarm": "true",
             },
-        },
-        {
+        }, {
             "LogName": "BrianOvaltine.gsminecart.Greenhouse.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
@@ -1904,7 +2131,7 @@
                     "TargetTile": {
                         "X": 18,
                         "Y": 5
-                      },
+                    },
                 },
             },
             "When": {
@@ -1912,32 +2139,23 @@
                 "HasMod |contains=neuralwiles.HiddenSpringFarmCave": "true",
             },
         },
-        //slightly more interesting farm cave
+        //Fishing Pond Faciilities
         {
-            "LogName": "jibb.minecarts.slightymoreinterestingfarmcave.Destination",
+            "LogName": "Tikamin557.CP.FishingPondFacilities.Destination",
             "Action": "EditData",
             "Target": "Data/Minecarts",
             "TargetField": [
                 "Default",
                 "Destinations",
             ],
-            "Entries": {
-                "jibb.minecarts.slightymoreinterestingfarmcave": {
-                    "Id": "jibb.minecarts.slightymoreinterestingfarmcave",
-                    "DisplayName": "{{i18n: FarmCaveBasement}}",
+            "Fields": {
+                "Custom_FishingPondFacilitiesMap": {
                     "Price": "{{PriceToRide}}",
-                    "Condition": "PLAYER_VISITED_LOCATION Any Custom_SlightlyMoreInterestingFarmCave_Basement", 
-                    "TargetLocation": "Custom_SlightlyMoreInterestingFarmCave_Basement",
-                    "TargetTile": {
-                        "X": 10,
-                        "Y": 9
-                    },
-                    "TargetDirection": "left",
                 },
             },
             "When": {
-                "Enablejibb.minecarts.slightymoreinterestingfarmcave": true,
-                "HasMod |contains=mycroftjr.slightymoreinterestingfarmcave": "true",
+                "EnableCustom_FishingPondFacilitiesMap": true,
+                "HasMod |contains=Tikamin557.CP.FishingPondFacilities": "true",
             },
         },
     ]

@@ -41,9 +41,11 @@ namespace IntegratedMinecarts.Patches
             var foundMinecartMenuMethod1 = false;
             var startIndex1 = -1;
             var endIndex1 = -1;
+            /*
             var foundMinecartMenuMethod2 = false;
             var startIndex2 = -1;
             var endIndex2 = -1;
+            */
 
             var codes = new List<CodeInstruction>(instructions);
             //find first ShowMineCartMenu
@@ -52,13 +54,14 @@ namespace IntegratedMinecarts.Patches
                 if (!foundMinecartMenuMethod1 && codes[i].opcode == OpCodes.Ldstr && codes[i].operand as string == "Default")
                 {
                     Monitor.Log($"Found Default1 at Code {i}", LogLevel.Trace);
-                    startIndex1 = i - 12;
+                    startIndex1 = i - 16;
                     endIndex1 = i + 4;
-                    startIndex2 = endIndex1 + 1;
+                    //startIndex2 = endIndex1 + 1;
                     foundMinecartMenuMethod1 = true;
                     break;
                 }
             }
+            /*
             //Find second ShowMineCartMenu
             for (int i = startIndex2; i < codes.Count; i++)
             {
@@ -71,8 +74,10 @@ namespace IntegratedMinecarts.Patches
                     break;
                 }
             }
+            */
             //If we have found both code ranges
-            if (startIndex1 > -1 && endIndex1 > -1 && startIndex2 > -1 && endIndex2 > -1)
+            //if (startIndex1 > -1 && endIndex1 > -1 && startIndex2 > -1 && endIndex2 > -1)
+            if (startIndex1 > -1 && endIndex1 > -1)
             {
                 //Remove first ShowMineCartMenus
                 for (int i = startIndex1; i <= endIndex1; i++)
@@ -80,12 +85,14 @@ namespace IntegratedMinecarts.Patches
                     codes[i].opcode = OpCodes.Nop;
                     codes[i].operand = null;
                 }
+                /*
                 //Remove second ShowMineCartMenus
                 for (int i = startIndex2; i <= endIndex2; i++)
                 {
                     codes[i].opcode = OpCodes.Nop;
                     codes[i].operand = null;
                 }
+                */
                 Monitor.Log($"Successfully Noped codes for Town", LogLevel.Trace);
             }
             return codes.AsEnumerable();

@@ -120,8 +120,9 @@
                 "HasMod |contains=DaisyNiko.SVR3": "true"
             },
         },
-        //Fix for Shortcuts
+        //Fix for Community Shortcuts
         {
+			"Logname": "jibb.shortcutfix",
             "Action": "EditMap",
             "Target": "Maps/Forest",
             "AddWarps": [
@@ -132,6 +133,7 @@
             "When": {
                 "Enablejibb.ForestNW": true,
                 "HasFlag: anyPlayer": "communityUpgradeShortcuts",
+                "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "false"
             },
         },
         //Forest SE

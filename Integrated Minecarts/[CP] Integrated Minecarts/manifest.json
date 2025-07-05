@@ -1,7 +1,7 @@
 ﻿{
     "Name": "Integrated Minecarts (CP Component)",
     "Author": "Jibb",
-    "Version": "4.5.7",
+    "Version": "4.5.14",
     "Description": "Content Pack for Content Patcher",
     "UniqueID": "jibb.minecarts",
     "MinimumApiVersion": "3.0.0",
@@ -150,6 +150,27 @@
             "IsRequired": false,
         }, {
             "UniqueID": "InkubusMods.ModestGinger",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "DaisyNiko.ZenithFarm",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Rexstrife20.MineralTownCP",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Fellowclown.PC",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "skellady.SBVCP",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "DaisyNiko.UltimateFarm",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "DaisyNiko.LavenderMeadows",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Pluviophist.FourAcres",
             "IsRequired": false,
         },
     ]

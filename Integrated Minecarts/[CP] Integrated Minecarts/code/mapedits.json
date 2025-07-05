@@ -1421,7 +1421,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.OasisGreenhouse": true,
+                "EnableGreenhouseBasement": true,
                 "HasMod |contains=DaisyNiko.OasisGreenhouse": "true"
             },
         }, {
@@ -1439,7 +1439,7 @@
                 },
             ],
             "When": {
-                "Enablejibb.OasisGreenhouse": true,
+                "EnableGreenhouseBasement": true,
                 "HasMod |contains=DaisyNiko.OasisGreenhouse": "true"
             },
         },
@@ -2137,7 +2137,8 @@
             "When": {
                 "Enablejibb.FrontierFarm": true,
                 "HasMod |contains=flashshifter.FrontierFarm": "true",
-                "HasSeenEvent: anyPlayer|contains=1337431": true,
+                "HasFlag: anyPlayer |contains=FunctionalMinecarts": "true",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
                 "FarmType": "FrontierFarm",
             },
         }, {
@@ -2184,7 +2185,8 @@
             "When": {
                 "Enablejibb.FrontierFarm": true,
                 "HasMod |contains=flashshifter.FrontierFarm": "true",
-                "HasSeenEvent: anyPlayer|contains=1337427": true,
+                "HasFlag: anyPlayer |contains=FunctionalMinecarts": "true",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
                 "FarmType": "FrontierFarm",
             },
         },
@@ -2207,6 +2209,279 @@
                 "EnableCustom_FishingPondFacilitiesMap": true,
                 "HasMod |contains=Tikamin557.CP.FishingPondFacilities": "true",
             },
-        }, 
+        },
+        //Zenith Farm
+        {
+            "Action": "EditMap",
+            "Target": "Maps/{{FarmMapAsset}}",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "22",
+                        "Y": "29"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.ZenithFarmNW",
+                    },
+                },
+				{
+                    "Position": {
+                        "X": "81",
+                        "Y": "35"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.ZenithFarmNE",
+                    },
+                },
+				{
+                    "Position": {
+                        "X": "3",
+                        "Y": "52"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.ZenithFarmSW",
+                    },
+                },
+				{
+                    "Position": {
+                        "X": "83",
+                        "Y": "68"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.ZenithFarmNE",
+                    },
+                },
+            ],
+            "When": {
+				"EnableDaisyNiko.ZenithFarm": true,
+				"HasMod |contains=DaisyNiko.ZenithFarm":"true",
+                "FarmType |contains=DaisyNiko.ZenithFarm.CFL/Zenith Farm,ZenithFarm,DaisyNiko.ZenithFarm": "true"
+            },
+        },
+        //Passerby Cemetery Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Fellowclown.PC_OldGraveYard",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "23",
+                        "Y": "59"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Fellowclown.PC_PasserbyCart",
+                    },
+                },
+            ],
+            "When": {
+                "EnableFellowclown.PC_PasserbyCart": true,
+                "HasMod |contains=Fellowclown.PC": "true"
+            },
+        },
+        //Sunberry Village Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryVillage",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "19",
+                        "Y": "10"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default skellady.SBVCP_PTToSBV",
+                    },
+                },
+            ],
+            "When": {
+                "Enableskellady.SBVCP": true,
+                "HasMod |contains=skellady.SBVCP": "true"
+            },
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryForest",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "15",
+                        "Y": "39"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default skellady.SBVCP_SBVForest",
+                    },
+                },
+            ],
+            "When": {
+                "Enableskellady.SBVCP": true,
+                "HasMod |contains=skellady.SBVCP": "true"
+            },
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryMountain",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "38",
+                        "Y": "9"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default skellady.SBVCP_SBVMountain",
+                    },
+                },
+            ],
+            "When": {
+                "Enableskellady.SBVCP": true,
+                "HasMod |contains=skellady.SBVCP": "true"
+            },
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Custom_SBV_SunberryFarm",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "26",
+                        "Y": "8"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default skellady.SBVCP_SBVFarm",
+                    },
+                },
+            ],
+            "When": {
+                "Enableskellady.SBVCP": true,
+                "HasMod |contains=skellady.SBVCP": "true"
+            },
+        },
+		//Lavender Meadows Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm_LavenderMeadows",
+            "MapTiles": [
+			//NW
+				{
+                    "Position": {
+                        "X": "25",
+                        "Y": "5"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.LavenderMeadows_NorthWest",
+                    },
+                },
+			//NE
+				{
+                    "Position": {
+                        "X": "85",
+                        "Y": "6"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.LavenderMeadows_NorthEast",
+                    },
+                },
+			//SW
+				{
+                    "Position": {
+                        "X": "2",
+                        "Y": "53"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.LavenderMeadows_SouthWest",
+                    },
+                },
+			//SE
+				{
+                    "Position": {
+                        "X": "67",
+                        "Y": "67"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.LavenderMeadows_SouthEast",
+                    },
+                },
+            ],
+            "When": {
+				"EnableDaisyNiko.LavenderMeadows":"true",
+                "HasMod |contains=DaisyNiko.LavenderMeadows": "true",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
+				"FarmType":"DaisyNiko.LavenderMeadows"
+            },
+        },
+		//Lavender Meadows Farm Cave
+        {
+            "Action": "EditMap",
+            "Target": "Maps/FarmCave",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "11",
+                        "Y": "5"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default DaisyNiko.LavenderMeadows_Cave",
+                    },
+                },
+            ],
+            "When": {
+				"EnableDaisyNiko.LavenderMeadowsFarmCave": true,
+				"EnableDaisyNiko.LavenderMeadows":"true",
+                "HasMod |contains=DaisyNiko.LavenderMeadows": "true",
+                "HasFlag: anyPlayer |contains=ccBoilerRoom": "true",
+				"FarmType":"DaisyNiko.LavenderMeadows"
+            },
+        },
+		//Four Acres Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Farm_FourCorners",
+            "MapTiles": [
+			//NW
+				{
+                    "Position": {
+                        "X": "56",
+                        "Y": "29"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Pluviophist.FourAcres_NorthWest",
+                    },
+                },
+			//NE
+				{
+                    "Position": {
+                        "X": "186",
+                        "Y": "2"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Pluviophist.FourAcres_NorthEast",
+                    },
+                },
+			//Greenhouse
+				{
+                    "Position": {
+                        "X": "105",
+                        "Y": "89"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default Pluviophist.FourAcres_Greenhouse",
+                    },
+                },
+            ],
+            "When": {
+				"EnablePluviophist.FourAcres":"true",
+                "HasMod |contains=Pluviophist.FourAcres": "true",
+				"FarmType":"FourCorners"
+            },
+        },		
     ]
 }

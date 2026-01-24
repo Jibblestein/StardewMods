@@ -363,6 +363,5 @@ MigrationBackup/
 FodyWeavers.xsd
 
 #Compressed files
-.zip
-.rar
+*.rar
 *.zip

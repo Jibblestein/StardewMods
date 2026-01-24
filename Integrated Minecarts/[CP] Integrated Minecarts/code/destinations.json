@@ -102,7 +102,7 @@
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true"
             }
         },
-        //East Scarp
+        //East Scarp Village
         {
             "LogName": "jibb.EastScarp_Village.Destination",
             "Action": "EditData",
@@ -120,7 +120,7 @@
                 }
             },
             "When": {
-                "HasMod": "Lemurkat.EastScarpNPCs.CP",
+                "HasMod |contains=Lemurkat.EastScarpNPCs.CP, Lemurkat.EastScarpNPCs": "true",
                 "Enablejibb.EastScarp_Village": true
             }
         },
@@ -142,7 +142,7 @@
                 }
             },
             "When": {
-                "HasMod": "Lemurkat.EastScarpNPCs.CP",
+                "HasMod |contains=Lemurkat.EastScarpNPCs.CP, Lemurkat.EastScarpNPCs": "true",
                 "Enablejibb.EastScarp_DeepMountains": true
             }
         },
@@ -164,7 +164,7 @@
                 }
             },
             "When": {
-                "HasMod": "Lemurkat.EastScarpNPCs.CP",
+                "HasMod |contains=Lemurkat.EastScarpNPCs.CP, Lemurkat.EastScarpNPCs": "true",
                 "Enablejibb.EastScarp_DeepDark": true
             }
         },
@@ -189,6 +189,29 @@
                 "EnableEastScarp_ClearingHouse": true
             }
         },
+        //East Scarp Remastered - Scarp Crossing
+        {
+            "LogName": "EastScarpR_Crossing.Destination",
+            "Action": "EditData",
+            "Target": "Data/Minecarts",
+            "TargetField": ["Default", "Destinations"],
+            "Entries": {
+                "EastScarp_ClearingHouse": {
+                    "ID": "EastScarp_ClearingHouse",
+                    "TargetLocation": "EastScarp_Crossing",
+                    "DisplayName": "{{i18n:EastScarp_ClearingHouse}}",
+                    "Price": "{{PriceToRide}}",
+                    "Condition": "PLAYER_VISITED_LOCATION Any EastScarp_Crossing",
+                    "TargetTile": {"X": 18, "Y": 27},
+                    "TargetDirection": "down"
+                }
+            },
+            "When": {
+                "HasMod": "Lemurkat.EastScarpNPCs",
+                "EnableEastScarp_ClearingHouse": true
+            }
+        },
+
         //Jessie and Juliet Replacement for Scarp Crossing
         {
             "LogName": "Custom_LK_ClearingHouse.Destination",
@@ -468,7 +491,7 @@
                     "TargetLocation": "Railroad",
                     "DisplayName": "{{i18n: jibb.Railroad}}",
                     "Price": "{{PriceToRide}}",
-                    "Condition": "PLAYER_VISITED_LOCATION Any Railroad, LOCATION_ACCESSIBLE Railroad",
+                    "Condition": "PLAYER_VISITED_LOCATION Any Railroad",
                     "TargetTile": {"X": 37, "Y": 36},
                     "TargetDirection": "down"
                 }
@@ -1733,7 +1756,7 @@
                     "TargetLocation": "Railroad",
                     "DisplayName": "{{i18n: jibb.Railroad}}",
                     "Price": "{{PriceToRide}}",
-                    "Condition": "PLAYER_VISITED_LOCATION Any Railroad, LOCATION_ACCESSIBLE Railroad",
+                    "Condition": "PLAYER_VISITED_LOCATION Any Railroad",
                     "TargetTile": {"X": 17, "Y": 38},
                     "TargetDirection": "down"
                 }

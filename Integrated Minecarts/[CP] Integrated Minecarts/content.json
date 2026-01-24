@@ -1627,7 +1627,21 @@
             "AllowValues": "Disabled, Standard, Forest, Hilltop, Wilderness, Riverland",
             "Default": "Disabled",
             "Section": "Farm Extended 1.6"
-        }
+        },
+        //FarmLocation Frontier Farm
+        "FrontierFarmCartStyle": {
+            "AllowValues": "Cart, CartEntrance, CartEntranceNarrow",
+            "Default": "Cart",
+            "Section": "FrontierFarm"
+        },
+        "FrontierFarmX": {
+            "Default": 123,
+            "Section": "FrontierFarm"
+        },
+        "FrontierFarmY": {
+            "Default": 26,
+            "Section": "FrontierFarm"
+        },
     },
     "DynamicTokens": [
         //FarmCoordinates
@@ -2303,6 +2317,28 @@
             "Value": "DesertEntrance",
             "When": {
                 "FarmType": "DeLiXx.Desert_Bloom_Farm_CFL/Desert Bloom"
+            }
+        },
+        //FrontierFarm
+        {
+            "Name": "FarmCoordinatesX",
+            "Value": "{{FrontierFarmX}}",
+            "When": {
+                "FarmType": "FrontierFarm"
+            }
+        },
+        {
+            "Name": "FarmCoordinatesY",
+            "Value": "{{FrontierFarmY}}",
+            "When": {
+                "FarmType": "FrontierFarm"
+            }
+        },
+        {
+            "Name": "FarmCartStyle",
+            "Value": "{{FrontierFarmCartStyle}}",
+            "When": {
+                "FarmType": "FrontierFarm"
             }
         },
         //CartStyle

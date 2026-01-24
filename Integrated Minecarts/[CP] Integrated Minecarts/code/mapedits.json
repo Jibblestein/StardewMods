@@ -720,6 +720,7 @@
             },
             "PatchMode": "Overlay",
             "When": {
+                "Enablejibb.SVEAurora": true,
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": "true",
             },
         },
@@ -1076,6 +1077,7 @@
                 },
             ],
             "When": {
+                "HasMod |contains=Lemurkat.EastScarpNPCs.CP, Lemurkat.EastScarpNPCs": "true",
                 "Enablejibb.EastScarp_Village": true,
             },
         },
@@ -1095,6 +1097,7 @@
                 },
             ],
             "When": {
+                "HasMod |contains=Lemurkat.EastScarpNPCs.CP, Lemurkat.EastScarpNPCs": "true",
                 "Enablejibb.EastScarp_DeepMountains": true,
             },
         },
@@ -1115,6 +1118,7 @@
                 },
             ],
             "When": {
+                "HasMod |contains=Lemurkat.EastScarpNPCs.CP, Lemurkat.EastScarpNPCs": "true",
                 "Enablejibb.EastScarp_DeepDark": true,
             },
         }, {
@@ -1132,6 +1136,7 @@
                 },
             ],
             "When": {
+                "HasMod |contains=Lemurkat.EastScarpNPCs.CP, Lemurkat.EastScarpNPCs": "true",
                 "Enablejibb.EastScarp_DeepDark": true,
             },
         },
@@ -1172,6 +1177,44 @@
             "When": {
                 "HasMod": "Lemurkat.EastScarpNPCs.CP",
                 "HasMod |contains=FlashShifter.StardewValleyExpandedCP": false,
+                "EnableEastScarp_ClearingHouse": true,
+            },
+        },
+        //East Scarp Remastered Scarp Crossing Tile Properties
+        {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Crossing",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "18",
+                        "Y": "26"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default EastScarp_ClearingHouse",
+                    },
+                },
+            ],
+            "When": {
+                "HasMod": "Lemurkat.EastScarpNPCs",
+                "EnableEastScarp_ClearingHouse": true,
+            },
+        }, {
+            "Action": "EditMap",
+            "Target": "Maps/EastScarp_Crossing",
+            "MapTiles": [{
+                    "Position": {
+                        "X": "18",
+                        "Y": "26"
+                    },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "MinecartTransport Default EastScarp_ClearingHouse",
+                    },
+                },
+            ],
+            "When": {
+                "HasMod": "Lemurkat.EastScarpNPCs",
                 "EnableEastScarp_ClearingHouse": true,
             },
         },

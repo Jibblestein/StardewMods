@@ -1,7 +1,7 @@
 ﻿{
     "Name": "Integrated Minecarts (CP Component)",
     "Author": "Jibb",
-    "Version": "4.5.14",
+    "Version": "4.5.16",
     "Description": "Content Pack for Content Patcher",
     "UniqueID": "jibb.minecarts",
     "MinimumApiVersion": "3.0.0",
@@ -33,6 +33,9 @@
             "IsRequired": false,
         }, {
             "UniqueID": "Lemurkat.EastScarpNPCs.CP",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Lemurkat.EastScarpNPCs",
             "IsRequired": false,
         }, {
             "UniqueID": "DaisyNiko.OasisGreenhouse",
@@ -171,6 +174,9 @@
             "IsRequired": false,
         }, {
             "UniqueID": "Pluviophist.FourAcres",
+            "IsRequired": false,
+        }, {
+            "UniqueID": "Aimon111.MoreLivelyQuarryOverhaul",
             "IsRequired": false,
         },
     ]

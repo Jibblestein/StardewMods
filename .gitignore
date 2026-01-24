@@ -365,3 +365,4 @@ FodyWeavers.xsd
 #Compressed files
 .zip
 .rar
+*.zip

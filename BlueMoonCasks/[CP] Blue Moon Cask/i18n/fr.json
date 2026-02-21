@@ -1,0 +1,7 @@
+{
+    "config.CellarOnly.name": "Cave uniquement",
+    "config.CellarOnly.description": "Lorsque cette option est activée, le Fût de Lune Bleue ne peut être utilisé que dans la cave.",
+    "jibb.bluemooncask.recipe.name": "Fût de Lune Bleue",
+    "jibb.bluemooncask.recipe.description": "Un fût spécialement conçu pour faire vieillir le Vin de Lune Bleue. Comme le fût classique, il ne fonctionne que dans la cave.",
+    "Mail.BlueMoonCaskRecipe": "Coucou @ !^^Je fouillais dans les affaires de mes parents et je suis tombée sur de vieux plans.^Ils avaient mis au point leur propre méthode pour fabriquer des fûts capables de faire vieillir nos meilleurs vins, mais j’ai un peu de mal à tout comprendre.^^Je te laisse y jeter un œil : il est question de faire tremper le bois du fût dans du Vin de Lune Bleue avant de l’assembler.^^Je serais ravie de te vendre davantage de vin pour que tu puisses en fabriquer !^^Tu peux même faire vieillir le vin, et je te le rachèterai si tu mets les bouteilles dans ta caisse d’expédition !^^À plus ! <^-Sophia %item craftingRecipe Blue_Moon_Cask %%[#]Fût de Lune Bleue"
+}

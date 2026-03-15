@@ -21,6 +21,7 @@ namespace IntegratedMinecarts
         internal Harmony? Harmony;
         public ModConfig? Config;
         public int DestinationsPerPage;
+        public bool MoveNextPreviousToTop;
         public static ModEntry Instance { get; private set; }
         /*********
         ** Public methods
@@ -50,6 +51,7 @@ namespace IntegratedMinecarts
                     {
                     var tokens = Game1.content.Load<Dictionary<string, string>>("Mods/jibb.minecarts/config");
                     DestinationsPerPage = Int32.Parse(tokens["DestinationsPerPage"]);
+                    MoveNextPreviousToTop = Boolean.Parse(tokens["MoveNextPreviousToTop"]);
                 }
             }
         }
@@ -58,6 +60,8 @@ namespace IntegratedMinecarts
         {
             var tokens = Game1.content.Load<Dictionary<string, string>>("Mods/jibb.minecarts/config");
             DestinationsPerPage = Int32.Parse(tokens["DestinationsPerPage"]);
+            MoveNextPreviousToTop = Boolean.Parse(tokens["MoveNextPreviousToTop"]);
+
         }
         /* Currently Not needed
                          private void GameLoop_GameLaunched(object? sender, GameLaunchedEventArgs e)

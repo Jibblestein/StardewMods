@@ -127,6 +127,7 @@ namespace IntegratedMinecarts.Patches
         {
 //            Monitor.Log($"Executing CreateResponses", LogLevel.Warn);
             GameLocation._PagedResponsePage = page;
+            ModEntry mod = ModEntry.Instance;
             int itemsPerPage = GameLocation._PagedResponseItemsPerPage;
             int pages = (GameLocation._PagedResponses.Count - 1) / itemsPerPage;
             int itemsOnCurPage = itemsPerPage;
@@ -145,13 +146,32 @@ namespace IntegratedMinecarts.Patches
                     locationResponses.Add(new Response(response.Key, response.Value));
                 }
             }
-            if (GameLocation._PagedResponsePage > 0)
+            if (mod.MoveNextPreviousToTop == false)
             {
-                locationResponses.Add(new Response("previousPage", Game1.content.LoadString("Strings\\UI:PreviousPage")));
+                if (GameLocation._PagedResponsePage > 0)
+                {
+                    locationResponses.Add(new Response("previousPage", Game1.content.LoadString("Strings\\UI:PreviousPage")));
+                }
+                if (GameLocation._PagedResponsePage < pages)
+                {
+                    locationResponses.Add(new Response("nextPage", Game1.content.LoadString("Strings\\UI:NextPage")));
+                }
             }
-            if (GameLocation._PagedResponsePage < pages)
+            else
             {
-                locationResponses.Add(new Response("nextPage", Game1.content.LoadString("Strings\\UI:NextPage")));
+                int navIndex = 0;
+
+                if (GameLocation._PagedResponsePage < pages)
+                {
+                    locationResponses.Insert(navIndex++,
+                        new Response("nextPage", Game1.content.LoadString("Strings\\UI:NextPage")));
+                }
+
+                if (GameLocation._PagedResponsePage > 0)
+                {
+                    locationResponses.Insert(navIndex++,
+                        new Response("previousPage", Game1.content.LoadString("Strings\\UI:PreviousPage")));
+                }
             }
 
             if (GameLocation._PagedResponseAddCancel)

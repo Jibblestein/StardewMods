@@ -9,8 +9,8 @@
 	
 	<!-- paths -->
 	<PropertyGroup>
-		<GamePath>E:\SteamLibrary\steamapps\common\Stardew Valley</GamePath>
-		<GameModsPath>E:\SteamLibrary\steamapps\common\Stardew Valley\Mods\Integrated Minecarts\</GameModsPath>
+		<GamePath>I:\SteamLibrary\steamapps\common\Stardew Valley</GamePath>
+		<GameModsPath>I:\SteamLibrary\steamapps\common\Stardew Valley\Mods\Integrated Minecarts\</GameModsPath>
 		<ModZipPath>$(GamePath)/Modding\</ModZipPath>
 	</PropertyGroup>
 	
